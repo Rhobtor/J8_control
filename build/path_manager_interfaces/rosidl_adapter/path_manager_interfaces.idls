@@ -1,0 +1,8 @@
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces/rosidl_adapter/path_manager_interfaces:srv/WritePathToFile.idl
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces/rosidl_adapter/path_manager_interfaces:srv/ReadPathFromFile.idl
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces/rosidl_adapter/path_manager_interfaces:srv/ReturnRobotPath.idl
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces/rosidl_adapter/path_manager_interfaces:srv/RobotPath.idl
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces/rosidl_adapter/path_manager_interfaces:srv/GetFixFramePath.idl
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces/rosidl_adapter/path_manager_interfaces:srv/GetLLPath.idl
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces/rosidl_adapter/path_manager_interfaces:srv/PlanPath.idl
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces/rosidl_adapter/path_manager_interfaces:srv/AssistEmergency.idl

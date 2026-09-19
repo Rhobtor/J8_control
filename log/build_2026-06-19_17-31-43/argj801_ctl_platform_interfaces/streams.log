@@ -1,0 +1,33 @@
+[0.026s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_ctl_platform_interfaces': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argj801_ctl_platform/argj801_ctl_platform_interfaces -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces
+[0.971s] -- The C compiler identification is GNU 11.4.0
+[0.971s] -- The CXX compiler identification is GNU 11.4.0
+[0.973s] -- Detecting C compiler ABI info
+[0.973s] -- Detecting C compiler ABI info - done
+[0.973s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.973s] -- Detecting C compile features
+[0.974s] -- Detecting C compile features - done
+[0.974s] -- Detecting CXX compiler ABI info
+[0.974s] -- Detecting CXX compiler ABI info - done
+[0.974s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.974s] -- Detecting CXX compile features
+[0.974s] -- Detecting CXX compile features - done
+[0.974s] -- Configuring incomplete, errors occurred!
+[0.974s] See also "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_ctl_platform_interfaces/CMakeFiles/CMakeOutput.log".
+[0.974s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.974s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.974s]   has asked CMake to find a package configuration file provided by
+[0.974s]   "ament_cmake", but CMake did not find one.
+[0.974s] 
+[0.974s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.974s]   any of the following names:
+[0.974s] 
+[0.974s]     ament_cmakeConfig.cmake
+[0.974s]     ament_cmake-config.cmake
+[0.974s] 
+[0.974s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.974s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.974s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.974s]   has been installed.
+[0.975s] 
+[0.975s] [0m
+[1.015s] Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_ctl_platform_interfaces' returned '1': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argj801_ctl_platform/argj801_ctl_platform_interfaces -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces

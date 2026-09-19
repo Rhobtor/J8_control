@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ublox_msgs__rs",
+		"source" : "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ublox_msgs/ublox_msgs__rs"
+	}
+}

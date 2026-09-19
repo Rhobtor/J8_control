@@ -1,0 +1,137 @@
+[0.060s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/path_manager/path_manager_interfaces -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/path_manager_interfaces
+[2.468s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.468s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.468s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.469s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.469s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.469s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[2.469s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.469s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.470s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.489s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.521s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.524s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.559s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.559s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.560s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.560s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.617s] -- Found PythonExtra: .so  
+[3.399s] -- Configuring done
+[3.630s] -- Generating done
+[3.732s] -- Build files have been written to: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces
+[3.772s] Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/path_manager/path_manager_interfaces -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/path_manager_interfaces
+[3.773s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces -- -j24 -l24
+[6.037s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.038s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[6.038s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.038s] [  3%] Built target ament_cmake_python_copy_path_manager_interfaces
+[6.379s] running egg_info
+[6.381s] creating path_manager_interfaces.egg-info
+[6.389s] writing path_manager_interfaces.egg-info/PKG-INFO
+[6.389s] writing dependency_links to path_manager_interfaces.egg-info/dependency_links.txt
+[6.389s] writing top-level names to path_manager_interfaces.egg-info/top_level.txt
+[6.426s] writing manifest file 'path_manager_interfaces.egg-info/SOURCES.txt'
+[6.460s] reading manifest file 'path_manager_interfaces.egg-info/SOURCES.txt'
+[6.461s] writing manifest file 'path_manager_interfaces.egg-info/SOURCES.txt'
+[6.723s] [  3%] Built target ament_cmake_python_build_path_manager_interfaces_egg
+[6.894s] [  3%] Built target path_manager_interfaces__rs
+[8.766s] [  4%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_generator_c.dir/rosidl_generator_c/path_manager_interfaces/srv/detail/read_path_from_file__functions.c.o[0m
+[8.774s] [  5%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_generator_c.dir/rosidl_generator_c/path_manager_interfaces/srv/detail/write_path_to_file__functions.c.o[0m
+[8.810s] [  6%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_generator_c.dir/rosidl_generator_c/path_manager_interfaces/srv/detail/return_robot_path__functions.c.o[0m
+[8.812s] [  7%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_generator_c.dir/rosidl_generator_c/path_manager_interfaces/srv/detail/robot_path__functions.c.o[0m
+[8.889s] [  9%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_generator_c.dir/rosidl_generator_c/path_manager_interfaces/srv/detail/get_fix_frame_path__functions.c.o[0m
+[8.928s] [ 10%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_generator_c.dir/rosidl_generator_c/path_manager_interfaces/srv/detail/get_ll_path__functions.c.o[0m
+[8.988s] [ 11%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_generator_c.dir/rosidl_generator_c/path_manager_interfaces/srv/detail/assist_emergency__functions.c.o[0m
+[8.988s] [ 12%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_generator_c.dir/rosidl_generator_c/path_manager_interfaces/srv/detail/plan_path__functions.c.o[0m
+[9.665s] [ 13%] [32m[1mLinking C shared library libpath_manager_interfaces__rosidl_generator_c.so[0m
+[9.983s] [ 13%] Built target path_manager_interfaces__rosidl_generator_c
+[10.049s] [ 14%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.060s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.095s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.396s] [ 17%] Built target path_manager_interfaces__cpp
+[12.479s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.500s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.518s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[14.198s] [ 21%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/path_manager_interfaces/srv/detail/read_path_from_file__type_support.c.o[0m
+[14.208s] [ 22%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/path_manager_interfaces/srv/detail/write_path_to_file__type_support.c.o[0m
+[14.231s] [ 23%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/path_manager_interfaces/srv/detail/return_robot_path__type_support.c.o[0m
+[14.261s] [ 25%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/path_manager_interfaces/srv/detail/robot_path__type_support.c.o[0m
+[14.310s] [ 26%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/path_manager_interfaces/srv/detail/get_fix_frame_path__type_support.c.o[0m
+[14.314s] [ 27%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/path_manager_interfaces/srv/detail/get_ll_path__type_support.c.o[0m
+[14.318s] [ 28%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/path_manager_interfaces/srv/detail/assist_emergency__type_support.c.o[0m
+[14.344s] [ 29%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/path_manager_interfaces/srv/detail/plan_path__type_support.c.o[0m
+[14.802s] [ 30%] [32m[1mLinking C shared library libpath_manager_interfaces__rosidl_typesupport_introspection_c.so[0m
+[15.120s] [ 30%] Built target path_manager_interfaces__rosidl_typesupport_introspection_c
+[15.615s] [ 32%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/path_manager_interfaces/srv/write_path_to_file__type_support.cpp.o[0m
+[15.616s] [ 32%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/path_manager_interfaces/srv/read_path_from_file__type_support.cpp.o[0m
+[15.644s] [ 34%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/path_manager_interfaces/srv/robot_path__type_support.cpp.o[0m
+[15.644s] [ 35%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/path_manager_interfaces/srv/return_robot_path__type_support.cpp.o[0m
+[15.657s] [ 36%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/path_manager_interfaces/srv/get_fix_frame_path__type_support.cpp.o[0m
+[15.774s] [ 37%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/path_manager_interfaces/srv/get_ll_path__type_support.cpp.o[0m
+[15.774s] [ 38%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/path_manager_interfaces/srv/assist_emergency__type_support.cpp.o[0m
+[15.776s] [ 39%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/path_manager_interfaces/srv/plan_path__type_support.cpp.o[0m
+[16.192s] [ 40%] [32m[1mLinking CXX shared library libpath_manager_interfaces__rosidl_typesupport_c.so[0m
+[16.633s] [ 40%] Built target path_manager_interfaces__rosidl_typesupport_c
+[16.915s] [ 43%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/path_manager_interfaces/srv/detail/write_path_to_file__type_support_c.cpp.o[0m
+[16.921s] [ 43%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/path_manager_interfaces/srv/detail/read_path_from_file__type_support_c.cpp.o[0m
+[16.948s] [ 44%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/path_manager_interfaces/srv/detail/return_robot_path__type_support_c.cpp.o[0m
+[16.953s] [ 45%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/path_manager_interfaces/srv/detail/robot_path__type_support_c.cpp.o[0m
+[16.961s] [ 46%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/path_manager_interfaces/srv/detail/get_fix_frame_path__type_support_c.cpp.o[0m
+[16.997s] [ 47%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/path_manager_interfaces/srv/detail/get_ll_path__type_support_c.cpp.o[0m
+[17.110s] [ 48%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/path_manager_interfaces/srv/read_path_from_file__type_support.cpp.o[0m
+[17.117s] [ 51%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/path_manager_interfaces/srv/detail/plan_path__type_support_c.cpp.o[0m
+[17.119s] [ 52%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/path_manager_interfaces/srv/write_path_to_file__type_support.cpp.o[0m
+[17.127s] [ 53%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/path_manager_interfaces/srv/get_fix_frame_path__type_support.cpp.o[0m
+[17.143s] [ 53%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/path_manager_interfaces/srv/return_robot_path__type_support.cpp.o[0m
+[17.156s] [ 55%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/path_manager_interfaces/srv/robot_path__type_support.cpp.o[0m
+[17.156s] [ 55%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/path_manager_interfaces/srv/detail/assist_emergency__type_support_c.cpp.o[0m
+[17.180s] [ 56%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/path_manager_interfaces/srv/get_ll_path__type_support.cpp.o[0m
+[17.251s] [ 57%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/path_manager_interfaces/srv/plan_path__type_support.cpp.o[0m
+[17.289s] [ 59%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/path_manager_interfaces/srv/assist_emergency__type_support.cpp.o[0m
+[17.346s] [ 60%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/path_manager_interfaces/srv/detail/write_path_to_file__type_support.cpp.o[0m
+[17.394s] [ 61%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/path_manager_interfaces/srv/detail/read_path_from_file__type_support.cpp.o[0m
+[17.397s] [ 62%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/path_manager_interfaces/srv/detail/return_robot_path__type_support.cpp.o[0m
+[17.442s] [ 63%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/path_manager_interfaces/srv/detail/robot_path__type_support.cpp.o[0m
+[17.485s] [ 64%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/path_manager_interfaces/srv/detail/get_fix_frame_path__type_support.cpp.o[0m
+[17.521s] [ 65%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/path_manager_interfaces/srv/detail/get_ll_path__type_support.cpp.o[0m
+[17.578s] [ 67%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/path_manager_interfaces/srv/detail/plan_path__type_support.cpp.o[0m
+[18.699s] [ 68%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/path_manager_interfaces/srv/detail/assist_emergency__type_support.cpp.o[0m
+[19.050s] [ 69%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/path_manager_interfaces/srv/detail/dds_fastrtps/write_path_to_file__type_support.cpp.o[0m
+[20.612s] [ 70%] [32m[1mLinking CXX shared library libpath_manager_interfaces__rosidl_typesupport_cpp.so[0m
+[20.845s] [ 70%] Built target path_manager_interfaces__rosidl_typesupport_cpp
+[20.981s] [ 71%] [32m[1mLinking CXX shared library libpath_manager_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[21.013s] [ 72%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/path_manager_interfaces/srv/detail/dds_fastrtps/assist_emergency__type_support.cpp.o[0m
+[21.363s] [ 72%] Built target path_manager_interfaces__rosidl_typesupport_fastrtps_c
+[22.152s] [ 73%] [32m[1mLinking CXX shared library libpath_manager_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[22.520s] [ 73%] Built target path_manager_interfaces__rosidl_typesupport_introspection_cpp
+[22.526s] [ 75%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/path_manager_interfaces/srv/detail/dds_fastrtps/plan_path__type_support.cpp.o[0m
+[23.698s] [ 76%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/path_manager_interfaces/srv/detail/dds_fastrtps/get_ll_path__type_support.cpp.o[0m
+[24.986s] [ 77%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/path_manager_interfaces/srv/detail/dds_fastrtps/get_fix_frame_path__type_support.cpp.o[0m
+[26.052s] [ 78%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/path_manager_interfaces/srv/detail/dds_fastrtps/robot_path__type_support.cpp.o[0m
+[27.150s] [ 79%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/path_manager_interfaces/srv/detail/dds_fastrtps/return_robot_path__type_support.cpp.o[0m
+[28.286s] [ 80%] [32mBuilding CXX object CMakeFiles/path_manager_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/path_manager_interfaces/srv/detail/dds_fastrtps/read_path_from_file__type_support.cpp.o[0m
+[29.354s] [ 81%] [32m[1mLinking CXX shared library libpath_manager_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[29.609s] [ 81%] Built target path_manager_interfaces__rosidl_typesupport_fastrtps_cpp
+[29.650s] [ 81%] Built target path_manager_interfaces
+[29.690s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[33.982s] [ 82%] Built target path_manager_interfaces__py
+[34.030s] [ 84%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_generator_py.dir/rosidl_generator_py/path_manager_interfaces/srv/_write_path_to_file_s.c.o[0m
+[34.273s] [ 85%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_generator_py.dir/rosidl_generator_py/path_manager_interfaces/srv/_assist_emergency_s.c.o[0m
+[34.537s] [ 86%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_generator_py.dir/rosidl_generator_py/path_manager_interfaces/srv/_plan_path_s.c.o[0m
+[34.780s] [ 87%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_generator_py.dir/rosidl_generator_py/path_manager_interfaces/srv/_get_ll_path_s.c.o[0m
+[35.046s] [ 88%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_generator_py.dir/rosidl_generator_py/path_manager_interfaces/srv/_get_fix_frame_path_s.c.o[0m
+[35.305s] [ 89%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_generator_py.dir/rosidl_generator_py/path_manager_interfaces/srv/_robot_path_s.c.o[0m
+[35.558s] [ 90%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_generator_py.dir/rosidl_generator_py/path_manager_interfaces/srv/_return_robot_path_s.c.o[0m
+[35.815s] [ 92%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_generator_py.dir/rosidl_generator_py/path_manager_interfaces/srv/_read_path_from_file_s.c.o[0m
+[36.064s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/path_manager_interfaces/libpath_manager_interfaces__rosidl_generator_py.so[0m
+[36.178s] [ 93%] Built target path_manager_interfaces__rosidl_generator_py
+[36.214s] [ 94%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/path_manager_interfaces/_path_manager_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[36.552s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/path_manager_interfaces/path_manager_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[36.635s] [ 95%] Built target path_manager_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[36.674s] [ 96%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/path_manager_interfaces/_path_manager_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[37.044s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/path_manager_interfaces/path_manager_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[37.109s] [ 97%] Built target path_manager_interfaces__rosidl_typesupport_c__pyext
+[37.146s] [ 98%] [32mBuilding C object CMakeFiles/path_manager_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/path_manager_interfaces/_path_manager_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[37.520s] [100%] [32m[1mLinking C shared library rosidl_generator_py/path_manager_interfaces/path_manager_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[37.641s] [100%] Built target path_manager_interfaces__rosidl_typesupport_introspection_c__pyext

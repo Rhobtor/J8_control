@@ -1,0 +1,182 @@
+[0.059s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car_cpp': AMENT_PREFIX_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/car_cpp -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_cpp
+[3.488s] -- The C compiler identification is GNU 11.4.0
+[3.489s] -- The CXX compiler identification is GNU 11.4.0
+[3.489s] -- Detecting C compiler ABI info
+[3.489s] -- Detecting C compiler ABI info - done
+[3.489s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.489s] -- Detecting C compile features
+[3.495s] -- Detecting C compile features - done
+[3.495s] -- Detecting CXX compiler ABI info
+[3.496s] -- Detecting CXX compiler ABI info - done
+[3.496s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.496s] -- Detecting CXX compile features
+[3.496s] -- Detecting CXX compile features - done
+[3.496s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.497s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.497s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[3.497s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.497s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.498s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.498s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.498s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.525s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.532s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.818s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.923s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.087s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.106s] -- Looking for pthread.h
+[4.549s] -- Looking for pthread.h - found
+[4.562s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.822s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.823s] -- Found Threads: TRUE  
+[4.975s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[4.999s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[5.001s] -- Checking for module 'bullet>=2.82'
+[5.044s] --   Found bullet, version 3.05
+[5.378s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[5.529s] -- Found assimp: /usr/include (found version "5.2.0") 
+[5.573s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[5.647s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[5.756s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[5.785s] -- Looking for ignition-math6 -- found version 6.10.0
+[5.806s] -- Searching for dependencies of ignition-math6
+[5.810s] -- Looking for OGRE...
+[5.812s] -- OGRE_PREFIX_WATCH changed.
+[5.831s] -- Checking for module 'OGRE'
+[5.881s] --   Found OGRE, version 1.9.0
+[6.038s] -- Found Ogre Ghadamon (1.9.0)
+[6.076s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[6.142s] -- Looking for OGRE_Paging...
+[6.163s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[6.163s] -- Looking for OGRE_Terrain...
+[6.188s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[6.188s] -- Looking for OGRE_Property...
+[6.203s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[6.203s] -- Looking for OGRE_RTShaderSystem...
+[6.218s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[6.218s] -- Looking for OGRE_Volume...
+[6.229s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[6.231s] -- Looking for OGRE_Overlay...
+[6.249s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[6.540s] -- Looking for ignition-math6 -- found version 6.10.0
+[6.546s] -- Looking for ignition-transport8 -- found version 8.2.1
+[6.547s] -- Searching for dependencies of ignition-transport8
+[6.585s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[6.605s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[6.617s] -- Checking for module 'libzmq >= 4'
+[6.686s] --   Found libzmq , version 4.3.4
+[6.831s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[6.847s] -- Checking for module 'uuid'
+[6.910s] --   Found uuid, version 2.37.2
+[7.004s] -- Found UUID: TRUE  
+[7.015s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.015s] -- Searching for dependencies of ignition-msgs5
+[7.070s] -- Looking for ignition-math6 -- found version 6.10.0
+[7.093s] -- Checking for module 'tinyxml2'
+[7.127s] --   Found tinyxml2, version 9.0.0
+[7.209s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.215s] -- Looking for ignition-common3 -- found version 3.14.0
+[7.217s] -- Searching for dependencies of ignition-common3
+[7.217s] -- Looking for dlfcn.h - found
+[7.219s] -- Looking for libdl - found
+[7.227s] -- Found DL: TRUE  
+[7.258s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[7.259s] -- Searching for <ignition-common3> component [graphics]
+[7.264s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[7.266s] -- Searching for dependencies of ignition-common3-graphics
+[7.268s] -- Looking for ignition-math6 -- found version 6.10.0
+[7.275s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[7.285s] -- Searching for dependencies of ignition-fuel_tools4
+[7.547s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[7.572s] -- Checking for module 'jsoncpp'
+[7.613s] --   Found jsoncpp, version 1.9.5
+[7.705s] -- Found JSONCPP: TRUE  
+[7.785s] -- Checking for module 'libzip'
+[7.838s] --   Found libzip, version 1.7.3
+[7.942s] -- Found ZIP: TRUE  
+[7.942s] -- Looking for ignition-common3 -- found version 3.14.0
+[7.946s] -- Looking for ignition-math6 -- found version 6.10.0
+[7.947s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.951s] -- Gazebo version: 11.10
+[7.951s] -- Checking for module 'tbb'
+[7.987s] --   Found tbb, version 2021.5.0
+[8.114s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[8.242s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[8.290s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.345s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[8.504s] -- Checking for module 'eigen3'
+[8.531s] --   Found eigen3, version 3.4.0
+[8.658s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[8.658s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.710s] -- Checking for module 'flann'
+[8.745s] --   Found flann, version 1.9.1
+[8.849s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[8.850s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[11.818s] -- Checking for module 'libusb-1.0'
+[11.877s] --   Found libusb-1.0, version 1.0.25
+[11.979s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[11.983s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.112s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.599s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[12.609s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.622s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.975s] -- Found Qhull version 8.0.2
+[13.343s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[13.778s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[13.781s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[13.783s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[13.786s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[13.789s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[13.793s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[13.795s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[13.797s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[13.799s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[13.802s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[13.805s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[13.807s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[13.810s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[13.814s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[13.819s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[13.822s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[13.826s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[13.828s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[13.832s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[13.835s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[13.839s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[13.841s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[13.843s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[13.846s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[13.849s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[13.875s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[13.959s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[14.062s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[14.090s] -- Found geographic_msgs: 1.0.6 (/opt/ros/humble/share/geographic_msgs/cmake)
+[14.184s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[14.197s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[14.403s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[14.417s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[14.420s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[14.420s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[14.423s] -- Looking for ignition-math6 -- found version 6.10.0
+[14.424s] -- Looking for ignition-common3 -- found version 3.14.0
+[14.425s] -- Found car_interfaces: 0.0.0 (/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces/share/car_interfaces/cmake)
+[14.461s] [31mCMake Error at CMakeLists.txt:34 (find_package):
+[14.461s]   By not providing "Findgrid_map_ros.cmake" in CMAKE_MODULE_PATH this project
+[14.461s]   has asked CMake to find a package configuration file provided by
+[14.461s]   "grid_map_ros", but CMake did not find one.
+[14.461s] 
+[14.462s]   Could not find a package configuration file provided by "grid_map_ros" with
+[14.462s]   any of the following names:
+[14.462s] 
+[14.462s]     grid_map_rosConfig.cmake
+[14.462s]     grid_map_ros-config.cmake
+[14.462s] 
+[14.462s]   Add the installation prefix of "grid_map_ros" to CMAKE_PREFIX_PATH or set
+[14.462s]   "grid_map_ros_DIR" to a directory containing one of the above files.  If
+[14.462s]   "grid_map_ros" provides a separate development package or SDK, be sure it
+[14.462s]   has been installed.
+[14.463s] 
+[14.464s] [0m
+[14.465s] -- Configuring incomplete, errors occurred!
+[14.465s] See also "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car_cpp/CMakeFiles/CMakeOutput.log".
+[14.493s] Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car_cpp' returned '1': AMENT_PREFIX_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/car_cpp -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_cpp

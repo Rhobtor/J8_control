@@ -1,0 +1,15 @@
+[0.026s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/Fixposition_driver_pkg/fixposition_gnss_tf-main -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/fixposition_gnss_tf
+[0.974s] -- The CXX compiler identification is GNU 11.4.0
+[0.974s] -- Detecting CXX compiler ABI info
+[0.974s] -- Detecting CXX compiler ABI info - done
+[0.974s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.974s] -- Detecting CXX compile features
+[0.974s] -- Detecting CXX compile features - done
+[0.975s] -- Configuring done
+[0.975s] -- Generating done
+[0.975s] -- Build files have been written to: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf
+[1.012s] Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf' returned '0': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/Fixposition_driver_pkg/fixposition_gnss_tf-main -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/fixposition_gnss_tf
+[1.013s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf': /usr/bin/cmake --build /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf -- -j24 -l24
+[1.029s] [ 50%] [32mBuilding CXX object CMakeFiles/fixposition_gnss_tf.dir/src/gnss_tf.cpp.o[0m
+[2.242s] [100%] [32m[1mLinking CXX shared library libfixposition_gnss_tf.so[0m
+[2.275s] [100%] Built target fixposition_gnss_tf

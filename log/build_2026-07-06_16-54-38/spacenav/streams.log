@@ -1,0 +1,21 @@
+[1.101s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/spacenav -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/spacenav
+[1.173s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[1.173s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.173s]   has asked CMake to find a package configuration file provided by
+[1.173s]   "ament_cmake", but CMake did not find one.
+[1.173s] 
+[1.173s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.173s]   any of the following names:
+[1.173s] 
+[1.173s]     ament_cmakeConfig.cmake
+[1.174s]     ament_cmake-config.cmake
+[1.174s] 
+[1.174s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.174s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.174s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.174s]   has been installed.
+[1.174s] 
+[1.174s] [0m
+[1.174s] -- Configuring incomplete, errors occurred!
+[1.174s] See also "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/CMakeFiles/CMakeOutput.log".
+[1.193s] Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav' returned '1': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/spacenav -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/spacenav

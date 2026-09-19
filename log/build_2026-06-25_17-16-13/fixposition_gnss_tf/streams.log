@@ -1,0 +1,19 @@
+[0.039s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf': /usr/bin/cmake --build /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf -- -j24 -l24
+[0.855s] [35m[1mConsolidate compiler generated dependencies of target fixposition_gnss_tf[0m
+[0.855s] [100%] Built target fixposition_gnss_tf
+[0.894s] Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf' returned '0': /usr/bin/cmake --build /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf -- -j24 -l24
+[0.895s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf': /usr/bin/cmake --install /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf
+[0.896s] -- Install configuration: "Release"
+[0.896s] -- Installing: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/fixposition_gnss_tf/./include
+[0.897s] -- Installing: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/fixposition_gnss_tf/./include/fixposition_gnss_tf
+[0.897s] -- Installing: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/fixposition_gnss_tf/./include/fixposition_gnss_tf/gnss_tf.hpp
+[0.897s] -- Installing: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/fixposition_gnss_tf/lib/libfixposition_gnss_tf.so
+[0.897s] -- Up-to-date: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/fixposition_gnss_tf/lib/libfixposition_gnss_tf.so
+[0.897s] -- Installing: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-targets.cmake
+[0.897s] -- Installing: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-targets-release.cmake
+[0.898s] -- Up-to-date: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/fixposition_gnss_tf/include/fixposition_gnss_tf
+[0.898s] -- Up-to-date: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/fixposition_gnss_tf/include/fixposition_gnss_tf/gnss_tf.hpp
+[0.898s] -- Installing: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/fixposition_gnss_tf/share/fixposition_gnss_tf/package.xml
+[0.899s] -- Installing: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-config.cmake
+[0.900s] -- Installing: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/fixposition_gnss_tf/lib/cmake/fixposition_gnss_tf/fixposition_gnss_tf-config-version.cmake
+[0.905s] Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf' returned '0': /usr/bin/cmake --install /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf

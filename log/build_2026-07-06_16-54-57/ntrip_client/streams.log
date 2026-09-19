@@ -1,0 +1,51 @@
+[3.851s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/ntrip_client': PYTHONPATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ntrip_client build --build-base /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/build install --record /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/install.log --single-version-externally-managed install_data
+[6.936s] running egg_info
+[6.936s] creating ../../../build/ntrip_client/ntrip_client.egg-info
+[6.936s] writing ../../../build/ntrip_client/ntrip_client.egg-info/PKG-INFO
+[6.936s] writing dependency_links to ../../../build/ntrip_client/ntrip_client.egg-info/dependency_links.txt
+[6.936s] writing requirements to ../../../build/ntrip_client/ntrip_client.egg-info/requires.txt
+[6.936s] writing top-level names to ../../../build/ntrip_client/ntrip_client.egg-info/top_level.txt
+[6.936s] writing manifest file '../../../build/ntrip_client/ntrip_client.egg-info/SOURCES.txt'
+[6.937s] reading manifest file '../../../build/ntrip_client/ntrip_client.egg-info/SOURCES.txt'
+[6.937s] adding license file 'LICENSE'
+[6.937s] writing manifest file '../../../build/ntrip_client/ntrip_client.egg-info/SOURCES.txt'
+[6.937s] running build
+[6.937s] running build_py
+[6.937s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/build
+[6.937s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/build/lib
+[6.937s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/build/lib/ntrip_client
+[6.937s] copying src/ntrip_client/nmea_parser.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/build/lib/ntrip_client
+[6.938s] copying src/ntrip_client/__init__.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/build/lib/ntrip_client
+[6.938s] copying src/ntrip_client/ntrip_client.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/build/lib/ntrip_client
+[6.938s] copying src/ntrip_client/rtcm_parser.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/build/lib/ntrip_client
+[6.938s] running build_scripts
+[6.938s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/build/scripts-3.10
+[6.938s] copying and adjusting scripts/ntrip_ros.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/build/scripts-3.10
+[6.938s] changing mode of /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/build/scripts-3.10/ntrip_ros.py from 664 to 775
+[6.942s] running install
+[6.942s] running install_lib
+[6.942s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/lib/python3.10/site-packages/ntrip_client
+[6.942s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/build/lib/ntrip_client/nmea_parser.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/lib/python3.10/site-packages/ntrip_client
+[6.942s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/build/lib/ntrip_client/__init__.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/lib/python3.10/site-packages/ntrip_client
+[6.942s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/build/lib/ntrip_client/ntrip_client.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/lib/python3.10/site-packages/ntrip_client
+[6.942s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/build/lib/ntrip_client/rtcm_parser.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/lib/python3.10/site-packages/ntrip_client
+[6.943s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/lib/python3.10/site-packages/ntrip_client/nmea_parser.py to nmea_parser.cpython-310.pyc
+[6.943s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/lib/python3.10/site-packages/ntrip_client/__init__.py to __init__.cpython-310.pyc
+[6.943s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/lib/python3.10/site-packages/ntrip_client/ntrip_client.py to ntrip_client.cpython-310.pyc
+[6.943s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/lib/python3.10/site-packages/ntrip_client/rtcm_parser.py to rtcm_parser.cpython-310.pyc
+[6.943s] running install_data
+[6.943s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/share/ament_index
+[6.943s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/share/ament_index/resource_index
+[6.943s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/share/ament_index/resource_index/packages
+[6.944s] copying resource/ntrip_client -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/share/ament_index/resource_index/packages
+[6.954s] copying package.xml -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/share/ntrip_client
+[6.954s] copying launch/gps_ntrip_launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/share/ntrip_client
+[6.954s] copying launch/ntrip_client_launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/share/ntrip_client
+[6.955s] running install_egg_info
+[6.955s] Copying ../../../build/ntrip_client/ntrip_client.egg-info to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/lib/python3.10/site-packages/ntrip_client-1.2.0-py3.10.egg-info
+[6.955s] running install_scripts
+[6.955s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/lib/ntrip_client
+[6.955s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/build/scripts-3.10/ntrip_ros.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/lib/ntrip_client
+[6.955s] changing mode of /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/lib/ntrip_client/ntrip_ros.py to 775
+[6.955s] writing list of installed files to '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/install.log'
+[7.035s] Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/ntrip_client' returned '0': PYTHONPATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ntrip_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ntrip_client build --build-base /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/build install --record /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ntrip_client/install.log --single-version-externally-managed install_data

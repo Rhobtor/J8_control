@@ -1,0 +1,35 @@
+running egg_info
+writing ../../build/gui/gui.egg-info/PKG-INFO
+writing dependency_links to ../../build/gui/gui.egg-info/dependency_links.txt
+writing entry points to ../../build/gui/gui.egg-info/entry_points.txt
+writing requirements to ../../build/gui/gui.egg-info/requires.txt
+writing top-level names to ../../build/gui/gui.egg-info/top_level.txt
+reading manifest file '../../build/gui/gui.egg-info/SOURCES.txt'
+writing manifest file '../../build/gui/gui.egg-info/SOURCES.txt'
+running build
+running build_py
+copying gui/app/state_widget.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app
+copying gui/app/main_window.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app
+copying gui/app/dem_pure_pursuit.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app
+copying gui/app/map_bridge.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app
+copying gui/app/control_widget.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app
+running install
+running install_lib
+copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app/state_widget.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app
+copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app/main_window.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app
+copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app/dem_pure_pursuit.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app
+copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app/map_bridge.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app
+copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app/control_widget.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app
+byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app/state_widget.py to state_widget.cpython-310.pyc
+byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app/main_window.py to main_window.cpython-310.pyc
+byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app/dem_pure_pursuit.py to dem_pure_pursuit.cpython-310.pyc
+byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app/map_bridge.py to map_bridge.cpython-310.pyc
+byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app/control_widget.py to control_widget.cpython-310.pyc
+running install_data
+copying gui/resources/map.html -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/share/gui/resources
+running install_egg_info
+removing '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/gui/gui.egg-info to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui-0.1.0-py3.10.egg-info
+running install_scripts
+Installing gui script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/gui
+writing list of installed files to '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/install.log'

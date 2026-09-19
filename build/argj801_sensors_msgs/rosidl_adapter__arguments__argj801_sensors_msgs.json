@@ -1,0 +1,7 @@
+{
+  "package_name": "argj801_sensors_msgs",
+  "non_idl_tuples": [
+    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors_msgs:msg/MotorTelemetry.msg",
+    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors_msgs:msg/Odometer.msg"
+  ]
+}

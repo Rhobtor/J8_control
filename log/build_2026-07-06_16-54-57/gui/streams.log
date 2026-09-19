@@ -1,0 +1,82 @@
+[3.824s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/gui': PYTHONPATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gui build --build-base /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build install --record /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/install.log --single-version-externally-managed install_data
+[6.969s] running egg_info
+[6.969s] creating ../../build/gui/gui.egg-info
+[6.969s] writing ../../build/gui/gui.egg-info/PKG-INFO
+[6.969s] writing dependency_links to ../../build/gui/gui.egg-info/dependency_links.txt
+[6.969s] writing entry points to ../../build/gui/gui.egg-info/entry_points.txt
+[6.969s] writing requirements to ../../build/gui/gui.egg-info/requires.txt
+[6.969s] writing top-level names to ../../build/gui/gui.egg-info/top_level.txt
+[6.970s] writing manifest file '../../build/gui/gui.egg-info/SOURCES.txt'
+[6.970s] reading manifest file '../../build/gui/gui.egg-info/SOURCES.txt'
+[6.970s] writing manifest file '../../build/gui/gui.egg-info/SOURCES.txt'
+[6.970s] running build
+[6.970s] running build_py
+[6.970s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build
+[6.970s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib
+[6.970s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui
+[6.970s] copying gui/gui_node.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui
+[6.971s] copying gui/__init__.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui
+[6.971s] copying gui/ros_api.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui
+[6.971s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app
+[6.971s] copying gui/app/state_widget.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app
+[6.971s] copying gui/app/__init__.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app
+[6.971s] copying gui/app/main_window.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app
+[6.971s] copying gui/app/followzed_widget.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app
+[6.971s] copying gui/app/geo_local.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app
+[6.972s] copying gui/app/person_manager_widget.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app
+[6.972s] copying gui/app/map_bridge.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app
+[6.972s] copying gui/app/fsm_debug_widget.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app
+[6.972s] copying gui/app/video_tab.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app
+[6.972s] copying gui/app/control_widget.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app
+[6.972s] running install
+[6.972s] running install_lib
+[6.972s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui
+[6.972s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/gui_node.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui
+[6.973s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/__init__.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui
+[6.973s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/ros_api.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui
+[6.973s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app
+[6.973s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app/state_widget.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app
+[6.973s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app/__init__.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app
+[6.973s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app/main_window.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app
+[6.973s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app/followzed_widget.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app
+[6.973s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app/geo_local.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app
+[6.977s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app/person_manager_widget.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app
+[6.979s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app/map_bridge.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app
+[6.979s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app/fsm_debug_widget.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app
+[6.979s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app/video_tab.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app
+[6.979s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build/lib/gui/app/control_widget.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app
+[6.980s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/gui_node.py to gui_node.cpython-310.pyc
+[6.980s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/__init__.py to __init__.cpython-310.pyc
+[6.980s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/ros_api.py to ros_api.cpython-310.pyc
+[6.980s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app/state_widget.py to state_widget.cpython-310.pyc
+[6.981s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app/__init__.py to __init__.cpython-310.pyc
+[6.981s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app/main_window.py to main_window.cpython-310.pyc
+[6.981s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app/followzed_widget.py to followzed_widget.cpython-310.pyc
+[6.981s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app/geo_local.py to geo_local.cpython-310.pyc
+[6.982s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app/person_manager_widget.py to person_manager_widget.cpython-310.pyc
+[6.982s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app/map_bridge.py to map_bridge.cpython-310.pyc
+[6.982s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app/fsm_debug_widget.py to fsm_debug_widget.cpython-310.pyc
+[6.983s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app/video_tab.py to video_tab.cpython-310.pyc
+[6.983s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui/app/control_widget.py to control_widget.cpython-310.pyc
+[6.983s] running install_data
+[6.998s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/share/ament_index
+[6.998s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/share/ament_index/resource_index
+[6.998s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/share/ament_index/resource_index/packages
+[7.010s] copying resource/gui -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/share/ament_index/resource_index/packages
+[7.011s] copying package.xml -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/share/gui
+[7.011s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/share/gui/resources
+[7.011s] copying gui/resources/map.html -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/share/gui/resources
+[7.012s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/share/gui/resources/vendor
+[7.012s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/share/gui/resources/vendor/leaflet
+[7.012s] copying gui/resources/vendor/leaflet/leaflet.js -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/share/gui/resources/vendor/leaflet
+[7.012s] copying gui/resources/vendor/leaflet/leaflet.css -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/share/gui/resources/vendor/leaflet
+[7.013s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/share/gui/resources/vendor/leaflet/images
+[7.013s] copying gui/resources/vendor/leaflet/images/marker-icon.png -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/share/gui/resources/vendor/leaflet/images
+[7.014s] copying gui/resources/vendor/leaflet/images/marker-icon-2x.png -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/share/gui/resources/vendor/leaflet/images
+[7.014s] copying gui/resources/vendor/leaflet/images/marker-shadow.png -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/share/gui/resources/vendor/leaflet/images
+[7.014s] running install_egg_info
+[7.014s] Copying ../../build/gui/gui.egg-info to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages/gui-0.1.0-py3.10.egg-info
+[7.014s] running install_scripts
+[7.014s] Installing gui script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/gui
+[7.014s] writing list of installed files to '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/install.log'
+[7.056s] Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/gui' returned '0': PYTHONPATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gui build --build-base /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/build install --record /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/gui/install.log --single-version-externally-managed install_data

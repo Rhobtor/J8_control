@@ -1,0 +1,21 @@
+[0.674s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy_linux -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/joy_linux
+[0.861s] -- Configuring incomplete, errors occurred!
+[0.862s] See also "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux/CMakeFiles/CMakeOutput.log".
+[0.862s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.862s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.862s]   has asked CMake to find a package configuration file provided by
+[0.863s]   "ament_cmake", but CMake did not find one.
+[0.863s] 
+[0.863s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.864s]   any of the following names:
+[0.864s] 
+[0.864s]     ament_cmakeConfig.cmake
+[0.864s]     ament_cmake-config.cmake
+[0.864s] 
+[0.864s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.864s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.864s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.864s]   has been installed.
+[0.864s] 
+[0.865s] [0m
+[0.876s] Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux' returned '1': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy_linux -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/joy_linux

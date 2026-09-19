@@ -1,0 +1,163 @@
+circuit1:     
+  ros__parameters:
+
+
+    goal_points: [
+              1.31, -12.14, 0.0,
+              -10.95, -11.52, 0.0,
+              -1.35, 8.9, 0.0,
+              -18.93, 29.35, 0.0,
+              -15.4, 46.1, 0.0,
+              -18.81, 25.21, 0.0,
+              -43.86, 13.65, 0.0,
+              -29.95,-12.09, 0.0,
+              -11.5, -10.12, 0.0,
+              -6.5, 2.85, 0.0,
+
+                  ]  # Coordenadas de la meta en Unity
+
+    republish_hz: 2.0      # frecuencia a la que re‑publica la meta activa
+
+    # Importante para que el circuito termine y el supervisor pueda cambiar
+    loop: false
+    signal_done_on_last: true
+    hold_when_done: true
+
+# circuit1:     
+#   ros__parameters:
+
+
+#     goal_points: [
+#               -4.84, -1.89, 0.0,
+#               3.44, 9.21, 0.0,
+#               -8.63, 2.78, 0.0,
+#               -31.65, -3.1, 0.0,
+#               -43.72, 12.78, 0.0,
+#               -18.15, 25.29, 0.0,
+#               -7.25, -0.29, 0.0,
+
+#                   ]  # Coordenadas de la meta en Unity
+
+#     republish_hz: 2.0      # frecuencia a la que re‑publica la meta activa
+
+#     # Importante para que el circuito termine y el supervisor pueda cambiar
+#     loop: false
+#     signal_done_on_last: true
+#     hold_when_done: true
+
+# circuit1:     
+#   ros__parameters:
+
+
+#     goal_points: [
+#               7.72, -4.75, 0.0,
+#               8.19, 1.74, 0.0,
+#               0.66, 6.68, 0.0,
+#               -1.82, -1.92, 0.0,
+#               -8.28, -10.12, 0.0,
+#               -1.16, -21.00, 0.0,
+#               -3.7, -3.96, 0.0,
+
+              
+                
+
+#                   ]  # Coordenadas de la meta en Unity
+
+#     republish_hz: 2.0      # frecuencia a la que re‑publica la meta activa
+
+#     # Importante para que el circuito termine y el supervisor pueda cambiar
+#     loop: false
+#     signal_done_on_last: true
+#     hold_when_done: true
+
+# circuit1:     
+#   ros__parameters:
+
+
+#     goal_points: [
+#               -3.7214903831481934,27.56768798828125,0.0,
+#               -8.038125991821289,38.750694274902344,0.0,
+#               -12.079462051391602,50.673770904541016,0.0,
+                
+
+#                   ]  # Coordenadas de la meta en Unity
+
+#     republish_hz: 2.0      # frecuencia a la que re‑publica la meta activa
+
+#     # Importante para que el circuito termine y el supervisor pueda cambiar
+#     loop: false
+#     signal_done_on_last: true
+#     hold_when_done: true
+
+# circuit1:     
+#   ros__parameters:
+
+
+#     goal_points: [
+              
+#               8.248567581176758,6.345767498016357,0.0,
+#               -4.710466384887695,-2.3935983180999756,0.0,
+#               3.72902774810791,-12.193548202514648,0.0,
+#               3.7300100326538086,-28.46210479736328,0.0,
+             
+#               -10.581206321716309,-8.337650299072266,0.0,
+#               -10.546756744384766,4.47826623916626,0.0,
+#                 -28.0,-16.0,0.0,
+#                 -35.0,-1.7,0.0,
+#                 -44.0,10.40,0.0,
+#                 -58.0,26.0,0.0,
+#                 -54.0,-0.0,0.0,
+#                 -61.0,-22.0,0.0,
+#                 -51.0,-18.0,0.0,
+#                 -53.902,-11.6,0.0,
+#                 -44.0,11.0,0.0
+                
+
+#                   ]  # Coordenadas de la meta en Unity
+
+#     republish_hz: 2.0      # frecuencia a la que re‑publica la meta activa
+
+#     # Importante para que el circuito termine y el supervisor pueda cambiar
+#     loop: false
+#     signal_done_on_last: true
+#     hold_when_done: true
+
+
+# circuit1:     
+#   ros__parameters:
+
+
+#     goal_points: [
+#               3.8434107653922696,-0.22856955064447845,0.0,
+#               11.958149845672045,-0.059205180947477,0.0,
+#               13.149678639459804,-0.7333493081060367,0.0,
+#               22.234716154818194,1.2517502105839668,0.0,
+              
+                
+
+#                   ]  # Coordenadas de la meta en Unity
+
+#     republish_hz: 2.0      # frecuencia a la que re‑publica la meta activa
+
+#     # Importante para que el circuito termine y el supervisor pueda cambiar
+#     loop: false
+#     signal_done_on_last: true
+#     hold_when_done: true
+
+
+# circuit1:     
+#   ros__parameters:
+
+
+#     goal_points: [
+#               -14.835, 110.0, 0.0,
+#               -14.606, 99.0, 0.0,
+
+#                   ]  # Coordenadas de la meta en Unity
+
+#     republish_hz: 2.0      # frecuencia a la que re‑publica la meta activa
+
+#     # Importante para que el circuito termine y el supervisor pueda cambiar
+#     loop: false
+#     signal_done_on_last: true
+#     hold_when_done: true

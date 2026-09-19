@@ -1,0 +1,46 @@
+[0.000000] (-) TimerEvent: {}
+[0.000056] (-) JobUnselected: {'identifier': 'GUI_pkg'}
+[0.000284] (-) JobUnselected: {'identifier': 'android_ros2_server'}
+[0.000515] (-) JobUnselected: {'identifier': 'argj801_ctl_platform'}
+[0.000759] (-) JobUnselected: {'identifier': 'argj801_ctl_platform_interfaces'}
+[0.000864] (-) JobUnselected: {'identifier': 'argj801_sensors'}
+[0.000892] (-) JobUnselected: {'identifier': 'argj801_sensors_msgs'}
+[0.000917] (-) JobUnselected: {'identifier': 'argj801_setup'}
+[0.000942] (-) JobUnselected: {'identifier': 'car_cpp'}
+[0.000965] (-) JobUnselected: {'identifier': 'car_interfaces'}
+[0.000988] (-) JobUnselected: {'identifier': 'ctl_mission'}
+[0.001011] (-) JobUnselected: {'identifier': 'ctl_mission_interfaces'}
+[0.001034] (-) JobUnselected: {'identifier': 'fixposition_driver_lib'}
+[0.001056] (-) JobUnselected: {'identifier': 'fixposition_driver_ros2'}
+[0.001078] (-) JobUnselected: {'identifier': 'fixposition_gnss_tf'}
+[0.001101] (-) JobUnselected: {'identifier': 'fixposition_odometry_converter_ros2'}
+[0.001123] (-) JobUnselected: {'identifier': 'fixposition_sensor_pkg'}
+[0.001145] (-) JobUnselected: {'identifier': 'hector_gazebo_plugins'}
+[0.001186] (-) JobUnselected: {'identifier': 'hikmicro_thermal_camera'}
+[0.001267] (-) JobUnselected: {'identifier': 'j8_gui'}
+[0.001291] (-) JobUnselected: {'identifier': 'joy'}
+[0.001313] (-) JobUnselected: {'identifier': 'joy_linux'}
+[0.001335] (-) JobUnselected: {'identifier': 'laser_segmentation'}
+[0.001356] (-) JobUnselected: {'identifier': 'ntrip_client'}
+[0.001378] (-) JobUnselected: {'identifier': 'path_manager'}
+[0.001399] (-) JobUnselected: {'identifier': 'path_manager_interfaces'}
+[0.001424] (-) JobUnselected: {'identifier': 'sdl2_vendor'}
+[0.001448] (-) JobUnselected: {'identifier': 'security_check'}
+[0.001477] (-) JobUnselected: {'identifier': 'security_check_interfaces'}
+[0.001500] (-) JobUnselected: {'identifier': 'slg_msgs'}
+[0.001522] (-) JobUnselected: {'identifier': 'spacenav'}
+[0.001543] (-) JobUnselected: {'identifier': 'ublox'}
+[0.001565] (-) JobUnselected: {'identifier': 'ublox_gps'}
+[0.001586] (-) JobUnselected: {'identifier': 'ublox_msgs'}
+[0.001608] (-) JobUnselected: {'identifier': 'ublox_serialization'}
+[0.001629] (-) JobUnselected: {'identifier': 'wiimote_msgs'}
+[0.001718] (gui) JobQueued: {'identifier': 'gui', 'dependencies': OrderedDict()}
+[0.001748] (car) JobQueued: {'identifier': 'car', 'dependencies': OrderedDict([('argj801_ctl_platform_interfaces', '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces'), ('car_interfaces', '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces'), ('path_manager_interfaces', '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/path_manager_interfaces')])}
+[0.001784] (j8_xacro_model) JobQueued: {'identifier': 'j8_xacro_model', 'dependencies': OrderedDict([('argj801_ctl_platform_interfaces', '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces'), ('argj801_ctl_platform', '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_ctl_platform')])}
+[0.001854] (gui) JobStarted: {'identifier': 'gui'}
+[0.013845] (car) JobStarted: {'identifier': 'car'}
+[0.017205] (j8_xacro_model) JobStarted: {'identifier': 'j8_xacro_model'}
+[0.030169] (j8_xacro_model) JobEnded: {'identifier': 'j8_xacro_model', 'rc': 1}
+[0.030716] (gui) JobEnded: {'identifier': 'gui', 'rc': 'SIGINT'}
+[0.031105] (car) JobEnded: {'identifier': 'car', 'rc': 'SIGINT'}
+[0.041132] (-) EventReactorShutdown: {}

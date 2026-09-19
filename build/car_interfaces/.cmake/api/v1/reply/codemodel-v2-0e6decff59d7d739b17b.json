@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-485ba4ba2e0b87ca019f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "car_interfaces__py",
+					"jsonFile" : "directory-car_interfaces__py-4dadc20b398018182674.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car_interfaces/car_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "car_interfaces__rs",
+					"jsonFile" : "directory-car_interfaces__rs-19579ccb53768f886b91.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car_interfaces/car_interfaces__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "car_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_car_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_car_interfaces_egg-8c5705bfda3378763683.json",
+					"name" : "ament_cmake_python_build_car_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_car_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_car_interfaces-605ad46291f4cbcd927e.json",
+					"name" : "ament_cmake_python_copy_car_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interfaces-dd951c93e2923299cf81.json",
+					"name" : "car_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interfaces__cpp-45809b0e9a9d57c97d80.json",
+					"name" : "car_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "car_interfaces__py::@3a7a3547a7e947aacf29",
+					"jsonFile" : "target-car_interfaces__py-64f9dc4ef2ca4629a296.json",
+					"name" : "car_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interfaces__rosidl_generator_c-ac1743f8a2af9a2e09db.json",
+					"name" : "car_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interfaces__rosidl_generator_py-2ae4fb9e0ef7ecb63363.json",
+					"name" : "car_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interfaces__rosidl_typesupport_c-66cbcc23b86a8bd9dce4.json",
+					"name" : "car_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interfaces__rosidl_typesupport_c__pyext-bd125470ebb3b3f69f32.json",
+					"name" : "car_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interfaces__rosidl_typesupport_cpp-b424b64be2d8d8e7981f.json",
+					"name" : "car_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interfaces__rosidl_typesupport_fastrtps_c-a7b6b4c1b2fa01491928.json",
+					"name" : "car_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interfaces__rosidl_typesupport_fastrtps_c__pyext-a16e1288a3a672fc7cab.json",
+					"name" : "car_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interfaces__rosidl_typesupport_fastrtps_cpp-44ca5c4447c76f3f725d.json",
+					"name" : "car_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interfaces__rosidl_typesupport_introspection_c-2b8a57c545f0a19cef37.json",
+					"name" : "car_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interfaces__rosidl_typesupport_introspection_c__pyext-228ed04eb7336fb713ed.json",
+					"name" : "car_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interfaces__rosidl_typesupport_introspection_cpp-660b017500f0811f63ab.json",
+					"name" : "car_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "car_interfaces__rs::@107f032d5d8fb2bea5de",
+					"jsonFile" : "target-car_interfaces__rs-9ca3be66190099091ad3.json",
+					"name" : "car_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "car_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-car_interfaces_uninstall-d758e6f5007815d7a17f.json",
+					"name" : "car_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-054f1e5d87ad5414bf69.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car_interfaces",
+		"source" : "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/car_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

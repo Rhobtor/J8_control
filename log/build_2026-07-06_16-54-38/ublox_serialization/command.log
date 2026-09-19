@@ -1,0 +1,2 @@
+Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ublox_serialization': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/ublox/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ublox_serialization
+Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ublox_serialization' returned '1': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/ublox/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ublox_serialization

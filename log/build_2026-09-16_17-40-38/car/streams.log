@@ -1,0 +1,403 @@
+[0.915s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/car_python': AMENT_PREFIX_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces LD_LIBRARY_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces/lib:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces/local/lib/python3.10/dist-packages:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car build --build-base /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build install --record /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/install.log --install-scripts $base/lib/car --single-version-externally-managed install_data
+[0.933s] /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/car_python/setup.py:4: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+[0.933s]   from distutils.cmd import Command
+[1.122s] running egg_info
+[1.122s] creating ../../build/car/car.egg-info
+[1.122s] writing ../../build/car/car.egg-info/PKG-INFO
+[1.122s] writing dependency_links to ../../build/car/car.egg-info/dependency_links.txt
+[1.123s] writing entry points to ../../build/car/car.egg-info/entry_points.txt
+[1.123s] writing requirements to ../../build/car/car.egg-info/requires.txt
+[1.123s] writing top-level names to ../../build/car/car.egg-info/top_level.txt
+[1.124s] writing manifest file '../../build/car/car.egg-info/SOURCES.txt'
+[1.126s] reading manifest file '../../build/car/car.egg-info/SOURCES.txt'
+[1.128s] writing manifest file '../../build/car/car.egg-info/SOURCES.txt'
+[1.128s] running build
+[1.128s] running build_py
+[1.129s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build
+[1.129s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib
+[1.129s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.129s] copying car/navsatfix_to_ecef.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.129s] copying car/detected_persons_local_to_latlon.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.129s] copying car/costmap.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.129s] copying car/path_ppo_cnn_lstm_training_init_mode_j8.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.129s] copying car/supervisor_circuit.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.129s] copying car/lidar_obstacle_detection.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.130s] copying car/prior_map_builder.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.130s] copying car/backup_model_ppo_cnn_lstm.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.130s] copying car/check_goal_gnss.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.130s] copying car/points_goal_old.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.130s] copying car/inference_training_mode_simple.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.130s] copying car/__init__.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.130s] copying car/path_ppo_cnn_lstm_full_model.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.131s] copying car/joystick_control.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.131s] copying car/movement_predictive.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.131s] copying car/map_test_navigation_hgh.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.131s] copying car/goal_local_marker.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.131s] copying car/latlon_posearray_to_local_utm.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.131s] copying car/fixposition_map_anchor.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.131s] copying car/j8_policy.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.131s] copying car/map_navegation.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.131s] copying car/planificador_script.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.131s] copying car/external_path_controller.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.131s] copying car/voxel_unity.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.131s] copying car/fake_robot_pose.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.131s] copying car/keyboard_control.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.131s] copying car/unity_goal.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.132s] copying car/points_goal.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.132s] copying car/colision_zone.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.132s] copying car/j8_bueno.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.132s] copying car/fusion.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.132s] copying car/scape_test.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.132s] copying car/memory_map.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.132s] copying car/inference_full_model.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.132s] copying car/latlon_circuit.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.132s] copying car/fake_person_local_detections.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.132s] copying car/j8_test_ppo.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.132s] copying car/circuit1.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.132s] copying car/fixposition_tf_tree_for_zed.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.132s] copying car/navsatfix_goal_to_map_pose.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.133s] copying car/test_j8_old.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.133s] copying car/inference_test_j8.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.133s] copying car/test_vel.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.133s] copying car/fp_poi_map_odom_static_test.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.133s] copying car/supervisor.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.133s] copying car/path_ppo_cnn_lstm_training_init_mode.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.133s] copying car/fixposition_reframe.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.133s] copying car/fp_poi_map_static_from_start.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.133s] copying car/fixposition_local_tf_from_odom.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.134s] copying car/filter_points_cloud.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.134s] copying car/latlon_posearray_to_local.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.134s] copying car/test_octomap.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.134s] copying car/path_ppo_cnn_lstm_training_init_mode_simple.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.134s] copying car/gnss_goal_circuit.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.134s] copying car/fixposition_map_odom_static_from_odom.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.134s] copying car/inference_j8.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.135s] copying car/zed_static_tf_tree.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.135s] copying car/cmd_vel_to_throttle.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.135s] copying car/fixposition_odom_to_base_link_tf.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.135s] copying car/odom_to_tf.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.135s] copying car/frontier_centroid.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car
+[1.135s] running install
+[1.135s] running install_lib
+[1.135s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.135s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/navsatfix_to_ecef.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.135s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/detected_persons_local_to_latlon.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.136s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/costmap.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.136s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/path_ppo_cnn_lstm_training_init_mode_j8.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.136s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/supervisor_circuit.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.136s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/lidar_obstacle_detection.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.136s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/prior_map_builder.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.136s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/backup_model_ppo_cnn_lstm.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.136s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/check_goal_gnss.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.136s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/points_goal_old.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.136s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/inference_training_mode_simple.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.136s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/__init__.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.136s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/path_ppo_cnn_lstm_full_model.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.136s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/joystick_control.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.136s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/movement_predictive.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.137s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/map_test_navigation_hgh.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.137s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/goal_local_marker.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.137s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/latlon_posearray_to_local_utm.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.137s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/fixposition_map_anchor.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.137s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/j8_policy.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.137s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/map_navegation.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.137s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/planificador_script.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.137s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/external_path_controller.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.138s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/voxel_unity.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.138s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/fake_robot_pose.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.138s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/keyboard_control.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.138s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/unity_goal.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.138s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/points_goal.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.138s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/colision_zone.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.138s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/j8_bueno.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.138s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/fusion.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.138s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/scape_test.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.138s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/memory_map.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.138s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/inference_full_model.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.138s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/latlon_circuit.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.138s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/fake_person_local_detections.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/j8_test_ppo.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/circuit1.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/fixposition_tf_tree_for_zed.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/navsatfix_goal_to_map_pose.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/test_j8_old.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/inference_test_j8.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/test_vel.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/fp_poi_map_odom_static_test.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/supervisor.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/path_ppo_cnn_lstm_training_init_mode.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/fixposition_reframe.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/fp_poi_map_static_from_start.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/fixposition_local_tf_from_odom.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/filter_points_cloud.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/latlon_posearray_to_local.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/test_octomap.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/path_ppo_cnn_lstm_training_init_mode_simple.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/gnss_goal_circuit.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.139s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/fixposition_map_odom_static_from_odom.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.140s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/inference_j8.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.140s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/zed_static_tf_tree.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.140s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/cmd_vel_to_throttle.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.140s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/fixposition_odom_to_base_link_tf.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.140s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/odom_to_tf.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.140s] copying /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build/lib/car/frontier_centroid.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car
+[1.140s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/navsatfix_to_ecef.py to navsatfix_to_ecef.cpython-310.pyc
+[1.140s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/detected_persons_local_to_latlon.py to detected_persons_local_to_latlon.cpython-310.pyc
+[1.140s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/costmap.py to costmap.cpython-310.pyc
+[1.141s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/path_ppo_cnn_lstm_training_init_mode_j8.py to path_ppo_cnn_lstm_training_init_mode_j8.cpython-310.pyc
+[1.153s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/supervisor_circuit.py to supervisor_circuit.cpython-310.pyc
+[1.154s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/lidar_obstacle_detection.py to lidar_obstacle_detection.cpython-310.pyc
+[1.155s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/prior_map_builder.py to prior_map_builder.cpython-310.pyc
+[1.156s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/backup_model_ppo_cnn_lstm.py to backup_model_ppo_cnn_lstm.cpython-310.pyc
+[1.161s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/check_goal_gnss.py to check_goal_gnss.cpython-310.pyc
+[1.162s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/points_goal_old.py to points_goal_old.cpython-310.pyc
+[1.164s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/inference_training_mode_simple.py to inference_training_mode_simple.cpython-310.pyc
+[1.166s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/__init__.py to __init__.cpython-310.pyc
+[1.166s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/path_ppo_cnn_lstm_full_model.py to path_ppo_cnn_lstm_full_model.cpython-310.pyc
+[1.172s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/joystick_control.py to joystick_control.cpython-310.pyc
+[1.173s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/movement_predictive.py to movement_predictive.cpython-310.pyc
+[1.174s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/map_test_navigation_hgh.py to map_test_navigation_hgh.cpython-310.pyc
+[1.176s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/goal_local_marker.py to goal_local_marker.cpython-310.pyc
+[1.177s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/latlon_posearray_to_local_utm.py to latlon_posearray_to_local_utm.cpython-310.pyc
+[1.180s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/fixposition_map_anchor.py to fixposition_map_anchor.cpython-310.pyc
+[1.181s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/j8_policy.py to j8_policy.cpython-310.pyc
+[1.191s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/map_navegation.py to map_navegation.cpython-310.pyc
+[1.192s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/planificador_script.py to planificador_script.cpython-310.pyc
+[1.196s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/external_path_controller.py to external_path_controller.cpython-310.pyc
+[1.200s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/voxel_unity.py to voxel_unity.cpython-310.pyc
+[1.201s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/fake_robot_pose.py to fake_robot_pose.cpython-310.pyc
+[1.202s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/keyboard_control.py to keyboard_control.cpython-310.pyc
+[1.203s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/unity_goal.py to unity_goal.cpython-310.pyc
+[1.204s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/points_goal.py to points_goal.cpython-310.pyc
+[1.213s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/colision_zone.py to colision_zone.cpython-310.pyc
+[1.213s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/j8_bueno.py to j8_bueno.cpython-310.pyc
+[1.216s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/fusion.py to fusion.cpython-310.pyc
+[1.217s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/scape_test.py to scape_test.cpython-310.pyc
+[1.219s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/memory_map.py to memory_map.cpython-310.pyc
+[1.220s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/inference_full_model.py to inference_full_model.cpython-310.pyc
+[1.222s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/latlon_circuit.py to latlon_circuit.cpython-310.pyc
+[1.223s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/fake_person_local_detections.py to fake_person_local_detections.cpython-310.pyc
+[1.224s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/j8_test_ppo.py to j8_test_ppo.cpython-310.pyc
+[1.235s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/circuit1.py to circuit1.cpython-310.pyc
+[1.238s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/fixposition_tf_tree_for_zed.py to fixposition_tf_tree_for_zed.cpython-310.pyc
+[1.240s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/navsatfix_goal_to_map_pose.py to navsatfix_goal_to_map_pose.cpython-310.pyc
+[1.241s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/test_j8_old.py to test_j8_old.cpython-310.pyc
+[1.250s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/inference_test_j8.py to inference_test_j8.cpython-310.pyc
+[1.254s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/test_vel.py to test_vel.cpython-310.pyc
+[1.255s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/fp_poi_map_odom_static_test.py to fp_poi_map_odom_static_test.cpython-310.pyc
+[1.256s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/supervisor.py to supervisor.cpython-310.pyc
+[1.256s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/path_ppo_cnn_lstm_training_init_mode.py to path_ppo_cnn_lstm_training_init_mode.cpython-310.pyc
+[1.261s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/fixposition_reframe.py to fixposition_reframe.cpython-310.pyc
+[1.262s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/fp_poi_map_static_from_start.py to fp_poi_map_static_from_start.cpython-310.pyc
+[1.262s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/fixposition_local_tf_from_odom.py to fixposition_local_tf_from_odom.cpython-310.pyc
+[1.264s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/filter_points_cloud.py to filter_points_cloud.cpython-310.pyc
+[1.264s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/latlon_posearray_to_local.py to latlon_posearray_to_local.cpython-310.pyc
+[1.267s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/test_octomap.py to test_octomap.cpython-310.pyc
+[1.267s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/path_ppo_cnn_lstm_training_init_mode_simple.py to path_ppo_cnn_lstm_training_init_mode_simple.cpython-310.pyc
+[1.272s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/gnss_goal_circuit.py to gnss_goal_circuit.cpython-310.pyc
+[1.273s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/fixposition_map_odom_static_from_odom.py to fixposition_map_odom_static_from_odom.cpython-310.pyc
+[1.274s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/inference_j8.py to inference_j8.cpython-310.pyc
+[1.276s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/zed_static_tf_tree.py to zed_static_tf_tree.cpython-310.pyc
+[1.277s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/cmd_vel_to_throttle.py to cmd_vel_to_throttle.cpython-310.pyc
+[1.278s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/fixposition_odom_to_base_link_tf.py to fixposition_odom_to_base_link_tf.cpython-310.pyc
+[1.279s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/odom_to_tf.py to odom_to_tf.cpython-310.pyc
+[1.280s] byte-compiling /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car/frontier_centroid.py to frontier_centroid.cpython-310.pyc
+[1.281s] running install_data
+[1.281s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/ament_index
+[1.282s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/ament_index/resource_index
+[1.282s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/ament_index/resource_index/packages
+[1.282s] copying resource/car -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/ament_index/resource_index/packages
+[1.282s] copying package.xml -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car
+[1.285s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.285s] copying launch/circuit4.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.285s] copying launch/gazebo_simple_world.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.285s] copying launch/circuit3.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.285s] copying launch/fp_poi_map_odom_base_link_camera_zed_wrapper_test.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/rtamap_test.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/fixposition_local_j8_urdf.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/joystick.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/world_1_b.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/tf_fixposition_j8.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/tf_fixposition_map_odom_static_j8.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/gazebo_simple2.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/river_and_forest.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/fp_poi_map_odom_base_link_camera_zed_wrapper_urdf_test.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/gazebo_no_gui.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/gazebo_simple8.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/object_move_gazebo.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/rviz_fixposition_j8.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/circuit1.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/control_with_gazebo.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/gazebo_simple9.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/gazebo_simple3.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/circuit2.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/gazebo_simple5.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/rviz_fixposition_urdf.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/gazebo_mountain.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.286s] copying launch/fp_poi_map_static_from_start.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.287s] copying launch/control.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.287s] copying launch/fixposition_local_j8_urdf_fixposition.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.287s] copying launch/fp_poi_map_odom_base_link_camera_test.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.287s] copying launch/goals_unity.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.287s] copying launch/fp_poi_map_odom_base_link_test.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.287s] copying launch/J8_unity.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.287s] copying launch/fixposition_with_zed_no_tf.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.287s] copying launch/fixposition_with_zed_fixposition_tf.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.287s] copying launch/easy_world.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.287s] copying launch/gazebo_simple4.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.287s] copying launch/gazebo_empty_world.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.287s] copying launch/gazebo_simple6.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.287s] copying launch/ekf.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.287s] copying launch/j8.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.287s] copying launch/fp_poi_map_odom_static_test.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.287s] copying launch/gazebo.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.287s] copying launch/forest.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.288s] copying launch/gazebo_simple7.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.288s] copying launch/world_1.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.288s] copying launch/display.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.288s] copying launch/gnss_goals.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.288s] copying launch/fixposition_reframe.launch.py -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/launch
+[1.288s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/urdf
+[1.288s] copying urdf/car.gazebo -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/urdf
+[1.288s] copying urdf/object_movement.sdf -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/urdf
+[1.288s] copying urdf/control.plugin.xacro -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/urdf
+[1.288s] copying urdf/virt_lidar.xacro -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/urdf
+[1.288s] copying urdf/car.xacro -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/urdf
+[1.288s] copying urdf/camara.plugin.xacro -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/urdf
+[1.288s] copying urdf/lidar.plugin.xacro -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/urdf
+[1.288s] copying urdf/materials.xacro -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/urdf
+[1.288s] copying urdf/car.trans -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/urdf
+[1.288s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.288s] copying worlds/world_1.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.288s] copying worlds/river_and_forest.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.288s] copying worlds/world_simple8.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/world_simple7.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/world_simple2.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/park_tagged.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/world_simple5.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/world_1_b.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/easy_world.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/obstacles.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/world_simple4.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/mountain.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/hill.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/blender_builder.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/heightmap_world.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/lake.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/grass.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/test.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/empty.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/forest.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/world_1_b1.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/grass_test.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/park.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.289s] copying worlds/lake_tagged.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.290s] copying worlds/obstacles_and_traps.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.290s] copying worlds/forest_tagged.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.290s] copying worlds/world_simple9.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.290s] copying worlds/hill_tagged.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.291s] copying worlds/world_simple_object.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.291s] copying worlds/world_simple3.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.291s] copying worlds/map1_test.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.291s] copying worlds/world_simple6.world -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/worlds
+[1.291s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.291s] copying meshes/rim.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.294s] copying meshes/tire.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.296s] copying meshes/rim_front_right_1.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.299s] copying meshes/direction_front_left_1.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.299s] copying meshes/tire_front_right_1.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.300s] copying meshes/chasis_1.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.300s] copying meshes/rim_back_right_1.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.301s] copying meshes/suspension_back_right_1.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.301s] copying meshes/direction_back_right_1.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.301s] copying meshes/direction_front_right_1.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.301s] copying meshes/tire_back_right_1.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.301s] copying meshes/Camara.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.301s] copying meshes/suspension_front_left__1.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.301s] copying meshes/rim_front_left_1.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.302s] copying meshes/rim_back_left_1.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.303s] copying meshes/tire_front_left_1.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.303s] copying meshes/suspension_front_right_1.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.304s] copying meshes/Lidar.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.304s] copying meshes/direction_back_left_1.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.304s] copying meshes/tire_back_left_1.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.304s] copying meshes/base_link.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.304s] copying meshes/suspension_back_left_1.stl -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/meshes
+[1.304s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/config
+[1.305s] copying config/octomap.yaml -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/config
+[1.305s] copying config/nav2.yaml -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/config
+[1.305s] copying config/river_and_forest.yaml -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/config
+[1.305s] copying config/circuit_1.yaml -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/config
+[1.305s] copying config/mapper_params_online_async.yaml -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/config
+[1.305s] copying config/world_1_b.yaml -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/config
+[1.305s] copying config/display.rviz -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/config
+[1.305s] copying config/goal.yaml -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/config
+[1.305s] copying config/circuit_3.yaml -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/config
+[1.305s] copying config/ekf_params.yaml -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/config
+[1.305s] copying config/circuit_4.yaml -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/config
+[1.305s] copying config/gnss_goals.yaml -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/config
+[1.305s] copying config/circuit_2.yaml -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/config
+[1.305s] copying config/world1.yaml -> /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/share/car/config
+[1.305s] creating /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.305s] running install_egg_info
+[1.307s] Copying ../../build/car/car.egg-info to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages/car-0.0.0-py3.10.egg-info
+[1.307s] running install_scripts
+[1.325s] Installing check_goal_gnss script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.325s] Installing circuit1 script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.325s] Installing circuit_supervisor script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.325s] Installing cmd_vel_to_throttle script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.326s] Installing colision_zone script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.326s] Installing detected_persons_local_to_latlon script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.326s] Installing external_path_controller script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.327s] Installing fake_person_local_detections script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.327s] Installing fake_robot_pose script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.327s] Installing filter_points_cloud script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.327s] Installing fixposition_local_tf_from_odom script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.327s] Installing fixposition_map_anchor script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.327s] Installing fixposition_map_odom_static_from_odom script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.327s] Installing fixposition_odom_to_base_link_tf script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.327s] Installing fixposition_reframe script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.327s] Installing fixposition_tf_tree_for_zed script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.327s] Installing fp_poi_map_odom_static_test script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.327s] Installing fp_poi_map_static_from_start script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.327s] Installing frontier_centroid script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.328s] Installing fusion script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.328s] Installing gnss_goal_circuit script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.328s] Installing goal_local_marker script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.328s] Installing inference_full_model script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.328s] Installing inference_j8 script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.328s] Installing inference_test_j8 script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.328s] Installing inference_training_mode_simple script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.328s] Installing j8_bueno script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.328s] Installing j8_policy script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.328s] Installing j8_test_ppo script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.328s] Installing joystick_control script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.328s] Installing keyboard_control script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.328s] Installing latlon_circuit script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.328s] Installing latlon_posearray_to_local script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.328s] Installing latlon_posearray_to_local_utm script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.328s] Installing lidar_detection script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.328s] Installing map_navegation script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing map_navegation_test script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing memory_map script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing movement_predictive script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing navsatfix_goal_to_map_pose script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing navsatfix_to_ecef script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing odom_to_tf script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing path_ppo_cnn_lstm_full_model script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing path_ppo_cnn_lstm_training_init_mode script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing path_ppo_cnn_lstm_training_init_mode_j8 script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing path_ppo_cnn_lstm_training_init_mode_simple script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing points_goal script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing points_goal_old script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing prior_map_builder script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing scape_test script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing supervisor_node script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing test_j8_old script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing test_octomap script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing test_vel script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing unity_goal script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing voxel_unity script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] Installing zed_static_tf_tree script to /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/car
+[1.329s] writing list of installed files to '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/install.log'
+[1.348s] Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/car_python' returned '0': AMENT_PREFIX_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces LD_LIBRARY_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces/lib:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car/lib/python3.10/site-packages:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/car_interfaces/local/lib/python3.10/dist-packages:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_ctl_platform_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car build --build-base /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/build install --record /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car/install.log --install-scripts $base/lib/car --single-version-externally-managed install_data

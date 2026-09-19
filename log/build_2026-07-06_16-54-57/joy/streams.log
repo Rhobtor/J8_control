@@ -1,0 +1,70 @@
+[0.217s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy': AMENT_PREFIX_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor:/opt/ros/humble /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/joy
+[0.520s] -- The C compiler identification is GNU 11.4.0
+[0.861s] -- The CXX compiler identification is GNU 11.4.0
+[0.907s] -- Detecting C compiler ABI info
+[1.388s] -- Detecting C compiler ABI info - done
+[1.419s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.420s] -- Detecting C compile features
+[1.420s] -- Detecting C compile features - done
+[1.427s] -- Detecting CXX compiler ABI info
+[1.820s] -- Detecting CXX compiler ABI info - done
+[1.851s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.853s] -- Detecting CXX compile features
+[1.854s] -- Detecting CXX compile features - done
+[1.861s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.965s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.413s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[3.595s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.603s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.623s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.654s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.700s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.815s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.821s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.289s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.440s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.692s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.719s] -- Looking for pthread.h
+[5.247s] -- Looking for pthread.h - found
+[5.247s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.993s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.995s] -- Found Threads: TRUE  
+[6.281s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[6.386s] -- Found sdl2_vendor: 3.1.0 (/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/sdl2_vendor/cmake)
+[6.410s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.581s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.048s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.049s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy/include>
+[7.049s] -- Configured cppcheck exclude dirs and/or files: 
+[7.052s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.052s] -- Configured cpplint exclude dirs and/or files: 
+[7.061s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.064s] -- Added test 'lint_cmake' to check CMake code style
+[7.065s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.068s] -- Added test 'uncrustify' to check C / C++ code style
+[7.068s] -- Configured uncrustify additional arguments: 
+[7.071s] -- Added test 'xmllint' to check XML markup files
+[7.089s] -- Configuring done
+[7.196s] -- Generating done
+[7.268s] -- Build files have been written to: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy
+[7.330s] Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy' returned '0': AMENT_PREFIX_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor:/opt/ros/humble /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/joy
+[7.330s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy': AMENT_PREFIX_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor:/opt/ros/humble /usr/bin/cmake --build /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy -- -j24 -l24
+[9.525s] [ 16%] [32mBuilding CXX object CMakeFiles/joy_node.dir/rclcpp_components/node_main_joy_node.cpp.o[0m
+[9.525s] [ 33%] [32mBuilding CXX object CMakeFiles/joy.dir/src/joy.cpp.o[0m
+[9.525s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_enumerate_devices.dir/src/joy_enumerate_devices.cpp.o[0m
+[10.688s] [ 66%] [32m[1mLinking CXX executable joy_enumerate_devices[0m
+[11.157s] [ 66%] Built target joy_enumerate_devices
+[19.312s] [01m[K/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy/src/joy.cpp:[m[K In member function ‘[01m[Kvoid joy::Joy::eventThread()[m[K’:
+[19.312s] [01m[K/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy/src/joy.cpp:489:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwheel_separation[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[19.313s]   489 |       float [01;35m[Kwheel_separation[m[K = 1.35;
+[19.313s]       |             [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[19.313s] [01m[K/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy/src/joy.cpp:512:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kthrottle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[19.313s]   512 |       float [01;35m[Kthrottle[m[K = rad2per_throttle*(left_wheels + rigth_wheels)/wheels_radius;
+[19.314s]       |             [01;35m[K^~~~~~~~[m[K
+[19.314s] [01m[K/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy/src/joy.cpp:513:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksteer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[19.314s]   513 |       float [01;35m[Ksteer[m[K = rad2per_steer*(-rigth_wheels + left_wheels)/wheels_radius;
+[19.314s]       |             [01;35m[K^~~~~[m[K
+[23.742s] [ 83%] [32m[1mLinking CXX executable joy_node[0m
+[24.046s] [ 83%] Built target joy_node
+[34.170s] [100%] [32m[1mLinking CXX shared library libjoy.so[0m
+[34.929s] [100%] Built target joy

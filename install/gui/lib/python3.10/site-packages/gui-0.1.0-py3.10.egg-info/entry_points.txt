@@ -1,0 +1,3 @@
+[console_scripts]
+gui = gui.gui_node:main
+

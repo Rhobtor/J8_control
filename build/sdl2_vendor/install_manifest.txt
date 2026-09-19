@@ -1,0 +1,17 @@
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/sdl2_vendor/cmake/Modules/Findsdl2_custom.cmake
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/ament_index/resource_index/package_run_dependencies/sdl2_vendor
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/ament_index/resource_index/parent_prefix_path/sdl2_vendor
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.sh
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/sdl2_vendor/environment/ament_prefix_path.dsv
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/sdl2_vendor/environment/path.sh
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/sdl2_vendor/environment/path.dsv
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/sdl2_vendor/local_setup.bash
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/sdl2_vendor/local_setup.sh
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/sdl2_vendor/local_setup.zsh
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/sdl2_vendor/local_setup.dsv
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/sdl2_vendor/package.dsv
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/ament_index/resource_index/packages/sdl2_vendor
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendor-extras.cmake
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig.cmake
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/sdl2_vendor/cmake/sdl2_vendorConfig-version.cmake
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/sdl2_vendor/package.xml

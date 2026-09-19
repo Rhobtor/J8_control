@@ -1,0 +1,21 @@
+[0.524s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/hikmicro_thermal_camera
+[0.854s] -- Configuring incomplete, errors occurred!
+[0.854s] See also "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/CMakeFiles/CMakeOutput.log".
+[0.858s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.858s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.859s]   has asked CMake to find a package configuration file provided by
+[0.859s]   "ament_cmake", but CMake did not find one.
+[0.859s] 
+[0.860s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.860s]   any of the following names:
+[0.860s] 
+[0.861s]     ament_cmakeConfig.cmake
+[0.861s]     ament_cmake-config.cmake
+[0.861s] 
+[0.862s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.862s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.863s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.864s]   has been installed.
+[0.864s] 
+[0.864s] [0m
+[0.879s] Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera' returned '1': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/hikmicro_thermal_camera

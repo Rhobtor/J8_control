@@ -1,0 +1,21 @@
+[0.055s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ublox_serialization': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/ublox/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ublox_serialization
+[1.153s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[1.153s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.154s]   has asked CMake to find a package configuration file provided by
+[1.154s]   "ament_cmake", but CMake did not find one.
+[1.155s] 
+[1.155s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.156s]   any of the following names:
+[1.156s] 
+[1.156s]     ament_cmakeConfig.cmake
+[1.157s]     ament_cmake-config.cmake
+[1.158s] 
+[1.158s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.159s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.159s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.160s]   has been installed.
+[1.160s] 
+[1.161s] [0m
+[1.161s] -- Configuring incomplete, errors occurred!
+[1.162s] See also "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ublox_serialization/CMakeFiles/CMakeOutput.log".
+[1.219s] Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ublox_serialization' returned '1': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/ublox/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ublox_serialization

@@ -1,0 +1,2 @@
+Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/path_manager/path_manager_interfaces -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/path_manager_interfaces
+Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces' returned '1': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/path_manager/path_manager_interfaces -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/path_manager_interfaces

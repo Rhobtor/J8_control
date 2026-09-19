@@ -1,0 +1,16 @@
+{
+  "package_name": "ctl_mission_interfaces",
+  "non_idl_tuples": [
+    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/ctl_mission/ctl_mission_interfaces:srv/ChangeMode.srv",
+    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/ctl_mission/ctl_mission_interfaces:srv/GetMode.srv",
+    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/ctl_mission/ctl_mission_interfaces:srv/ChangeSpeed.srv",
+    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/ctl_mission/ctl_mission_interfaces:srv/ConfigSimpleCtl.srv",
+    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/ctl_mission/ctl_mission_interfaces:srv/GetPossibleTransitions.srv",
+    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/ctl_mission/ctl_mission_interfaces:srv/ChangeController.srv",
+    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/ctl_mission/ctl_mission_interfaces:srv/ConfigPurePursuitCtrl.srv",
+    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/ctl_mission/ctl_mission_interfaces:srv/ConfigStanleyCtrl.srv",
+    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/ctl_mission/ctl_mission_interfaces:srv/ConfigDynamicPureCtrl.srv",
+    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/ctl_mission/ctl_mission_interfaces:srv/ConfigDynamicLAPureCtrl.srv",
+    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/ctl_mission/ctl_mission_interfaces:srv/ConfigRegulatedPureCtrl.srv"
+  ]
+}

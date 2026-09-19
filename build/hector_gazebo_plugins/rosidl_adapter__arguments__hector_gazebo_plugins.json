@@ -1,0 +1,7 @@
+{
+  "package_name": "hector_gazebo_plugins",
+  "non_idl_tuples": [
+    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hector_gazebo:srv/SetBias.srv",
+    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hector_gazebo:srv/SetReferenceGeoPose.srv"
+  ]
+}

@@ -1,0 +1,10 @@
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux/CMakeFiles/uninstall.dir
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux/CMakeFiles/joy_linux_uninstall.dir
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux/CMakeFiles/joy_linux_node.dir
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux/CMakeFiles/test.dir
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux/CMakeFiles/edit_cache.dir
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux/CMakeFiles/rebuild_cache.dir
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux/CMakeFiles/list_install_components.dir
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux/CMakeFiles/install.dir
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux/CMakeFiles/install/local.dir
+/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux/CMakeFiles/install/strip.dir
