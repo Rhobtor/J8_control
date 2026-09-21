@@ -1,8 +1,8 @@
-# Install script for directory: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ublox_msgs/ublox_msgs__rs
+# Install script for directory: /home/rhobtor/PHD/j8_control/J8_control/build/ublox_msgs/ublox_msgs__rs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/ublox_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/rhobtor/PHD/j8_control/J8_control/install/ublox_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

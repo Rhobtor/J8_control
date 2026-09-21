@@ -1,0 +1,239 @@
+[0.089s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/build/car_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake /home/rhobtor/PHD/j8_control/J8_control/src/car_interfaces -DCMAKE_INSTALL_PREFIX=/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces
+[1.336s] -- The C compiler identification is GNU 11.4.0
+[1.336s] -- The CXX compiler identification is GNU 11.4.0
+[1.336s] -- Detecting C compiler ABI info
+[1.337s] -- Detecting C compiler ABI info - done
+[1.337s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.337s] -- Detecting C compile features
+[1.337s] -- Detecting C compile features - done
+[1.337s] -- Detecting CXX compiler ABI info
+[1.338s] -- Detecting CXX compiler ABI info - done
+[1.338s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.338s] -- Detecting CXX compile features
+[1.338s] -- Detecting CXX compile features - done
+[1.339s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.339s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.339s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.339s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.339s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.339s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.339s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.339s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.339s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.820s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.453s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.737s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.788s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.798s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.838s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.838s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.838s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.838s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.876s] -- Found PythonExtra: .so  
+[3.238s] -- Configuring done
+[3.331s] -- Generating done
+[3.375s] -- Build files have been written to: /home/rhobtor/PHD/j8_control/J8_control/build/car_interfaces
+[3.422s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/build/car_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake /home/rhobtor/PHD/j8_control/J8_control/src/car_interfaces -DCMAKE_INSTALL_PREFIX=/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces
+[3.423s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/build/car_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake --build /home/rhobtor/PHD/j8_control/J8_control/build/car_interfaces -- -j20 -l20
+[4.126s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.126s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.126s] [  9%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[4.126s] [  9%] Built target ament_cmake_python_copy_car_interfaces
+[4.126s] running egg_info
+[4.126s] [ 12%] [32mBuilding C object CMakeFiles/car_interfaces__rosidl_generator_c.dir/rosidl_generator_c/car_interfaces/msg/detail/graph__functions.c.o[0m
+[4.143s] creating car_interfaces.egg-info
+[4.143s] writing car_interfaces.egg-info/PKG-INFO
+[4.143s] writing dependency_links to car_interfaces.egg-info/dependency_links.txt
+[4.143s] writing top-level names to car_interfaces.egg-info/top_level.txt
+[4.143s] writing manifest file 'car_interfaces.egg-info/SOURCES.txt'
+[4.329s] [ 15%] [32m[1mLinking C shared library libcar_interfaces__rosidl_generator_c.so[0m
+[4.337s] reading manifest file 'car_interfaces.egg-info/SOURCES.txt'
+[4.338s] writing manifest file 'car_interfaces.egg-info/SOURCES.txt'
+[4.396s] [ 15%] Built target car_interfaces__rs
+[4.411s] [ 15%] Built target car_interfaces__cpp
+[4.443s] [ 15%] Built target car_interfaces__rosidl_generator_c
+[4.443s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.443s] [ 21%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.446s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.492s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.505s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.511s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.525s] [ 34%] Built target ament_cmake_python_build_car_interfaces_egg
+[5.409s] [ 37%] [32mBuilding C object CMakeFiles/car_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/car_interfaces/msg/detail/graph__type_support.c.o[0m
+[5.506s] [ 40%] [32mBuilding CXX object CMakeFiles/car_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/car_interfaces/msg/detail/graph__type_support.cpp.o[0m
+[5.552s] [ 43%] [32mBuilding CXX object CMakeFiles/car_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/car_interfaces/msg/detail/dds_fastrtps/graph__type_support.cpp.o[0m
+[5.568s] [ 46%] [32m[1mLinking C shared library libcar_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.587s] [ 50%] [32mBuilding CXX object CMakeFiles/car_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/car_interfaces/msg/graph__type_support.cpp.o[0m
+[5.590s] [ 53%] [32mBuilding CXX object CMakeFiles/car_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/car_interfaces/msg/detail/graph__type_support_c.cpp.o[0m
+[5.678s] [ 53%] Built target car_interfaces__rosidl_typesupport_introspection_c
+[5.858s] [ 56%] [32mBuilding CXX object CMakeFiles/car_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/car_interfaces/msg/graph__type_support.cpp.o[0m
+[5.995s] [ 59%] [32m[1mLinking CXX shared library libcar_interfaces__rosidl_typesupport_c.so[0m
+[6.155s] [ 59%] Built target car_interfaces__rosidl_typesupport_c
+[6.407s] [ 62%] [32m[1mLinking CXX shared library libcar_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.674s] [ 65%] [32m[1mLinking CXX shared library libcar_interfaces__rosidl_typesupport_cpp.so[0m
+[6.842s] [ 65%] Built target car_interfaces__rosidl_typesupport_cpp
+[6.846s] [ 65%] Built target car_interfaces__rosidl_typesupport_fastrtps_c
+[7.272s] [ 68%] [32m[1mLinking CXX shared library libcar_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.345s] [ 71%] [32m[1mLinking CXX shared library libcar_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.717s] [ 71%] Built target car_interfaces__rosidl_typesupport_introspection_cpp
+[7.786s] [ 71%] Built target car_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.842s] [ 71%] Built target car_interfaces
+[7.917s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.619s] [ 75%] Built target car_interfaces__py
+[9.699s] [ 78%] [32mBuilding C object CMakeFiles/car_interfaces__rosidl_generator_py.dir/rosidl_generator_py/car_interfaces/msg/_graph_s.c.o[0m
+[9.928s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/car_interfaces/libcar_interfaces__rosidl_generator_py.so[0m
+[10.074s] [ 81%] Built target car_interfaces__rosidl_generator_py
+[10.147s] [ 84%] [32mBuilding C object CMakeFiles/car_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/car_interfaces/_car_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[10.195s] [ 87%] [32mBuilding C object CMakeFiles/car_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/car_interfaces/_car_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.195s] [ 90%] [32mBuilding C object CMakeFiles/car_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/car_interfaces/_car_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.465s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/car_interfaces/car_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.533s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/car_interfaces/car_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.680s] [100%] [32m[1mLinking C shared library rosidl_generator_py/car_interfaces/car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.697s] [100%] Built target car_interfaces__rosidl_typesupport_c__pyext
+[10.702s] [100%] Built target car_interfaces__rosidl_typesupport_introspection_c__pyext
+[10.865s] [100%] Built target car_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[10.934s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/build/car_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake --build /home/rhobtor/PHD/j8_control/J8_control/build/car_interfaces -- -j20 -l20
+[10.934s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/build/car_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake --install /home/rhobtor/PHD/j8_control/J8_control/build/car_interfaces
+[12.219s] -- Install configuration: ""
+[12.220s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/ament_index/resource_index/rosidl_interfaces/car_interfaces
+[12.220s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces
+[12.220s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg
+[12.221s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/rosidl_generator_c__visibility_control.h
+[12.221s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail
+[12.221s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail/graph__struct.h
+[12.221s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail/graph__functions.h
+[12.221s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail/graph__functions.c
+[12.221s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail/graph__type_support.h
+[12.221s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/graph.h
+[12.221s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/environment/library_path.sh
+[12.221s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/environment/library_path.dsv
+[12.221s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/lib/libcar_interfaces__rosidl_generator_c.so
+[12.221s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/lib/libcar_interfaces__rosidl_generator_c.so" to ""
+[12.221s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces
+[12.222s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg
+[12.222s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.222s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail
+[12.222s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[12.222s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/lib/libcar_interfaces__rosidl_typesupport_fastrtps_c.so
+[12.222s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/lib/libcar_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[12.222s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces
+[12.222s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg
+[12.222s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/graph.hpp
+[12.222s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail
+[12.222s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail/graph__traits.hpp
+[12.222s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail/graph__struct.hpp
+[12.222s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail/graph__builder.hpp
+[12.222s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail/graph__type_support.hpp
+[12.223s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.223s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces
+[12.226s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg
+[12.226s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.226s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail
+[12.226s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail/dds_fastrtps
+[12.227s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[12.227s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/lib/libcar_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[12.227s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/lib/libcar_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.227s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces
+[12.227s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg
+[12.227s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.227s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail
+[12.227s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail/graph__type_support.c
+[12.227s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[12.227s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/lib/libcar_interfaces__rosidl_typesupport_introspection_c.so
+[12.227s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/lib/libcar_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[12.227s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/lib/libcar_interfaces__rosidl_typesupport_c.so
+[12.227s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/lib/libcar_interfaces__rosidl_typesupport_c.so" to ""
+[12.227s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces
+[12.227s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg
+[12.227s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail
+[12.227s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail/graph__type_support.cpp
+[12.227s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/include/car_interfaces/car_interfaces/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[12.227s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/lib/libcar_interfaces__rosidl_typesupport_introspection_cpp.so
+[12.227s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/lib/libcar_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[12.227s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/lib/libcar_interfaces__rosidl_typesupport_cpp.so
+[12.228s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/lib/libcar_interfaces__rosidl_typesupport_cpp.so" to ""
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/environment/pythonpath.sh
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/environment/pythonpath.dsv
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces-0.0.0-py3.10.egg-info
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/__init__.py
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/car_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/_car_interfaces_s.ep.rosidl_typesupport_c.c
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/_car_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/libcar_interfaces__rosidl_generator_py.so
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/msg
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/msg/__init__.py
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/msg/_graph_s.c
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/msg/_graph.py
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/car_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.228s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/_car_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.229s] Listing '/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces'...
+[12.229s] Compiling '/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/__init__.py'...
+[12.229s] Listing '/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/msg'...
+[12.229s] Compiling '/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/msg/__init__.py'...
+[12.229s] Compiling '/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/msg/_graph.py'...
+[12.229s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.229s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/car_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.229s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/car_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.229s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/car_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.229s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/car_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.229s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/local/lib/python3.10/dist-packages/car_interfaces/car_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.229s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/lib/libcar_interfaces__rosidl_generator_py.so
+[12.229s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/lib/libcar_interfaces__rosidl_generator_py.so" to ""
+[12.229s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/ament_index/resource_index/rust_packages/car_interfaces
+[12.229s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/rust
+[12.229s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/rust/build.rs
+[12.229s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/rust/src
+[12.229s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/rust/src/msg.rs
+[12.229s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/rust/src/msg
+[12.229s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/rust/src/msg/rmw.rs
+[12.230s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/rust/src/lib.rs
+[12.230s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/rust/Cargo.toml
+[12.230s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/msg/Graph.idl
+[12.230s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/msg/Graph.msg
+[12.235s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/ament_index/resource_index/package_run_dependencies/car_interfaces
+[12.235s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/ament_index/resource_index/parent_prefix_path/car_interfaces
+[12.235s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/environment/ament_prefix_path.sh
+[12.235s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/environment/ament_prefix_path.dsv
+[12.235s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/environment/path.sh
+[12.235s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/environment/path.dsv
+[12.235s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/local_setup.bash
+[12.235s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/local_setup.sh
+[12.235s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/local_setup.zsh
+[12.235s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/local_setup.dsv
+[12.235s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/package.dsv
+[12.235s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/ament_index/resource_index/packages/car_interfaces
+[12.236s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/export_car_interfaces__rosidl_generator_cExport.cmake
+[12.236s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/export_car_interfaces__rosidl_generator_cExport-noconfig.cmake
+[12.236s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/export_car_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[12.236s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/export_car_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.236s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/export_car_interfaces__rosidl_generator_cppExport.cmake
+[12.236s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/export_car_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.236s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/export_car_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.236s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/car_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[12.236s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/car_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.236s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/car_interfaces__rosidl_typesupport_cExport.cmake
+[12.236s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/car_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[12.236s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/car_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[12.242s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/car_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.242s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/car_interfaces__rosidl_typesupport_cppExport.cmake
+[12.242s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/car_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[12.242s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/export_car_interfaces__rosidl_generator_pyExport.cmake
+[12.242s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/export_car_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[12.242s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/rosidl_cmake-extras.cmake
+[12.242s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.242s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.242s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[12.242s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[12.242s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.243s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.243s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[12.243s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/car_interfacesConfig.cmake
+[12.243s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/cmake/car_interfacesConfig-version.cmake
+[12.243s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/car_interfaces/share/car_interfaces/package.xml
+[12.274s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/build/car_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake --install /home/rhobtor/PHD/j8_control/J8_control/build/car_interfaces

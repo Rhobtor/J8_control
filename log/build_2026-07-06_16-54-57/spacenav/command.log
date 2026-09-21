@@ -1,6 +1,0 @@
-Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/spacenav -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/spacenav
-Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/spacenav -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/spacenav
-Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav -- -j24 -l24
-Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav -- -j24 -l24
-Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav
-Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav

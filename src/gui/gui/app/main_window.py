@@ -165,6 +165,41 @@ def _quat_to_bearing_deg(qx: float, qy: float, qz: float, qw: float):
     return (90.0 - yaw_deg_enu) % 360.0
 
 
+def _positive_occupancy_cells_wgs84(message: OccupancyGrid):
+    width = int(message.info.width)
+    height = int(message.info.height)
+    if width <= 0 or height <= 0:
+        return []
+
+    origin = message.info.origin
+    quaternion = origin.orientation
+    yaw = math.atan2(
+        2.0 * (quaternion.w * quaternion.z + quaternion.x * quaternion.y),
+        1.0 - 2.0 * (quaternion.y * quaternion.y + quaternion.z * quaternion.z),
+    )
+    cos_yaw = math.cos(yaw)
+    sin_yaw = math.sin(yaw)
+    resolution = float(message.info.resolution)
+    cells = []
+    for index, value in enumerate(message.data):
+        value = int(value)
+        if value <= 0:
+            continue
+        row, column = divmod(index, width)
+        grid_x = (column + 0.5) * resolution
+        grid_y = (row + 0.5) * resolution
+        map_x = float(origin.position.x) + cos_yaw * grid_x - sin_yaw * grid_y
+        map_y = float(origin.position.y) + sin_yaw * grid_x + cos_yaw * grid_y
+        latitude, longitude = _offset_latlon(
+            UNITY_REFERENCE_LATITUDE,
+            UNITY_REFERENCE_LONGITUDE,
+            map_x,
+            map_y,
+        )
+        cells.append([row, column, value, latitude, longitude])
+    return cells
+
+
 def _resolve_html_path():
     here = os.path.dirname(__file__)
 
@@ -783,11 +818,7 @@ class RosSide(Node):
         height = int(message.info.height)
         if width <= 0 or height <= 0:
             return
-        cells = [
-            [index // width, index % width, int(value)]
-            for index, value in enumerate(message.data)
-            if int(value) > 0
-        ]
+        cells = _positive_occupancy_cells_wgs84(message)
         callback = self.dem_temporal_callback
         if callback is not None:
             callback(layer_name, {

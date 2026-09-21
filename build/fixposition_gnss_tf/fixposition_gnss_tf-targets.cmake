@@ -47,7 +47,7 @@ add_library(fixposition_gnss_tf SHARED IMPORTED)
 # Import target "fixposition_gnss_tf" for configuration "Release"
 set_property(TARGET fixposition_gnss_tf APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(fixposition_gnss_tf PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf/libfixposition_gnss_tf.so"
+  IMPORTED_LOCATION_RELEASE "/home/rhobtor/PHD/j8_control/J8_control/build/fixposition_gnss_tf/libfixposition_gnss_tf.so"
   IMPORTED_SONAME_RELEASE "libfixposition_gnss_tf.so"
   )
 

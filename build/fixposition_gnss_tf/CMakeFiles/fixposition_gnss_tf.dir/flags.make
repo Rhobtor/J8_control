@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DEIGEN_DISABLE_UNALIGNED_ARRAY_ASSERT -Dfixposition_gnss_tf_EXPORTS
 
-CXX_INCLUDES = -I/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/Fixposition_driver_pkg/fixposition_gnss_tf-main/include -I/usr/include/eigen3
+CXX_INCLUDES = -I/home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/Fixposition_driver_pkg/fixposition_gnss_tf-main/include -I/usr/include/eigen3
 
 CXX_FLAGS =  -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wno-unused-parameter -O3 -fPIC -std=gnu++14
 

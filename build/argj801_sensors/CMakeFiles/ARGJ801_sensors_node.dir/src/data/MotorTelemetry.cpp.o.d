@@ -1,9 +1,9 @@
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.o: \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/MotorTelemetry.cpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/MotorTelemetry.cpp \
  /usr/include/stdc-predef.h \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/MotorTelemetry.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/DriveLine.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/visitor/Visitor.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/MotorTelemetry.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/DriveLine.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/visitor/Visitor.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -400,11 +400,11 @@ CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.o: \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp \
  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/motor_telemetry.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__struct.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/motor_telemetry.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__builder.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__traits.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__builder.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__type_support.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__type_support.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/rosidl_generator_cpp__visibility_control.hpp

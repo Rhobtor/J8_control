@@ -1,2 +1,0 @@
-Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_setup': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argj801_setup -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_setup
-Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_setup' returned '1': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argj801_setup -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_setup

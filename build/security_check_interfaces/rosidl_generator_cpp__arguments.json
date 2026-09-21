@@ -1,10 +1,10 @@
 {
   "package_name": "security_check_interfaces",
-  "output_dir": "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/security_check_interfaces/rosidl_generator_cpp/security_check_interfaces",
+  "output_dir": "/home/rhobtor/PHD/j8_control/J8_control/build/security_check_interfaces/rosidl_generator_cpp/security_check_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/security_check_interfaces/rosidl_adapter/security_check_interfaces:srv/PasswordCheck.idl",
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/security_check_interfaces/rosidl_adapter/security_check_interfaces:srv/GetSecurityCheckStatus.idl"
+    "/home/rhobtor/PHD/j8_control/J8_control/build/security_check_interfaces/rosidl_adapter/security_check_interfaces:srv/PasswordCheck.idl",
+    "/home/rhobtor/PHD/j8_control/J8_control/build/security_check_interfaces/rosidl_adapter/security_check_interfaces:srv/GetSecurityCheckStatus.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -56,8 +56,8 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/security_check_interfaces/rosidl_adapter/security_check_interfaces/srv/PasswordCheck.idl",
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/security_check_interfaces/rosidl_adapter/security_check_interfaces/srv/GetSecurityCheckStatus.idl",
+    "/home/rhobtor/PHD/j8_control/J8_control/build/security_check_interfaces/rosidl_adapter/security_check_interfaces/srv/PasswordCheck.idl",
+    "/home/rhobtor/PHD/j8_control/J8_control/build/security_check_interfaces/rosidl_adapter/security_check_interfaces/srv/GetSecurityCheckStatus.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

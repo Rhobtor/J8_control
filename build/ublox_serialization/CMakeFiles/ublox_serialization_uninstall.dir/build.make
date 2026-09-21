@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/ublox/ublox_serialization
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/ublox/ublox_serialization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ublox_serialization
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/ublox_serialization
 
 # Utility rule file for ublox_serialization_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ublox_serialization_uninstall.dir/compiler_depend.make
 include CMakeFiles/ublox_serialization_uninstall.dir/progress.make
 
 CMakeFiles/ublox_serialization_uninstall:
-	/usr/bin/cmake -P /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ublox_serialization/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/rhobtor/PHD/j8_control/J8_control/build/ublox_serialization/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ublox_serialization_uninstall: CMakeFiles/ublox_serialization_uninstall
 ublox_serialization_uninstall: CMakeFiles/ublox_serialization_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ublox_serialization_uninstall.dir/clean:
 .PHONY : CMakeFiles/ublox_serialization_uninstall.dir/clean
 
 CMakeFiles/ublox_serialization_uninstall.dir/depend:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ublox_serialization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/ublox/ublox_serialization /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/ublox/ublox_serialization /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ublox_serialization /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ublox_serialization /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/ublox_serialization/CMakeFiles/ublox_serialization_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/ublox_serialization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/ublox/ublox_serialization /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/ublox/ublox_serialization /home/rhobtor/PHD/j8_control/J8_control/build/ublox_serialization /home/rhobtor/PHD/j8_control/J8_control/build/ublox_serialization /home/rhobtor/PHD/j8_control/J8_control/build/ublox_serialization/CMakeFiles/ublox_serialization_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ublox_serialization_uninstall.dir/depend
 

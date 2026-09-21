@@ -1,10 +1,10 @@
 {
   "package_name": "argj801_ctl_platform_interfaces",
   "non_idl_tuples": [
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argj801_ctl_platform/argj801_ctl_platform_interfaces:srv/SetVelocity.srv",
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argj801_ctl_platform/argj801_ctl_platform_interfaces:srv/GetVelocity.srv",
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argj801_ctl_platform/argj801_ctl_platform_interfaces:srv/EmergencyStop.srv",
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argj801_ctl_platform/argj801_ctl_platform_interfaces:msg/CmdThrottleMsg.msg",
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argj801_ctl_platform/argj801_ctl_platform_interfaces:msg/KinematicDebugMsg.msg"
+    "/home/rhobtor/PHD/j8_control/J8_control/src/argj801_ctl_platform/argj801_ctl_platform_interfaces:srv/SetVelocity.srv",
+    "/home/rhobtor/PHD/j8_control/J8_control/src/argj801_ctl_platform/argj801_ctl_platform_interfaces:srv/GetVelocity.srv",
+    "/home/rhobtor/PHD/j8_control/J8_control/src/argj801_ctl_platform/argj801_ctl_platform_interfaces:srv/EmergencyStop.srv",
+    "/home/rhobtor/PHD/j8_control/J8_control/src/argj801_ctl_platform/argj801_ctl_platform_interfaces:msg/CmdThrottleMsg.msg",
+    "/home/rhobtor/PHD/j8_control/J8_control/src/argj801_ctl_platform/argj801_ctl_platform_interfaces:msg/KinematicDebugMsg.msg"
   ]
 }

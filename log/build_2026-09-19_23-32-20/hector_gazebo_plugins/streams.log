@@ -1,0 +1,401 @@
+[0.763s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/build/hector_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake /home/rhobtor/PHD/j8_control/J8_control/src/hector_gazebo -DCMAKE_INSTALL_PREFIX=/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins
+[1.304s] -- The C compiler identification is GNU 11.4.0
+[1.304s] -- The CXX compiler identification is GNU 11.4.0
+[1.304s] -- Detecting C compiler ABI info
+[1.304s] -- Detecting C compiler ABI info - done
+[1.304s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.304s] -- Detecting C compile features
+[1.304s] -- Detecting C compile features - done
+[1.304s] -- Detecting CXX compiler ABI info
+[1.305s] -- Detecting CXX compiler ABI info - done
+[1.305s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.305s] -- Detecting CXX compile features
+[1.305s] -- Detecting CXX compile features - done
+[1.305s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.539s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.719s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.831s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.848s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.872s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.900s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.947s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.041s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.048s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.207s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.245s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.332s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.350s] -- Looking for pthread.h
+[2.456s] -- Looking for pthread.h - found
+[2.456s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.552s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.552s] -- Found Threads: TRUE  
+[2.628s] -- Found std_srvs: 4.9.2 (/opt/ros/humble/share/std_srvs/cmake)
+[2.641s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.663s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.663s] -- Checking for module 'bullet>=2.82'
+[2.698s] --   Found bullet, version 3.05
+[2.963s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[3.150s] -- Found assimp: /usr/include (found version "5.2.0") 
+[3.222s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.288s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.320s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.339s] -- Looking for ignition-math6 -- found version 6.17.0
+[3.370s] -- Searching for dependencies of ignition-math6
+[3.370s] -- Looking for OGRE...
+[3.370s] -- OGRE_PREFIX_WATCH changed.
+[3.383s] -- Checking for module 'OGRE'
+[3.436s] --   Found OGRE, version 1.9.0
+[3.560s] -- Found Ogre Ghadamon (1.9.0)
+[3.629s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.678s] -- Looking for OGRE_Paging...
+[3.751s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.751s] -- Looking for OGRE_Terrain...
+[3.820s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.820s] -- Looking for OGRE_Property...
+[3.844s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.845s] -- Looking for OGRE_RTShaderSystem...
+[3.866s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.866s] -- Looking for OGRE_Volume...
+[3.896s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.896s] -- Looking for OGRE_Overlay...
+[3.919s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[4.891s] -- Looking for ignition-math6 -- found version 6.17.0
+[4.939s] -- Looking for ignition-transport8 -- found version 8.2.1
+[4.939s] -- Searching for dependencies of ignition-transport8
+[5.030s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[5.094s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.109s] -- Checking for module 'libzmq >= 4'
+[5.196s] --   Found libzmq , version 4.3.4
+[5.388s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[5.412s] -- Checking for module 'uuid'
+[5.491s] --   Found uuid, version 2.37.2
+[5.637s] -- Found UUID: TRUE  
+[5.649s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.651s] -- Searching for dependencies of ignition-msgs5
+[5.752s] -- Looking for ignition-math6 -- found version 6.17.0
+[5.783s] -- Checking for module 'tinyxml2'
+[5.863s] --   Found tinyxml2, version 9.0.0
+[6.038s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.081s] -- Looking for ignition-common3 -- found version 3.14.0
+[6.083s] -- Searching for dependencies of ignition-common3
+[6.090s] -- Looking for dlfcn.h - found
+[6.102s] -- Looking for libdl - found
+[6.110s] -- Found DL: TRUE  
+[6.206s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[6.206s] -- Searching for <ignition-common3> component [graphics]
+[6.236s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[6.239s] -- Searching for dependencies of ignition-common3-graphics
+[6.250s] -- Looking for ignition-math6 -- found version 6.17.0
+[6.270s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[6.280s] -- Searching for dependencies of ignition-fuel_tools4
+[6.756s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[6.819s] -- Checking for module 'jsoncpp'
+[6.887s] --   Found jsoncpp, version 1.9.5
+[7.046s] -- Found JSONCPP: TRUE  
+[7.072s] -- Checking for module 'libzip'
+[7.149s] --   Found libzip, version 1.7.3
+[7.311s] -- Found ZIP: TRUE  
+[7.313s] -- Looking for ignition-common3 -- found version 3.14.0
+[7.323s] -- Looking for ignition-math6 -- found version 6.17.0
+[7.323s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.335s] -- Gazebo version: 11.10
+[7.335s] -- Checking for module 'tbb'
+[7.378s] --   Found tbb, version 2021.5.0
+[7.548s] -- Found geographic_msgs: 1.0.6 (/opt/ros/humble/share/geographic_msgs/cmake)
+[7.729s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[7.797s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.863s] -- Found tf2: 0.25.22 (/opt/ros/humble/share/tf2/cmake)
+[7.930s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[9.941s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[11.933s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.665s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.739s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[12.758s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[12.856s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[12.856s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.856s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[12.856s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[12.945s] -- Found PythonExtra: .so  
+[13.828s] -- Configuring done
+[14.101s] -- Generating done
+[14.183s] -- Build files have been written to: /home/rhobtor/PHD/j8_control/J8_control/build/hector_gazebo_plugins
+[14.281s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/build/hector_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake /home/rhobtor/PHD/j8_control/J8_control/src/hector_gazebo -DCMAKE_INSTALL_PREFIX=/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins
+[14.281s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/build/hector_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake --build /home/rhobtor/PHD/j8_control/J8_control/build/hector_gazebo_plugins -- -j20 -l20
+[15.916s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[15.917s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[15.918s] [  6%] [32mBuilding CXX object CMakeFiles/hector_gazebo_reset_plugin.dir/src/reset_plugin.cpp.o[0m
+[15.919s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[15.919s] [ 10%] [32mBuilding CXX object CMakeFiles/hector_gazebo_ros_magnetic.dir/src/gazebo_ros_magnetic.cpp.o[0m
+[15.919s] [ 10%] Built target ament_cmake_python_copy_hector_gazebo_plugins
+[15.922s] [ 12%] [32mBuilding CXX object CMakeFiles/hector_gazebo_ros_sonar.dir/src/gazebo_ros_sonar.cpp.o[0m
+[15.922s] running egg_info
+[15.923s] [ 12%] Built target hector_gazebo_plugins__rs
+[15.923s] creating hector_gazebo_plugins.egg-info
+[15.923s] writing hector_gazebo_plugins.egg-info/PKG-INFO
+[15.923s] writing dependency_links to hector_gazebo_plugins.egg-info/dependency_links.txt
+[15.923s] writing top-level names to hector_gazebo_plugins.egg-info/top_level.txt
+[15.923s] writing manifest file 'hector_gazebo_plugins.egg-info/SOURCES.txt'
+[15.923s] [ 12%] Built target hector_gazebo_plugins__cpp
+[15.923s] reading manifest file 'hector_gazebo_plugins.egg-info/SOURCES.txt'
+[15.923s] writing manifest file 'hector_gazebo_plugins.egg-info/SOURCES.txt'
+[15.923s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.923s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[15.923s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.923s] [ 20%] [32mBuilding C object CMakeFiles/hector_gazebo_plugins__rosidl_generator_c.dir/rosidl_generator_c/hector_gazebo_plugins/srv/detail/set_bias__functions.c.o[0m
+[15.923s] [ 22%] [32mBuilding C object CMakeFiles/hector_gazebo_plugins__rosidl_generator_c.dir/rosidl_generator_c/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__functions.c.o[0m
+[15.924s] [ 22%] Built target ament_cmake_python_build_hector_gazebo_plugins_egg
+[15.924s] [ 24%] [32m[1mLinking C shared library libhector_gazebo_plugins__rosidl_generator_c.so[0m
+[15.924s] [ 24%] Built target hector_gazebo_plugins__rosidl_generator_c
+[15.969s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[15.969s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.969s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.115s] [ 32%] [32mBuilding CXX object CMakeFiles/hector_gazebo_plugins__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hector_gazebo_plugins/srv/set_bias__type_support.cpp.o[0m
+[16.119s] [ 34%] [32mBuilding CXX object CMakeFiles/hector_gazebo_plugins__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hector_gazebo_plugins/srv/set_reference_geo_pose__type_support.cpp.o[0m
+[16.445s] [ 36%] [32mBuilding CXX object CMakeFiles/hector_gazebo_plugins__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__type_support.cpp.o[0m
+[16.462s] [ 38%] [32mBuilding CXX object CMakeFiles/hector_gazebo_plugins__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hector_gazebo_plugins/srv/detail/set_bias__type_support.cpp.o[0m
+[16.568s] [ 40%] [32mBuilding CXX object CMakeFiles/hector_gazebo_plugins__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hector_gazebo_plugins/srv/detail/dds_fastrtps/set_bias__type_support.cpp.o[0m
+[16.570s] [ 42%] [32mBuilding CXX object CMakeFiles/hector_gazebo_plugins__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hector_gazebo_plugins/srv/detail/dds_fastrtps/set_reference_geo_pose__type_support.cpp.o[0m
+[16.975s] [ 44%] [32mBuilding CXX object CMakeFiles/hector_gazebo_plugins__rosidl_typesupport_c.dir/rosidl_typesupport_c/hector_gazebo_plugins/srv/set_reference_geo_pose__type_support.cpp.o[0m
+[16.985s] [ 46%] [32mBuilding CXX object CMakeFiles/hector_gazebo_plugins__rosidl_typesupport_c.dir/rosidl_typesupport_c/hector_gazebo_plugins/srv/set_bias__type_support.cpp.o[0m
+[17.109s] [ 48%] [32m[1mLinking CXX shared library libhector_gazebo_plugins__rosidl_typesupport_c.so[0m
+[17.287s] [ 48%] Built target hector_gazebo_plugins__rosidl_typesupport_c
+[17.351s] [ 50%] [32m[1mLinking CXX shared library libhector_gazebo_plugins__rosidl_typesupport_cpp.so[0m
+[17.368s] [ 52%] [32mBuilding CXX object CMakeFiles/hector_gazebo_plugins__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hector_gazebo_plugins/srv/detail/set_bias__type_support_c.cpp.o[0m
+[17.435s] [ 54%] [32mBuilding C object CMakeFiles/hector_gazebo_plugins__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hector_gazebo_plugins/srv/detail/set_bias__type_support.c.o[0m
+[17.478s] [ 54%] Built target hector_gazebo_plugins__rosidl_typesupport_cpp
+[17.513s] [ 56%] [32mBuilding C object CMakeFiles/hector_gazebo_plugins__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__type_support.c.o[0m
+[17.613s] [ 58%] [32m[1mLinking CXX shared library libhector_gazebo_plugins__rosidl_typesupport_introspection_cpp.so[0m
+[17.635s] [ 60%] [32m[1mLinking C shared library libhector_gazebo_plugins__rosidl_typesupport_introspection_c.so[0m
+[17.727s] [ 60%] Built target hector_gazebo_plugins__rosidl_typesupport_introspection_c
+[17.792s] [ 60%] Built target hector_gazebo_plugins__rosidl_typesupport_introspection_cpp
+[18.036s] [ 62%] [32mBuilding CXX object CMakeFiles/hector_gazebo_plugins__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__type_support_c.cpp.o[0m
+[18.249s] [ 64%] [32m[1mLinking CXX shared library libhector_gazebo_plugins__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.465s] [ 64%] Built target hector_gazebo_plugins__rosidl_typesupport_fastrtps_cpp
+[18.883s] [ 66%] [32m[1mLinking CXX shared library libhector_gazebo_plugins__rosidl_typesupport_fastrtps_c.so[0m
+[19.067s] [ 66%] Built target hector_gazebo_plugins__rosidl_typesupport_fastrtps_c
+[29.903s] [ 68%] [32m[1mLinking CXX shared library libhector_gazebo_reset_plugin.so[0m
+[30.590s] [ 68%] Built target hector_gazebo_reset_plugin
+[35.101s] [ 70%] [32m[1mLinking CXX shared library libhector_gazebo_ros_sonar.so[0m
+[35.255s] [ 72%] [32m[1mLinking CXX shared library libhector_gazebo_ros_magnetic.so[0m
+[35.856s] [ 72%] Built target hector_gazebo_ros_sonar
+[36.037s] [ 72%] Built target hector_gazebo_ros_magnetic
+[36.060s] [ 72%] Built target hector_gazebo_plugins
+[36.079s] [ 74%] [32mBuilding CXX object CMakeFiles/hector_gazebo_ros_gps.dir/src/gazebo_ros_gps.cpp.o[0m
+[50.755s] [ 76%] [32m[1mLinking CXX shared library libhector_gazebo_ros_gps.so[0m
+[51.357s] [ 76%] Built target hector_gazebo_ros_gps
+[51.376s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[51.844s] [ 78%] Built target hector_gazebo_plugins__py
+[51.865s] [ 80%] [32mBuilding CXX object CMakeFiles/hector_gazebo_ros_imu.dir/src/gazebo_ros_imu.cpp.o[0m
+[63.550s] [ 82%] [32m[1mLinking CXX shared library libhector_gazebo_ros_imu.so[0m
+[64.130s] [ 82%] Built target hector_gazebo_ros_imu
+[64.154s] [ 84%] [32mBuilding C object CMakeFiles/hector_gazebo_plugins__rosidl_generator_py.dir/rosidl_generator_py/hector_gazebo_plugins/srv/_set_bias_s.c.o[0m
+[64.244s] [ 86%] [32mBuilding C object CMakeFiles/hector_gazebo_plugins__rosidl_generator_py.dir/rosidl_generator_py/hector_gazebo_plugins/srv/_set_reference_geo_pose_s.c.o[0m
+[64.317s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/hector_gazebo_plugins/libhector_gazebo_plugins__rosidl_generator_py.so[0m
+[64.365s] [ 88%] Built target hector_gazebo_plugins__rosidl_generator_py
+[64.384s] [ 90%] [32mBuilding C object CMakeFiles/hector_gazebo_plugins__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hector_gazebo_plugins/_hector_gazebo_plugins_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[64.468s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/hector_gazebo_plugins/hector_gazebo_plugins_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[64.516s] [ 92%] Built target hector_gazebo_plugins__rosidl_typesupport_fastrtps_c__pyext
+[64.539s] [ 94%] [32mBuilding C object CMakeFiles/hector_gazebo_plugins__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hector_gazebo_plugins/_hector_gazebo_plugins_s.ep.rosidl_typesupport_c.c.o[0m
+[64.637s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/hector_gazebo_plugins/hector_gazebo_plugins_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[64.681s] [ 96%] Built target hector_gazebo_plugins__rosidl_typesupport_c__pyext
+[64.700s] [ 98%] [32mBuilding C object CMakeFiles/hector_gazebo_plugins__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hector_gazebo_plugins/_hector_gazebo_plugins_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[64.793s] [100%] [32m[1mLinking C shared library rosidl_generator_py/hector_gazebo_plugins/hector_gazebo_plugins_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[64.830s] [100%] Built target hector_gazebo_plugins__rosidl_typesupport_introspection_c__pyext
+[64.839s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/build/hector_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake --build /home/rhobtor/PHD/j8_control/J8_control/build/hector_gazebo_plugins -- -j20 -l20
+[64.841s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/build/hector_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake --install /home/rhobtor/PHD/j8_control/J8_control/build/hector_gazebo_plugins
+[64.848s] -- Install configuration: ""
+[64.848s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/ament_index/resource_index/rosidl_interfaces/hector_gazebo_plugins
+[64.848s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins
+[64.848s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv
+[64.848s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/set_reference_geo_pose.h
+[64.848s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail
+[64.848s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_bias__functions.c
+[64.848s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__struct.h
+[64.848s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__functions.h
+[64.848s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__type_support.h
+[64.848s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_bias__type_support.h
+[64.848s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_bias__functions.h
+[64.848s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_bias__struct.h
+[64.848s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__functions.c
+[64.848s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/set_bias.h
+[64.849s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/msg
+[64.849s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/msg/rosidl_generator_c__visibility_control.h
+[64.849s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/environment/library_path.sh
+[64.849s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/environment/library_path.dsv
+[64.849s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_plugins__rosidl_generator_c.so
+[64.849s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_plugins__rosidl_generator_c.so" to ""
+[64.849s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins
+[64.849s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv
+[64.849s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail
+[64.849s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__rosidl_typesupport_fastrtps_c.h
+[64.849s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_bias__rosidl_typesupport_fastrtps_c.h
+[64.849s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/msg
+[64.849s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[64.849s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_plugins__rosidl_typesupport_fastrtps_c.so
+[64.849s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_plugins__rosidl_typesupport_fastrtps_c.so" to ""
+[64.849s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins
+[64.849s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv
+[64.849s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/set_reference_geo_pose.hpp
+[64.850s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail
+[64.850s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_bias__type_support.hpp
+[64.850s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__struct.hpp
+[64.850s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__builder.hpp
+[64.850s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_bias__traits.hpp
+[64.850s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__type_support.hpp
+[64.850s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_bias__builder.hpp
+[64.850s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_bias__struct.hpp
+[64.850s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__traits.hpp
+[64.850s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/set_bias.hpp
+[64.850s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/msg
+[64.850s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/msg/rosidl_generator_cpp__visibility_control.hpp
+[64.850s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins
+[64.851s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv
+[64.851s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail
+[64.851s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/dds_fastrtps
+[64.851s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_bias__rosidl_typesupport_fastrtps_cpp.hpp
+[64.851s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[64.851s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/msg
+[64.851s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[64.851s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_plugins__rosidl_typesupport_fastrtps_cpp.so
+[64.851s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_plugins__rosidl_typesupport_fastrtps_cpp.so" to ""
+[64.851s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins
+[64.851s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv
+[64.851s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail
+[64.852s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__rosidl_typesupport_introspection_c.h
+[64.852s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__type_support.c
+[64.852s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_bias__rosidl_typesupport_introspection_c.h
+[64.852s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_bias__type_support.c
+[64.852s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/msg
+[64.852s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[64.852s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_plugins__rosidl_typesupport_introspection_c.so
+[64.852s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_plugins__rosidl_typesupport_introspection_c.so" to ""
+[64.852s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_plugins__rosidl_typesupport_c.so
+[64.852s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_plugins__rosidl_typesupport_c.so" to ""
+[64.852s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins
+[64.852s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv
+[64.853s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail
+[64.853s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_bias__rosidl_typesupport_introspection_cpp.hpp
+[64.853s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__rosidl_typesupport_introspection_cpp.hpp
+[64.853s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_bias__type_support.cpp
+[64.853s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/hector_gazebo_plugins/hector_gazebo_plugins/srv/detail/set_reference_geo_pose__type_support.cpp
+[64.853s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_plugins__rosidl_typesupport_introspection_cpp.so
+[64.853s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_plugins__rosidl_typesupport_introspection_cpp.so" to ""
+[64.853s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_plugins__rosidl_typesupport_cpp.so
+[64.853s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_plugins__rosidl_typesupport_cpp.so" to ""
+[64.853s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/environment/pythonpath.sh
+[64.853s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/environment/pythonpath.dsv
+[64.853s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins-0.5.4-py3.10.egg-info
+[64.853s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins-0.5.4-py3.10.egg-info/dependency_links.txt
+[64.853s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins-0.5.4-py3.10.egg-info/top_level.txt
+[64.853s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins-0.5.4-py3.10.egg-info/PKG-INFO
+[64.854s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins-0.5.4-py3.10.egg-info/SOURCES.txt
+[64.854s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins
+[64.854s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/hector_gazebo_plugins_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[64.854s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/__init__.py
+[64.854s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/hector_gazebo_plugins_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[64.854s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/_hector_gazebo_plugins_s.ep.rosidl_typesupport_introspection_c.c
+[64.854s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/hector_gazebo_plugins_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[64.854s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/srv
+[64.854s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/srv/__init__.py
+[64.854s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/srv/_set_reference_geo_pose_s.c
+[64.854s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/srv/_set_bias.py
+[64.854s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/srv/_set_reference_geo_pose.py
+[64.854s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/srv/_set_bias_s.c
+[64.854s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/libhector_gazebo_plugins__rosidl_generator_py.so
+[64.855s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/_hector_gazebo_plugins_s.ep.rosidl_typesupport_c.c
+[64.855s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/_hector_gazebo_plugins_s.ep.rosidl_typesupport_fastrtps_c.c
+[64.888s] Listing '/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins'...
+[64.888s] Compiling '/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/__init__.py'...
+[64.889s] Listing '/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/srv'...
+[64.889s] Compiling '/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/srv/__init__.py'...
+[64.889s] Compiling '/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/srv/_set_bias.py'...
+[64.889s] Compiling '/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/srv/_set_reference_geo_pose.py'...
+[64.893s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/hector_gazebo_plugins_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[64.894s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/hector_gazebo_plugins_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[64.894s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/hector_gazebo_plugins_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[64.894s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/hector_gazebo_plugins_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[64.894s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/hector_gazebo_plugins_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[64.894s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/local/lib/python3.10/dist-packages/hector_gazebo_plugins/hector_gazebo_plugins_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[64.894s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_plugins__rosidl_generator_py.so
+[64.895s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_plugins__rosidl_generator_py.so" to ""
+[64.895s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/ament_index/resource_index/rust_packages/hector_gazebo_plugins
+[64.895s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/rust
+[64.895s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/rust/build.rs
+[64.895s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/rust/src
+[64.895s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/rust/src/srv.rs
+[64.895s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/rust/src/srv
+[64.895s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/rust/src/srv/rmw.rs
+[64.895s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/rust/src/lib.rs
+[64.895s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/rust/Cargo.toml
+[64.895s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/srv/SetBias.idl
+[64.896s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/srv/SetReferenceGeoPose.idl
+[64.896s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/srv/SetBias.srv
+[64.896s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/srv/SetBias_Request.msg
+[64.896s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/srv/SetBias_Response.msg
+[64.896s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/srv/SetReferenceGeoPose.srv
+[64.896s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/srv/SetReferenceGeoPose_Request.msg
+[64.896s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/srv/SetReferenceGeoPose_Response.msg
+[64.896s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include
+[64.896s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/gazebo_ros_imu.h
+[64.896s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/gazebo_ros_force_based_move.h
+[64.896s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/gazebo_ros_magnetic.h
+[64.897s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/reset_plugin.h
+[64.897s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/update_timer.h
+[64.897s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/diffdrive_plugin_6w.h
+[64.897s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/sensor_model.h
+[64.897s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/gazebo_ros_sonar.h
+[64.897s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/diffdrive_plugin_multi_wheel.h
+[64.897s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/servo_plugin.h
+[64.897s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/gnss_config.h
+[64.897s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/include/gazebo_ros_gps.h
+[64.897s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_reset_plugin.so
+[64.900s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_reset_plugin.so" to ""
+[64.900s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_ros_imu.so
+[64.903s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_ros_imu.so" to ""
+[64.903s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_ros_magnetic.so
+[64.906s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_ros_magnetic.so" to ""
+[64.906s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_ros_gps.so
+[64.909s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_ros_gps.so" to ""
+[64.910s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_ros_sonar.so
+[64.913s] -- Set runtime path of "/home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/lib/libhector_gazebo_ros_sonar.so" to ""
+[64.913s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/hector_gazebo_plugins
+[64.913s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/hector_gazebo_plugins
+[64.913s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/environment/ament_prefix_path.sh
+[64.913s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/environment/ament_prefix_path.dsv
+[64.914s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/environment/path.sh
+[64.914s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/environment/path.dsv
+[64.914s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/local_setup.bash
+[64.914s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/local_setup.sh
+[64.914s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/local_setup.zsh
+[64.914s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/local_setup.dsv
+[64.914s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/package.dsv
+[64.914s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/ament_index/resource_index/packages/hector_gazebo_plugins
+[64.915s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/export_hector_gazebo_plugins__rosidl_generator_cExport.cmake
+[64.915s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/export_hector_gazebo_plugins__rosidl_generator_cExport-noconfig.cmake
+[64.915s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/export_hector_gazebo_plugins__rosidl_typesupport_fastrtps_cExport.cmake
+[64.915s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/export_hector_gazebo_plugins__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[64.915s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/export_hector_gazebo_plugins__rosidl_generator_cppExport.cmake
+[64.915s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/export_hector_gazebo_plugins__rosidl_typesupport_fastrtps_cppExport.cmake
+[64.915s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/export_hector_gazebo_plugins__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[64.916s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/hector_gazebo_plugins__rosidl_typesupport_introspection_cExport.cmake
+[64.916s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/hector_gazebo_plugins__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[64.916s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/hector_gazebo_plugins__rosidl_typesupport_cExport.cmake
+[64.916s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/hector_gazebo_plugins__rosidl_typesupport_cExport-noconfig.cmake
+[64.916s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/hector_gazebo_plugins__rosidl_typesupport_introspection_cppExport.cmake
+[64.916s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/hector_gazebo_plugins__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[64.917s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/hector_gazebo_plugins__rosidl_typesupport_cppExport.cmake
+[64.917s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/hector_gazebo_plugins__rosidl_typesupport_cppExport-noconfig.cmake
+[64.917s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/export_hector_gazebo_plugins__rosidl_generator_pyExport.cmake
+[64.917s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/export_hector_gazebo_plugins__rosidl_generator_pyExport-noconfig.cmake
+[64.917s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/rosidl_cmake-extras.cmake
+[64.917s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[64.917s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[64.918s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[64.918s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[64.918s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[64.918s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[64.918s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[64.918s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/hector_gazebo_pluginsConfig.cmake
+[64.918s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/hector_gazebo_pluginsConfig-version.cmake
+[64.918s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/hector_gazebo_plugins/share/hector_gazebo_plugins/package.xml
+[64.922s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/build/hector_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake --install /home/rhobtor/PHD/j8_control/J8_control/build/hector_gazebo_plugins

@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.000147] (-) JobUnselected: {'identifier': 'GUI_pkg'}
+[0.000176] (-) JobUnselected: {'identifier': 'android_ros2_server'}
+[0.000197] (-) JobUnselected: {'identifier': 'argj801_ctl_platform'}
+[0.000216] (-) JobUnselected: {'identifier': 'argj801_ctl_platform_interfaces'}
+[0.000234] (-) JobUnselected: {'identifier': 'argj801_sensors'}
+[0.000251] (-) JobUnselected: {'identifier': 'argj801_sensors_msgs'}
+[0.000268] (-) JobUnselected: {'identifier': 'argj801_setup'}
+[0.000285] (-) JobUnselected: {'identifier': 'car'}
+[0.000302] (-) JobUnselected: {'identifier': 'car_cpp'}
+[0.000318] (-) JobUnselected: {'identifier': 'car_interfaces'}
+[0.000334] (-) JobUnselected: {'identifier': 'ctl_mission'}
+[0.000350] (-) JobUnselected: {'identifier': 'ctl_mission_interfaces'}
+[0.000367] (-) JobUnselected: {'identifier': 'fixposition_driver_lib'}
+[0.000383] (-) JobUnselected: {'identifier': 'fixposition_driver_ros2'}
+[0.000399] (-) JobUnselected: {'identifier': 'fixposition_gnss_tf'}
+[0.000415] (-) JobUnselected: {'identifier': 'fixposition_odometry_converter_ros2'}
+[0.000431] (-) JobUnselected: {'identifier': 'fixposition_sensor_pkg'}
+[0.000448] (-) JobUnselected: {'identifier': 'hector_gazebo_plugins'}
+[0.000464] (-) JobUnselected: {'identifier': 'hikmicro_thermal_camera'}
+[0.000480] (-) JobUnselected: {'identifier': 'j8_gui'}
+[0.000496] (-) JobUnselected: {'identifier': 'j8_xacro_model'}
+[0.000512] (-) JobUnselected: {'identifier': 'joy'}
+[0.000528] (-) JobUnselected: {'identifier': 'joy_linux'}
+[0.000544] (-) JobUnselected: {'identifier': 'laser_segmentation'}
+[0.000560] (-) JobUnselected: {'identifier': 'ntrip_client'}
+[0.000575] (-) JobUnselected: {'identifier': 'path_manager'}
+[0.000591] (-) JobUnselected: {'identifier': 'path_manager_interfaces'}
+[0.000607] (-) JobUnselected: {'identifier': 'sdl2_vendor'}
+[0.000623] (-) JobUnselected: {'identifier': 'security_check'}
+[0.000638] (-) JobUnselected: {'identifier': 'security_check_interfaces'}
+[0.000654] (-) JobUnselected: {'identifier': 'slg_msgs'}
+[0.000681] (-) JobUnselected: {'identifier': 'spacenav'}
+[0.000697] (-) JobUnselected: {'identifier': 'ublox'}
+[0.000798] (-) JobUnselected: {'identifier': 'ublox_gps'}
+[0.000814] (-) JobUnselected: {'identifier': 'ublox_msgs'}
+[0.000823] (-) JobUnselected: {'identifier': 'ublox_serialization'}
+[0.000832] (-) JobUnselected: {'identifier': 'wiimote_msgs'}
+[0.000842] (gui) JobQueued: {'identifier': 'gui', 'dependencies': OrderedDict()}
+[0.001132] (gui) JobStarted: {'identifier': 'gui'}
+[0.099733] (-) TimerEvent: {}
+[0.199936] (-) TimerEvent: {}
+[0.300168] (-) TimerEvent: {}
+[0.400423] (-) TimerEvent: {}
+[0.500616] (-) TimerEvent: {}
+[0.600824] (-) TimerEvent: {}
+[0.629105] (gui) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gui', 'build', '--build-base', '/home/rhobtor/PHD/j8_control/J8_control/build/gui/build', 'install', '--record', '/home/rhobtor/PHD/j8_control/J8_control/build/gui/install.log', '--install-scripts', '$base/lib/gui', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rhobtor/PHD/j8_control/J8_control/src/gui', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'rhobtor', 'LC_TIME': 'es_ES.UTF-8', 'GIT_EDITOR': ':', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'COPILOT_AGENT': '1', 'HOME': '/home/rhobtor', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/rhobtor/PHD', 'TERM_PROGRAM_VERSION': '1.137.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'es_ES.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2079', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2327', 'BUNDLED_DEBUGPY_PATH': '/home/rhobtor/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2990', 'COLCON_PREFIX_PATH': '/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install:/home/rhobtor/PHD/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'rhobtor', 'JOURNAL_STREAM': '8:2598', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rhobtor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'HISTCONTROL': 'ignorespace', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/rhobtor/.local/bin:/home/rhobtor/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/rhobtor/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/rhobtor/.local/bin:/home/rhobtor/.local/bin:/home/rhobtor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rhobtor/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/rhobtor:@/tmp/.ICE-unix/2303,unix/rhobtor:/tmp/.ICE-unix/2303', 'INVOCATION_ID': '5f62646746904c8aa6caf9b51f495ff2', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_ES.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/rhobtor/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6cb5c94f7ef5a6aa.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/rhobtor/.config/Code/User/workspaceStorage/2193c80b199ddd073f48698b22577f8d/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2774418c92.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rhobtor/PHD/install/path_dem:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain_cpp:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rhobtor/PHD/j8_control/J8_control/build/gui', 'GIT_MERGE_AUTOEDIT': 'no', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'COPILOT_DEBUG_NONCE': '4ce9d4518a515c91c58961d796fcfa88', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rhobtor/PHD/j8_control/J8_control/build/gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages:/home/rhobtor/PHD/j8_control/J8_control/src/gui:/home/rhobtor/PHD/install/path_dem/lib/python3.10/site-packages:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain_cpp'}, 'shell': False}
+[0.701020] (-) TimerEvent: {}
+[0.731842] (gui) StderrLine: {'line': b"/home/rhobtor/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[0.732007] (gui) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[0.794891] (gui) StdoutLine: {'line': b'running egg_info\n'}
+[0.801145] (-) TimerEvent: {}
+[0.804780] (gui) StdoutLine: {'line': b'writing ../../build/gui/gui.egg-info/PKG-INFO\n'}
+[0.805128] (gui) StdoutLine: {'line': b'writing dependency_links to ../../build/gui/gui.egg-info/dependency_links.txt\n'}
+[0.805255] (gui) StdoutLine: {'line': b'writing entry points to ../../build/gui/gui.egg-info/entry_points.txt\n'}
+[0.805346] (gui) StdoutLine: {'line': b'writing requirements to ../../build/gui/gui.egg-info/requires.txt\n'}
+[0.805431] (gui) StdoutLine: {'line': b'writing top-level names to ../../build/gui/gui.egg-info/top_level.txt\n'}
+[0.828418] (gui) StdoutLine: {'line': b"reading manifest file '../../build/gui/gui.egg-info/SOURCES.txt'\n"}
+[0.829983] (gui) StdoutLine: {'line': b"writing manifest file '../../build/gui/gui.egg-info/SOURCES.txt'\n"}
+[0.830126] (gui) StdoutLine: {'line': b'running build\n'}
+[0.830199] (gui) StdoutLine: {'line': b'running build_py\n'}
+[0.830366] (gui) StdoutLine: {'line': b'copying gui/__init__.py -> /home/rhobtor/PHD/j8_control/J8_control/build/gui/build/lib/gui\n'}
+[0.830487] (gui) StdoutLine: {'line': b'copying gui/gui_node.py -> /home/rhobtor/PHD/j8_control/J8_control/build/gui/build/lib/gui\n'}
+[0.830596] (gui) StdoutLine: {'line': b'copying gui/ros_api.py -> /home/rhobtor/PHD/j8_control/J8_control/build/gui/build/lib/gui\n'}
+[0.830878] (gui) StdoutLine: {'line': b'copying gui/app/followzed_widget.py -> /home/rhobtor/PHD/j8_control/J8_control/build/gui/build/lib/gui/app\n'}
+[0.831363] (gui) StdoutLine: {'line': b'copying gui/app/__init__.py -> /home/rhobtor/PHD/j8_control/J8_control/build/gui/build/lib/gui/app\n'}
+[0.831424] (gui) StdoutLine: {'line': b'copying gui/app/control_widget.py -> /home/rhobtor/PHD/j8_control/J8_control/build/gui/build/lib/gui/app\n'}
+[0.831471] (gui) StdoutLine: {'line': b'copying gui/app/video_tab.py -> /home/rhobtor/PHD/j8_control/J8_control/build/gui/build/lib/gui/app\n'}
+[0.831512] (gui) StdoutLine: {'line': b'copying gui/app/dem_pure_pursuit.py -> /home/rhobtor/PHD/j8_control/J8_control/build/gui/build/lib/gui/app\n'}
+[0.831571] (gui) StdoutLine: {'line': b'copying gui/app/map_bridge.py -> /home/rhobtor/PHD/j8_control/J8_control/build/gui/build/lib/gui/app\n'}
+[0.831605] (gui) StdoutLine: {'line': b'copying gui/app/person_manager_widget.py -> /home/rhobtor/PHD/j8_control/J8_control/build/gui/build/lib/gui/app\n'}
+[0.831654] (gui) StdoutLine: {'line': b'copying gui/app/fsm_debug_widget.py -> /home/rhobtor/PHD/j8_control/J8_control/build/gui/build/lib/gui/app\n'}
+[0.831731] (gui) StdoutLine: {'line': b'copying gui/app/state_widget.py -> /home/rhobtor/PHD/j8_control/J8_control/build/gui/build/lib/gui/app\n'}
+[0.831883] (gui) StdoutLine: {'line': b'copying gui/app/geo_local.py -> /home/rhobtor/PHD/j8_control/J8_control/build/gui/build/lib/gui/app\n'}
+[0.831973] (gui) StdoutLine: {'line': b'copying gui/app/main_window.py -> /home/rhobtor/PHD/j8_control/J8_control/build/gui/build/lib/gui/app\n'}
+[0.832564] (gui) StdoutLine: {'line': b'running install\n'}
+[0.835794] (gui) StdoutLine: {'line': b'running install_lib\n'}
+[0.846319] (gui) StdoutLine: {'line': b'copying /home/rhobtor/PHD/j8_control/J8_control/build/gui/build/lib/gui/app/main_window.py -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app\n'}
+[0.846887] (gui) StdoutLine: {'line': b'byte-compiling /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app/main_window.py to main_window.cpython-310.pyc\n'}
+[0.862086] (gui) StdoutLine: {'line': b'running install_data\n'}
+[0.862282] (gui) StdoutLine: {'line': b'copying resource/gui -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/ament_index/resource_index/packages\n'}
+[0.862397] (gui) StdoutLine: {'line': b'copying package.xml -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui\n'}
+[0.862542] (gui) StdoutLine: {'line': b'copying gui/resources/map.html -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources\n'}
+[0.862906] (gui) StdoutLine: {'line': b'copying resource/gui -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/ament_index/resource_index/packages\n'}
+[0.862971] (gui) StdoutLine: {'line': b'copying package.xml -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui\n'}
+[0.863048] (gui) StdoutLine: {'line': b'copying gui/resources/map.html -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources\n'}
+[0.863158] (gui) StdoutLine: {'line': b'copying gui/resources/vendor/leaflet/leaflet.js -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources/vendor/leaflet\n'}
+[0.863323] (gui) StdoutLine: {'line': b'copying gui/resources/vendor/leaflet/leaflet.css -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources/vendor/leaflet\n'}
+[0.863432] (gui) StdoutLine: {'line': b'copying gui/resources/vendor/leaflet/images/marker-icon.png -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources/vendor/leaflet/images\n'}
+[0.863502] (gui) StdoutLine: {'line': b'copying gui/resources/vendor/leaflet/images/marker-icon-2x.png -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources/vendor/leaflet/images\n'}
+[0.863557] (gui) StdoutLine: {'line': b'copying gui/resources/vendor/leaflet/images/marker-shadow.png -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources/vendor/leaflet/images\n'}
+[0.863638] (gui) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.874788] (gui) StdoutLine: {'line': b"removing '/home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[0.874982] (gui) StdoutLine: {'line': b'Copying ../../build/gui/gui.egg-info to /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui-0.1.0-py3.10.egg-info\n'}
+[0.875451] (gui) StdoutLine: {'line': b'running install_scripts\n'}
+[0.898616] (gui) StdoutLine: {'line': b'Installing gui script to /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/gui\n'}
+[0.899047] (gui) StdoutLine: {'line': b"writing list of installed files to '/home/rhobtor/PHD/j8_control/J8_control/build/gui/install.log'\n"}
+[0.901201] (-) TimerEvent: {}
+[0.916895] (gui) CommandEnded: {'returncode': 0}
+[0.923356] (gui) JobEnded: {'identifier': 'gui', 'rc': 0}
+[0.924076] (-) EventReactorShutdown: {}

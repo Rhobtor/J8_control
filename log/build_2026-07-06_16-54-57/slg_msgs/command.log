@@ -1,3 +1,0 @@
-Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/slg_msgs
-Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/slg_msgs
-Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs -- -j24 -l24

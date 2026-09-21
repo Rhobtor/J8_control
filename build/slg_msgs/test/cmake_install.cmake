@@ -1,8 +1,8 @@
-# Install script for directory: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs/test
+# Install script for directory: /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/slg_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/rhobtor/PHD/j8_control/J8_control/install/slg_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/gtest/cmake_install.cmake")
+  include("/home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/gtest/cmake_install.cmake")
 
 endif()
 

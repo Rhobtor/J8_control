@@ -1,7 +1,7 @@
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.o: \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensors_node.cpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensors_node.cpp \
  /usr/include/stdc-predef.h \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/argj801_sensors/argj801_sensors_node.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/argj801_sensors/argj801_sensors_node.hpp \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -656,7 +656,7 @@ CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/argj801_sensors/SensorBuilder.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/argj801_sensors/SensorBuilder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
@@ -680,29 +680,29 @@ CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/motor_telemetry.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__struct.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__builder.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__traits.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__type_support.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/odometer.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/odometer__struct.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/odometer__builder.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/odometer__traits.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/odometer__type_support.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/argj801_sensors/Sensor.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/Composite.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/Lidar.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/visitor/Visitor.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/DriveLine.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/ImageData.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/visitor/SensorDataVisitor.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/LidarData.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/MotorTelemetry.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/OdometerData.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/Twist.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/CompressedImage.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/motor_telemetry.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__struct.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__builder.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__traits.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__type_support.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/odometer.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/odometer__struct.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/odometer__builder.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/odometer__traits.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/odometer__type_support.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/argj801_sensors/Sensor.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/Composite.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/Lidar.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/visitor/Visitor.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/DriveLine.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/ImageData.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/visitor/SensorDataVisitor.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/LidarData.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/MotorTelemetry.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/OdometerData.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/Twist.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/CompressedImage.hpp \
  /opt/ros/humble/include/diagnostic_updater/update_functions.hpp \
  /usr/include/c++/11/math.h \
  /opt/ros/humble/include/diagnostic_updater/diagnostic_updater.hpp \
@@ -720,45 +720,46 @@ CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp
  /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__builder.hpp \
  /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.hpp \
  /opt/ros/humble/include/diagnostic_updater/diagnostic_status_wrapper.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/argj801_sensors/argj801_sensors_interface.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/argj801_lcm/LCM_interface.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/argj801_sensors/argj801_sensors_interface.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/argj801_lcm/LCM_interface.hpp \
  /usr/local/include/lcm/lcm-cpp.hpp /usr/local/include/lcm/lcm.h \
+ /usr/local/include/lcm/lcm_c_namespace.h \
  /usr/local/include/lcm/lcm_version.h /usr/local/include/lcm/lcm_export.h \
  /usr/local/include/lcm/eventlog.h \
  /usr/local/include/lcm/lcm-cpp-impl.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/cmd_discrete_device_msg.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/cmd_discrete_device_msg.hpp \
  /usr/local/include/lcm/lcm_coretypes.h \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/header2.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/DiscreteDevice.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/cmd_throttle_msg.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/request_connection_msg.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/cmd_velocity_msg.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_station_heartbeat_msg.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_driveline_msg.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/header.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/MotorTelemetry.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_lidar_scan_line_msg.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/Point3D.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_vehicle_heartbeat_msg.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/VehicleInformation.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/ControlMode.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_vehicle_telemetry_msg.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/Coordinate2D.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/Point2D.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/AutonomyStatus.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/MissionEvent.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/Route.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/Waypoint.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/Action.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/request_connection_response_msg.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_cpu_msg.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_hardware_status_msg.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/HardwareItem.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_temperature_msg.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/TemperatureSensor.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_battery_msg.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_component_state_msg.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/ComponentItem.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/header2.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/DiscreteDevice.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/cmd_throttle_msg.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/request_connection_msg.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/cmd_velocity_msg.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_station_heartbeat_msg.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_driveline_msg.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/header.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/MotorTelemetry.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_lidar_scan_line_msg.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/Point3D.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_vehicle_heartbeat_msg.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/VehicleInformation.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/ControlMode.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_vehicle_telemetry_msg.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/Coordinate2D.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/Point2D.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/AutonomyStatus.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/MissionEvent.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/Route.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/Waypoint.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/Action.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/request_connection_response_msg.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_cpu_msg.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_hardware_status_msg.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/HardwareItem.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_temperature_msg.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/TemperatureSensor.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_battery_msg.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/dat_component_state_msg.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_lcm/include/lcmmessages/ComponentItem.hpp \
  /usr/include/yaml-cpp/yaml.h /usr/include/yaml-cpp/parser.h \
  /usr/include/yaml-cpp/dll.h /usr/include/yaml-cpp/emitter.h \
  /usr/include/c++/11/cstddef /usr/include/yaml-cpp/binary.h \

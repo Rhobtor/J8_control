@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors_msgs/argj801_sensors_msgs__py
-# Build directory: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors_msgs/argj801_sensors_msgs__py
+# Source directory: /home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors_msgs/argj801_sensors_msgs__py
+# Build directory: /home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors_msgs/argj801_sensors_msgs__py
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

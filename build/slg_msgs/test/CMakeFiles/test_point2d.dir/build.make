@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/test_point2d.dir/depend.make
@@ -70,18 +70,18 @@ include test/CMakeFiles/test_point2d.dir/progress.make
 include test/CMakeFiles/test_point2d.dir/flags.make
 
 test/CMakeFiles/test_point2d.dir/test_point2d.cpp.o: test/CMakeFiles/test_point2d.dir/flags.make
-test/CMakeFiles/test_point2d.dir/test_point2d.cpp.o: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs/test/test_point2d.cpp
+test/CMakeFiles/test_point2d.dir/test_point2d.cpp.o: /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs/test/test_point2d.cpp
 test/CMakeFiles/test_point2d.dir/test_point2d.cpp.o: test/CMakeFiles/test_point2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test_point2d.dir/test_point2d.cpp.o"
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/test_point2d.dir/test_point2d.cpp.o -MF CMakeFiles/test_point2d.dir/test_point2d.cpp.o.d -o CMakeFiles/test_point2d.dir/test_point2d.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs/test/test_point2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test_point2d.dir/test_point2d.cpp.o"
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/test_point2d.dir/test_point2d.cpp.o -MF CMakeFiles/test_point2d.dir/test_point2d.cpp.o.d -o CMakeFiles/test_point2d.dir/test_point2d.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs/test/test_point2d.cpp
 
 test/CMakeFiles/test_point2d.dir/test_point2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_point2d.dir/test_point2d.cpp.i"
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs/test/test_point2d.cpp > CMakeFiles/test_point2d.dir/test_point2d.cpp.i
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs/test/test_point2d.cpp > CMakeFiles/test_point2d.dir/test_point2d.cpp.i
 
 test/CMakeFiles/test_point2d.dir/test_point2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_point2d.dir/test_point2d.cpp.s"
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs/test/test_point2d.cpp -o CMakeFiles/test_point2d.dir/test_point2d.cpp.s
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs/test/test_point2d.cpp -o CMakeFiles/test_point2d.dir/test_point2d.cpp.s
 
 # Object files for target test_point2d
 test_point2d_OBJECTS = \
@@ -128,18 +128,18 @@ test/test_point2d: /opt/ros/humble/lib/librosidl_runtime_c.so
 test/test_point2d: /opt/ros/humble/lib/librcutils.so
 test/test_point2d: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 test/test_point2d: test/CMakeFiles/test_point2d.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_point2d"
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_point2d.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_point2d"
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_point2d.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/test_point2d.dir/build: test/test_point2d
 .PHONY : test/CMakeFiles/test_point2d.dir/build
 
 test/CMakeFiles/test_point2d.dir/clean:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/test && $(CMAKE_COMMAND) -P CMakeFiles/test_point2d.dir/cmake_clean.cmake
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/test && $(CMAKE_COMMAND) -P CMakeFiles/test_point2d.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/test_point2d.dir/clean
 
 test/CMakeFiles/test_point2d.dir/depend:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs/test /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/test /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/test/CMakeFiles/test_point2d.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs/test /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/test /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/test/CMakeFiles/test_point2d.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/test_point2d.dir/depend
 

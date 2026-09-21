@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DROS_PACKAGE_NAME=\"slg_msgs\"
 
-CXX_INCLUDES = -I/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs/include -I/opt/ros/humble/src/gtest_vendor/. -isystem /opt/ros/humble/src/gtest_vendor/include
+CXX_INCLUDES = -I/home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs/include -I/opt/ros/humble/src/gtest_vendor/. -isystem /opt/ros/humble/src/gtest_vendor/include
 
 CXX_FLAGS = -O3 -DNDEBUG -Wall -Wextra -Wpedantic -Wdeprecated -fPIC -Wshadow -Wnull-dereference -Wnon-virtual-dtor
 

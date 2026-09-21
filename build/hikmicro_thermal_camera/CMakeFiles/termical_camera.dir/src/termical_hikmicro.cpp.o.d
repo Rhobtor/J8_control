@@ -1,5 +1,5 @@
 CMakeFiles/termical_camera.dir/src/termical_hikmicro.cpp.o: \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera/src/termical_hikmicro.cpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/hikmicro_thermal_camera/src/termical_hikmicro.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

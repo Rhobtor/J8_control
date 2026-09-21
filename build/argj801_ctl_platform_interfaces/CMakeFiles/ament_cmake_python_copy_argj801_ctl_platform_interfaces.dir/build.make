@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argj801_ctl_platform/argj801_ctl_platform_interfaces
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/argj801_ctl_platform/argj801_ctl_platform_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_ctl_platform_interfaces
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/argj801_ctl_platform_interfaces
 
 # Utility rule file for ament_cmake_python_copy_argj801_ctl_platform_interfaces.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_argj801_ctl_platform_interfaces.dir/c
 include CMakeFiles/ament_cmake_python_copy_argj801_ctl_platform_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_argj801_ctl_platform_interfaces:
-	/usr/bin/cmake -E copy_directory /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_ctl_platform_interfaces/rosidl_generator_py/argj801_ctl_platform_interfaces /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_ctl_platform_interfaces/ament_cmake_python/argj801_ctl_platform_interfaces/argj801_ctl_platform_interfaces
+	/usr/bin/cmake -E copy_directory /home/rhobtor/PHD/j8_control/J8_control/build/argj801_ctl_platform_interfaces/rosidl_generator_py/argj801_ctl_platform_interfaces /home/rhobtor/PHD/j8_control/J8_control/build/argj801_ctl_platform_interfaces/ament_cmake_python/argj801_ctl_platform_interfaces/argj801_ctl_platform_interfaces
 
 ament_cmake_python_copy_argj801_ctl_platform_interfaces: CMakeFiles/ament_cmake_python_copy_argj801_ctl_platform_interfaces
 ament_cmake_python_copy_argj801_ctl_platform_interfaces: CMakeFiles/ament_cmake_python_copy_argj801_ctl_platform_interfaces.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_argj801_ctl_platform_interfaces.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_argj801_ctl_platform_interfaces.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_argj801_ctl_platform_interfaces.dir/depend:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_ctl_platform_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argj801_ctl_platform/argj801_ctl_platform_interfaces /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argj801_ctl_platform/argj801_ctl_platform_interfaces /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_ctl_platform_interfaces /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_ctl_platform_interfaces /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_ctl_platform_interfaces/CMakeFiles/ament_cmake_python_copy_argj801_ctl_platform_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/argj801_ctl_platform_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhobtor/PHD/j8_control/J8_control/src/argj801_ctl_platform/argj801_ctl_platform_interfaces /home/rhobtor/PHD/j8_control/J8_control/src/argj801_ctl_platform/argj801_ctl_platform_interfaces /home/rhobtor/PHD/j8_control/J8_control/build/argj801_ctl_platform_interfaces /home/rhobtor/PHD/j8_control/J8_control/build/argj801_ctl_platform_interfaces /home/rhobtor/PHD/j8_control/J8_control/build/argj801_ctl_platform_interfaces/CMakeFiles/ament_cmake_python_copy_argj801_ctl_platform_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_argj801_ctl_platform_interfaces.dir/depend
 

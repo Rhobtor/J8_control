@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy_linux
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/joy_linux
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/joy_linux
 
 # Include any dependencies generated for this target.
 include CMakeFiles/joy_linux_node.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/joy_linux_node.dir/progress.make
 include CMakeFiles/joy_linux_node.dir/flags.make
 
 CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.o: CMakeFiles/joy_linux_node.dir/flags.make
-CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.o: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy_linux/src/joy_linux_node.cpp
+CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.o: /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/joy_linux/src/joy_linux_node.cpp
 CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.o: CMakeFiles/joy_linux_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.o -MF CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.o.d -o CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy_linux/src/joy_linux_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/joy_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.o -MF CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.o.d -o CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/joy_linux/src/joy_linux_node.cpp
 
 CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy_linux/src/joy_linux_node.cpp > CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/joy_linux/src/joy_linux_node.cpp > CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.i
 
 CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy_linux/src/joy_linux_node.cpp -o CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/joy_linux/src/joy_linux_node.cpp -o CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.s
 
 # Object files for target joy_linux_node
 joy_linux_node_OBJECTS = \
@@ -92,6 +92,7 @@ joy_linux_node_EXTERNAL_OBJECTS =
 
 joy_linux_node: CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.o
 joy_linux_node: CMakeFiles/joy_linux_node.dir/build.make
+joy_linux_node: /opt/ros/humble/lib/libdiagnostic_updater.so
 joy_linux_node: /opt/ros/humble/lib/librclcpp.so
 joy_linux_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 joy_linux_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -112,24 +113,24 @@ joy_linux_node: /opt/ros/humble/lib/librmw_implementation.so
 joy_linux_node: /opt/ros/humble/lib/libament_index_cpp.so
 joy_linux_node: /opt/ros/humble/lib/librcl_logging_spdlog.so
 joy_linux_node: /opt/ros/humble/lib/librcl_logging_interface.so
-joy_linux_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
-joy_linux_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
-joy_linux_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
-joy_linux_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
-joy_linux_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
-joy_linux_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
-joy_linux_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
-joy_linux_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
 joy_linux_node: /opt/ros/humble/lib/librcl_yaml_param_parser.so
 joy_linux_node: /opt/ros/humble/lib/libyaml.so
 joy_linux_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
+joy_linux_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
 joy_linux_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+joy_linux_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
 joy_linux_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
+joy_linux_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
 joy_linux_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
+joy_linux_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
 joy_linux_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
+joy_linux_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
 joy_linux_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so
+joy_linux_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
 joy_linux_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so
+joy_linux_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
 joy_linux_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so
+joy_linux_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
 joy_linux_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
 joy_linux_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
 joy_linux_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
@@ -179,7 +180,7 @@ joy_linux_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 joy_linux_node: /opt/ros/humble/lib/librcpputils.so
 joy_linux_node: /opt/ros/humble/lib/librcutils.so
 joy_linux_node: CMakeFiles/joy_linux_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable joy_linux_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/joy_linux/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable joy_linux_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/joy_linux_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -191,6 +192,6 @@ CMakeFiles/joy_linux_node.dir/clean:
 .PHONY : CMakeFiles/joy_linux_node.dir/clean
 
 CMakeFiles/joy_linux_node.dir/depend:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy_linux /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy_linux /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux/CMakeFiles/joy_linux_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/joy_linux && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/joy_linux /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/joy_linux /home/rhobtor/PHD/j8_control/J8_control/build/joy_linux /home/rhobtor/PHD/j8_control/J8_control/build/joy_linux /home/rhobtor/PHD/j8_control/J8_control/build/joy_linux/CMakeFiles/joy_linux_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/joy_linux_node.dir/depend
 

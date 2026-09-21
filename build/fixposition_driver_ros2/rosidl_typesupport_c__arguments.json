@@ -1,10 +1,10 @@
 {
   "package_name": "fixposition_driver_ros2",
-  "output_dir": "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_driver_ros2/rosidl_typesupport_c/fixposition_driver_ros2",
+  "output_dir": "/home/rhobtor/PHD/j8_control/J8_control/build/fixposition_driver_ros2/rosidl_typesupport_c/fixposition_driver_ros2",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
   "idl_tuples": [
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_driver_ros2/rosidl_adapter/fixposition_driver_ros2:msg/VRTK.idl",
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_driver_ros2/rosidl_adapter/fixposition_driver_ros2:msg/Speed.idl"
+    "/home/rhobtor/PHD/j8_control/J8_control/build/fixposition_driver_ros2/rosidl_adapter/fixposition_driver_ros2:msg/VRTK.idl",
+    "/home/rhobtor/PHD/j8_control/J8_control/build/fixposition_driver_ros2/rosidl_adapter/fixposition_driver_ros2:msg/Speed.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -79,6 +79,7 @@
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Vector3.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl",
+    "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/VelocityWithCovarianceStamped.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Wrench.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl"
   ],
@@ -89,8 +90,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_driver_ros2/rosidl_adapter/fixposition_driver_ros2/msg/VRTK.idl",
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_driver_ros2/rosidl_adapter/fixposition_driver_ros2/msg/Speed.idl",
+    "/home/rhobtor/PHD/j8_control/J8_control/build/fixposition_driver_ros2/rosidl_adapter/fixposition_driver_ros2/msg/VRTK.idl",
+    "/home/rhobtor/PHD/j8_control/J8_control/build/fixposition_driver_ros2/rosidl_adapter/fixposition_driver_ros2/msg/Speed.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",
@@ -163,6 +164,7 @@
     "/opt/ros/humble/share/geometry_msgs/msg/Vector3.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl",
+    "/opt/ros/humble/share/geometry_msgs/msg/VelocityWithCovarianceStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Wrench.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl"
   ]

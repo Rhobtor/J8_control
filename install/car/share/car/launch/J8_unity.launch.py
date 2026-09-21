@@ -11,13 +11,13 @@ import os
 import xacro
 
 def generate_launch_description():
-    # ========== AJUSTA ESTO A TU PAQUETE/RUTA ==========
-    # Paquete que contiene el xacro/urdf y su ruta
-    desc_pkg  = 'j8_xacro_model'         # <- cámbialo si tu URDF está en otro paquete
+    # Unity uses the simulation model, whose sensor axes match the Unity scene.
     xacro_path = os.path.join(
-        get_package_share_directory(desc_pkg),
+        '/home/rhobtor/PHD/j8_control/J8_control/src/gazebo_sim_pkgs',
+        'j8_xacro_model_sim',
+        'j8_xacro_model',
         'urdf',
-        'argo_j8.xacro'                 # <- cámbialo si el nombre difiere
+        'argo_j8.xacro'
     )
 
     # Procesar el xacro → robot_description (XML)
@@ -114,99 +114,6 @@ def generate_launch_description():
         output='screen'
     )
 
-
-        # base_link -> camera_link (posición tomada del URDF que me pasaste; RPY=0 para mapeo "frame base")
-    base_zed_tf = Node(
-        package='tf2_ros',
-        executable='static_transform_publisher',
-        name='static_base_to_zed_camera',
-        arguments=[
-            '--frame-id', 'base_link',
-            '--child-frame-id', 'zed_camera_link',
-            '--x', '0.9206628', '--y', '0.0075201', '--z', '0.81392',
-            '--roll', '0', '--pitch', '0', '--yaw', '0',
-        ],
-        output='screen'
-    )
-
-
-    base_fix_tf = Node(
-        package='tf2_ros',
-        executable='static_transform_publisher',
-        name='static_base_to_fixposition',
-        arguments=[
-            '--frame-id', 'base_link',
-            '--child-frame-id', 'fixposition_link',
-            '--x', '0.9206628', '--y', '0.0075201', '--z', '0.85292',
-            '--roll', '0', '--pitch', '0', '--yaw', '0',
-        ],
-        output='screen'
-    )
-
-    base_velodyne_tf = Node(
-        package='tf2_ros',
-        executable='static_transform_publisher',
-        name='static_base_to_velodyne',
-        arguments=[
-            '--frame-id', 'base_link',
-            '--child-frame-id', 'velodyne_link',
-            '--x', '0.8026628', '--y', '0.0075201', '--z', '0.96892',
-            '--roll', '0', '--pitch', '0', '--yaw', '0',
-        ],
-        output='screen'
-    )
-
-    velodyne_noise_filter = Node(
-        package='car_cpp',
-        executable='velodyne_noise_filter_node',
-        name='velodyne_noise_filter',
-        output='screen',
-        parameters=[{
-            'input': '/ARGJ801/Velodyne/scan_cloud',
-            'output': '/ARGJ801/Velodyne/scan_cloud_filtered',
-            'leaf_size': 0.15,
-            'support_leaf_size': 0.35,
-            'support_radius_voxels': 1,
-            'min_support_points': 3,
-            'min_range': 1.5,
-            'max_range': 60.0,
-            'min_z': -3.0,
-            'max_z': 3.0,
-            'reject_origin_enabled': True,
-            'reject_origin_epsilon': 0.05,
-            'exclude_box_enabled': True,
-            'exclude_box_frame': 'base_link',
-            'exclude_box_center_x': 0.35,
-            'exclude_box_center_y': 0.0,
-            'exclude_box_center_z': 0.35,
-            'exclude_box_size_x': 3.10,
-            'exclude_box_size_y': 1.80,
-            'exclude_box_size_z': 1.40,
-            'hood_box_enabled': True,
-            'hood_box_center_x': 1.00,
-            'hood_box_center_y': 0.0,
-            'hood_box_center_z': 0.20,
-            'hood_box_size_x': 1.40,
-            'hood_box_size_y': 1.20,
-            'hood_box_size_z': 1.10,
-            'debug_log': True,
-        }]
-    )
-
-    velodyne_link_to_velodyne_alias = Node(
-        package='tf2_ros',
-        executable='static_transform_publisher',
-        name='velodyne_link_to_velodyne_alias',
-        arguments=[
-            '--frame-id', 'Velodyne_link',
-            '--child-frame-id', 'velodyne',
-            '--x', '0', '--y', '0', '--z', '0',
-            '--roll', '0', '--pitch', '0', '--yaw', '0',
-        ],
-        output='screen',
-        condition=IfCondition(use_velodyne_frame_alias)
-    )
-
     # (Opcional) alias Velodyne_link -> lidar_link (identidad)
     velodyne_to_lidar_alias = Node(
         package='tf2_ros',
@@ -230,7 +137,6 @@ def generate_launch_description():
         joint_state_publisher_node,
         map_odom_tf,
         odom_base_tf,
-        base_zed_tf,
         base_camera_tf,
         velodyne_to_lidar_alias,
     ])

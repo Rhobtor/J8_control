@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs
 
 # Utility rule file for slg_msgs.
 
@@ -66,8 +66,8 @@ include CMakeFiles/slg_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/slg_msgs.dir/progress.make
 
-CMakeFiles/slg_msgs: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs/msg/Segment.msg
-CMakeFiles/slg_msgs: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs/msg/SegmentArray.msg
+CMakeFiles/slg_msgs: /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs/msg/Segment.msg
+CMakeFiles/slg_msgs: /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs/msg/SegmentArray.msg
 CMakeFiles/slg_msgs: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 CMakeFiles/slg_msgs: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 CMakeFiles/slg_msgs: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -128,6 +128,7 @@ CMakeFiles/slg_msgs: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovariance
 CMakeFiles/slg_msgs: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
 CMakeFiles/slg_msgs: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
 CMakeFiles/slg_msgs: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
+CMakeFiles/slg_msgs: /opt/ros/humble/share/geometry_msgs/msg/VelocityWithCovarianceStamped.idl
 CMakeFiles/slg_msgs: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 CMakeFiles/slg_msgs: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 
@@ -144,6 +145,6 @@ CMakeFiles/slg_msgs.dir/clean:
 .PHONY : CMakeFiles/slg_msgs.dir/clean
 
 CMakeFiles/slg_msgs.dir/depend:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/CMakeFiles/slg_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/CMakeFiles/slg_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/slg_msgs.dir/depend
 

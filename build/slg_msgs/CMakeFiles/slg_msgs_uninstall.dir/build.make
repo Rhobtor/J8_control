@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs
 
 # Utility rule file for slg_msgs_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/slg_msgs_uninstall.dir/compiler_depend.make
 include CMakeFiles/slg_msgs_uninstall.dir/progress.make
 
 CMakeFiles/slg_msgs_uninstall:
-	/usr/bin/cmake -P /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 slg_msgs_uninstall: CMakeFiles/slg_msgs_uninstall
 slg_msgs_uninstall: CMakeFiles/slg_msgs_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/slg_msgs_uninstall.dir/clean:
 .PHONY : CMakeFiles/slg_msgs_uninstall.dir/clean
 
 CMakeFiles/slg_msgs_uninstall.dir/depend:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/CMakeFiles/slg_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/CMakeFiles/slg_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/slg_msgs_uninstall.dir/depend
 

@@ -51,7 +51,7 @@ set_target_properties(fixposition_driver_lib PROPERTIES
 # Import target "fixposition_driver_lib" for configuration "Release"
 set_property(TARGET fixposition_driver_lib APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(fixposition_driver_lib PROPERTIES
-  IMPORTED_LOCATION_RELEASE "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_driver_lib/libfixposition_driver_lib.so"
+  IMPORTED_LOCATION_RELEASE "/home/rhobtor/PHD/j8_control/J8_control/build/fixposition_driver_lib/libfixposition_driver_lib.so"
   IMPORTED_SONAME_RELEASE "libfixposition_driver_lib.so"
   )
 

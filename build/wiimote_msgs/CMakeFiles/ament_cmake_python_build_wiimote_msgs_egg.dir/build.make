@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/wiimote_msgs
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/wiimote_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/wiimote_msgs
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs
 
 # Utility rule file for ament_cmake_python_build_wiimote_msgs_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_wiimote_msgs_egg.dir/compiler_depend
 include CMakeFiles/ament_cmake_python_build_wiimote_msgs_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_wiimote_msgs_egg:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/wiimote_msgs/ament_cmake_python/wiimote_msgs && /usr/bin/python3 setup.py egg_info
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs/ament_cmake_python/wiimote_msgs && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_wiimote_msgs_egg: CMakeFiles/ament_cmake_python_build_wiimote_msgs_egg
 ament_cmake_python_build_wiimote_msgs_egg: CMakeFiles/ament_cmake_python_build_wiimote_msgs_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_wiimote_msgs_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_wiimote_msgs_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_wiimote_msgs_egg.dir/depend:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/wiimote_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/wiimote_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/wiimote_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/wiimote_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/wiimote_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/wiimote_msgs/CMakeFiles/ament_cmake_python_build_wiimote_msgs_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/wiimote_msgs /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/wiimote_msgs /home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs /home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs /home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs/CMakeFiles/ament_cmake_python_build_wiimote_msgs_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_wiimote_msgs_egg.dir/depend
 

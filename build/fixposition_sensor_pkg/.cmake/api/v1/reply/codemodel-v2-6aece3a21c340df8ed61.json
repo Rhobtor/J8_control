@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3f549baff7ada329a4ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "fixposition_sensor_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fixposition_sensor_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fixposition_sensor_pkg_uninstall-12f35939698a386c3183.json",
+					"name" : "fixposition_sensor_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_fixposition_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_fixposition_plugin-93c7070a737d01c9a6c0.json",
+					"name" : "gazebo_ros_fixposition_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_gps_sensor_mod::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_gps_sensor_mod-96511221cc754eac3e4a.json",
+					"name" : "gazebo_ros_gps_sensor_mod",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_imu_sensor_mod::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_imu_sensor_mod-6aacc4bdd3aedc3cca25.json",
+					"name" : "gazebo_ros_imu_sensor_mod",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-71ad226f7b182c53241b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rhobtor/PHD/j8_control/J8_control/build/fixposition_sensor_pkg",
+		"source" : "/home/rhobtor/PHD/j8_control/J8_control/src/gazebo_sim_pkgs/fix_position_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

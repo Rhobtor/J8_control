@@ -1,0 +1,52 @@
+[0.524s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/build/argj801_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake /home/rhobtor/PHD/j8_control/J8_control/src/argj801_setup -DCMAKE_INSTALL_PREFIX=/home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup
+[1.317s] -- The C compiler identification is GNU 11.4.0
+[1.317s] -- The CXX compiler identification is GNU 11.4.0
+[1.317s] -- Detecting C compiler ABI info
+[1.317s] -- Detecting C compiler ABI info - done
+[1.318s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.318s] -- Detecting C compile features
+[1.318s] -- Detecting C compile features - done
+[1.318s] -- Detecting CXX compiler ABI info
+[1.318s] -- Detecting CXX compiler ABI info - done
+[1.318s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.318s] -- Detecting CXX compile features
+[1.318s] -- Detecting CXX compile features - done
+[1.318s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.325s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.501s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.667s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.669s] -- Added test 'lint_cmake' to check CMake code style
+[1.669s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.671s] -- Added test 'xmllint' to check XML markup files
+[1.673s] -- Configuring done
+[1.676s] -- Generating done
+[1.679s] -- Build files have been written to: /home/rhobtor/PHD/j8_control/J8_control/build/argj801_setup
+[1.684s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/build/argj801_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake /home/rhobtor/PHD/j8_control/J8_control/src/argj801_setup -DCMAKE_INSTALL_PREFIX=/home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup
+[1.689s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/build/argj801_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake --build /home/rhobtor/PHD/j8_control/J8_control/build/argj801_setup -- -j20 -l20
+[2.592s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/build/argj801_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake --build /home/rhobtor/PHD/j8_control/J8_control/build/argj801_setup -- -j20 -l20
+[2.604s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/build/argj801_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake --install /home/rhobtor/PHD/j8_control/J8_control/build/argj801_setup
+[2.934s] -- Install configuration: ""
+[2.934s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup//launch
+[2.934s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup//launch/README.md
+[2.934s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup//launch/__pycache__
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup//launch/__pycache__/J8_launch.cpython-310.pyc
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup//launch/J8_launch.py
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup//config
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup//config/README.md
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup//config/J8_params.yaml
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/ament_index/resource_index/package_run_dependencies/argj801_setup
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/ament_index/resource_index/parent_prefix_path/argj801_setup
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup/environment/ament_prefix_path.sh
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup/environment/ament_prefix_path.dsv
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup/environment/path.sh
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup/environment/path.dsv
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup/local_setup.bash
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup/local_setup.sh
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup/local_setup.zsh
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup/local_setup.dsv
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup/package.dsv
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/ament_index/resource_index/packages/argj801_setup
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup/cmake/argj801_setupConfig.cmake
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup/cmake/argj801_setupConfig-version.cmake
+[2.935s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_setup/share/argj801_setup/package.xml
+[2.956s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/build/argj801_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/path_dem/install_navigation/path_dem:/home/rhobtor/PHD/path_dem/install/path_dem:/home/rhobtor/PHD/install_global_belief_final/path_dem:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/car:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/ntrip_client:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/j8_gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/gui:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/android_ros2_server:/home/rhobtor/PHD/ARGOSJ8_IA/ARGOSJ8_IA_/install/GUI_pkg:/home/rhobtor/PHD/model_terrain_ugv/Model_terrain_ugv/install/model_terrain:/opt/ros/humble /usr/bin/cmake --install /home/rhobtor/PHD/j8_control/J8_control/build/argj801_setup

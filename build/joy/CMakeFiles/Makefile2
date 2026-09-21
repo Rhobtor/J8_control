@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/joy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/joy
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -87,14 +87,14 @@ clean: CMakeFiles/joy_enumerate_devices.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/joy_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/joy/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rhobtor/PHD/j8_control/J8_control/build/joy/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rhobtor/PHD/j8_control/J8_control/build/joy/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -113,14 +113,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/joy_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/joy_uninstall.dir/build.make CMakeFiles/joy_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/joy_uninstall.dir/build.make CMakeFiles/joy_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy/CMakeFiles --progress-num= "Built target joy_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/joy/CMakeFiles --progress-num= "Built target joy_uninstall"
 .PHONY : CMakeFiles/joy_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/joy_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rhobtor/PHD/j8_control/J8_control/build/joy/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/joy_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rhobtor/PHD/j8_control/J8_control/build/joy/CMakeFiles 0
 .PHONY : CMakeFiles/joy_uninstall.dir/rule
 
 # Convenience name for target.
@@ -139,14 +139,14 @@ CMakeFiles/joy_uninstall.dir/clean:
 CMakeFiles/joy.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/joy.dir/build.make CMakeFiles/joy.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/joy.dir/build.make CMakeFiles/joy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy/CMakeFiles --progress-num=1,2 "Built target joy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/joy/CMakeFiles --progress-num=1,2 "Built target joy"
 .PHONY : CMakeFiles/joy.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/joy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rhobtor/PHD/j8_control/J8_control/build/joy/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/joy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rhobtor/PHD/j8_control/J8_control/build/joy/CMakeFiles 0
 .PHONY : CMakeFiles/joy.dir/rule
 
 # Convenience name for target.
@@ -165,14 +165,14 @@ CMakeFiles/joy.dir/clean:
 CMakeFiles/joy_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/joy_node.dir/build.make CMakeFiles/joy_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/joy_node.dir/build.make CMakeFiles/joy_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy/CMakeFiles --progress-num=5,6 "Built target joy_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/joy/CMakeFiles --progress-num=5,6 "Built target joy_node"
 .PHONY : CMakeFiles/joy_node.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/joy_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rhobtor/PHD/j8_control/J8_control/build/joy/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/joy_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rhobtor/PHD/j8_control/J8_control/build/joy/CMakeFiles 0
 .PHONY : CMakeFiles/joy_node.dir/rule
 
 # Convenience name for target.
@@ -191,14 +191,14 @@ CMakeFiles/joy_node.dir/clean:
 CMakeFiles/joy_enumerate_devices.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/joy_enumerate_devices.dir/build.make CMakeFiles/joy_enumerate_devices.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/joy_enumerate_devices.dir/build.make CMakeFiles/joy_enumerate_devices.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy/CMakeFiles --progress-num=3,4 "Built target joy_enumerate_devices"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/joy/CMakeFiles --progress-num=3,4 "Built target joy_enumerate_devices"
 .PHONY : CMakeFiles/joy_enumerate_devices.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/joy_enumerate_devices.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rhobtor/PHD/j8_control/J8_control/build/joy/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/joy_enumerate_devices.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rhobtor/PHD/j8_control/J8_control/build/joy/CMakeFiles 0
 .PHONY : CMakeFiles/joy_enumerate_devices.dir/rule
 
 # Convenience name for target.

@@ -1,5 +1,5 @@
-/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_ctl_platform_interfaces/rosidl_adapter/argj801_ctl_platform_interfaces:srv/SetVelocity.idl
-/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_ctl_platform_interfaces/rosidl_adapter/argj801_ctl_platform_interfaces:srv/GetVelocity.idl
-/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_ctl_platform_interfaces/rosidl_adapter/argj801_ctl_platform_interfaces:srv/EmergencyStop.idl
-/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_ctl_platform_interfaces/rosidl_adapter/argj801_ctl_platform_interfaces:msg/CmdThrottleMsg.idl
-/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_ctl_platform_interfaces/rosidl_adapter/argj801_ctl_platform_interfaces:msg/KinematicDebugMsg.idl
+/home/rhobtor/PHD/j8_control/J8_control/build/argj801_ctl_platform_interfaces/rosidl_adapter/argj801_ctl_platform_interfaces:srv/SetVelocity.idl
+/home/rhobtor/PHD/j8_control/J8_control/build/argj801_ctl_platform_interfaces/rosidl_adapter/argj801_ctl_platform_interfaces:srv/GetVelocity.idl
+/home/rhobtor/PHD/j8_control/J8_control/build/argj801_ctl_platform_interfaces/rosidl_adapter/argj801_ctl_platform_interfaces:srv/EmergencyStop.idl
+/home/rhobtor/PHD/j8_control/J8_control/build/argj801_ctl_platform_interfaces/rosidl_adapter/argj801_ctl_platform_interfaces:msg/CmdThrottleMsg.idl
+/home/rhobtor/PHD/j8_control/J8_control/build/argj801_ctl_platform_interfaces/rosidl_adapter/argj801_ctl_platform_interfaces:msg/KinematicDebugMsg.idl

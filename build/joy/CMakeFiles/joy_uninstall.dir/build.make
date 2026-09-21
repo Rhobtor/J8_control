@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/joy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/joy
 
 # Utility rule file for joy_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/joy_uninstall.dir/compiler_depend.make
 include CMakeFiles/joy_uninstall.dir/progress.make
 
 CMakeFiles/joy_uninstall:
-	/usr/bin/cmake -P /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/rhobtor/PHD/j8_control/J8_control/build/joy/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 joy_uninstall: CMakeFiles/joy_uninstall
 joy_uninstall: CMakeFiles/joy_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/joy_uninstall.dir/clean:
 .PHONY : CMakeFiles/joy_uninstall.dir/clean
 
 CMakeFiles/joy_uninstall.dir/depend:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy/CMakeFiles/joy_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/joy && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/joy /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/joy /home/rhobtor/PHD/j8_control/J8_control/build/joy /home/rhobtor/PHD/j8_control/J8_control/build/joy /home/rhobtor/PHD/j8_control/J8_control/build/joy/CMakeFiles/joy_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/joy_uninstall.dir/depend
 

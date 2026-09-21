@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/hikmicro_thermal_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera
 
 # Include any dependencies generated for this target.
 include CMakeFiles/termical_camera_ffmpeg_pipe.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/termical_camera_ffmpeg_pipe.dir/progress.make
 include CMakeFiles/termical_camera_ffmpeg_pipe.dir/flags.make
 
 CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.o: CMakeFiles/termical_camera_ffmpeg_pipe.dir/flags.make
-CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.o: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera/src/termical_hikmicro_ffmpeg_pipe.cpp
+CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.o: /home/rhobtor/PHD/j8_control/J8_control/src/hikmicro_thermal_camera/src/termical_hikmicro_ffmpeg_pipe.cpp
 CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.o: CMakeFiles/termical_camera_ffmpeg_pipe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.o -MF CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.o.d -o CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera/src/termical_hikmicro_ffmpeg_pipe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.o -MF CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.o.d -o CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/src/hikmicro_thermal_camera/src/termical_hikmicro_ffmpeg_pipe.cpp
 
 CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera/src/termical_hikmicro_ffmpeg_pipe.cpp > CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/src/hikmicro_thermal_camera/src/termical_hikmicro_ffmpeg_pipe.cpp > CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.i
 
 CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera/src/termical_hikmicro_ffmpeg_pipe.cpp -o CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/src/hikmicro_thermal_camera/src/termical_hikmicro_ffmpeg_pipe.cpp -o CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.s
 
 # Object files for target termical_camera_ffmpeg_pipe
 termical_camera_ffmpeg_pipe_OBJECTS = \
@@ -104,24 +104,24 @@ termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librmw_implementation.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/libament_index_cpp.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_logging_spdlog.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_logging_interface.so
-termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
-termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
-termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
-termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
-termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
-termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
-termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
-termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_yaml_param_parser.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/libyaml.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
+termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
+termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
+termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
+termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so
+termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so
+termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so
+termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
@@ -171,7 +171,7 @@ termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcpputils.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librosidl_runtime_c.so
 termical_camera_ffmpeg_pipe: /opt/ros/humble/lib/librcutils.so
 termical_camera_ffmpeg_pipe: CMakeFiles/termical_camera_ffmpeg_pipe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable termical_camera_ffmpeg_pipe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable termical_camera_ffmpeg_pipe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/termical_camera_ffmpeg_pipe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +183,6 @@ CMakeFiles/termical_camera_ffmpeg_pipe.dir/clean:
 .PHONY : CMakeFiles/termical_camera_ffmpeg_pipe.dir/clean
 
 CMakeFiles/termical_camera_ffmpeg_pipe.dir/depend:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/CMakeFiles/termical_camera_ffmpeg_pipe.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhobtor/PHD/j8_control/J8_control/src/hikmicro_thermal_camera /home/rhobtor/PHD/j8_control/J8_control/src/hikmicro_thermal_camera /home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera /home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera /home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/CMakeFiles/termical_camera_ffmpeg_pipe.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/termical_camera_ffmpeg_pipe.dir/depend
 

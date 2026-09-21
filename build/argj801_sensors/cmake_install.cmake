@@ -1,8 +1,8 @@
-# Install script for directory: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors
+# Install script for directory: /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors")
+  set(CMAKE_INSTALL_PREFIX "/home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/argj801_sensors/ARGJ801_sensors_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/argj801_sensors" TYPE EXECUTABLE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/ARGJ801_sensors_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/argj801_sensors" TYPE EXECUTABLE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/ARGJ801_sensors_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/argj801_sensors/ARGJ801_sensors_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/argj801_sensors/ARGJ801_sensors_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/argj801_sensors/ARGJ801_sensors_node"
-         OLD_RPATH "/opt/ros/humble/lib:/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/lib:/usr/local/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/lib:/usr/local/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/argj801_sensors/ARGJ801_sensors_node")
@@ -63,23 +63,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors/" TYPE DIRECTORY FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors/" TYPE DIRECTORY FILES "/home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors/" TYPE DIRECTORY FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors/" TYPE DIRECTORY FILES "/home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/config")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/argj801_sensors" TYPE DIRECTORY FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/argj801_sensors" TYPE DIRECTORY FILES "/home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/argj801_sensors")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/argj801_sensors")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/argj801_sensors")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/argj801_sensors")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -87,7 +87,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors/environment" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors/environment" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -95,47 +95,47 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors/environment" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors/environment" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/ament_cmake_index/share/ament_index/resource_index/packages/argj801_sensors")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/ament_cmake_index/share/ament_index/resource_index/packages/argj801_sensors")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors/cmake" TYPE FILE FILES
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/ament_cmake_core/argj801_sensorsConfig.cmake"
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/ament_cmake_core/argj801_sensorsConfig-version.cmake"
+    "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/ament_cmake_core/argj801_sensorsConfig.cmake"
+    "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/ament_cmake_core/argj801_sensorsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/argj801_sensors" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/src/argj801_lcm/cmake_install.cmake")
+  include("/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/src/argj801_lcm/cmake_install.cmake")
 
 endif()
 
@@ -147,5 +147,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

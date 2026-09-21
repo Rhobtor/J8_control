@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argj801_ctl_platform/argj801_ctl_platform/src/argj801_lcm/include
+CXX_INCLUDES = -I/home/rhobtor/PHD/j8_control/J8_control/src/argj801_ctl_platform/argj801_ctl_platform/src/argj801_lcm/include
 
 CXX_FLAGS = 
 

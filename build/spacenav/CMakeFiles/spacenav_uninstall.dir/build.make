@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/spacenav
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/spacenav
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/spacenav
 
 # Utility rule file for spacenav_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/spacenav_uninstall.dir/compiler_depend.make
 include CMakeFiles/spacenav_uninstall.dir/progress.make
 
 CMakeFiles/spacenav_uninstall:
-	/usr/bin/cmake -P /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/rhobtor/PHD/j8_control/J8_control/build/spacenav/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 spacenav_uninstall: CMakeFiles/spacenav_uninstall
 spacenav_uninstall: CMakeFiles/spacenav_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/spacenav_uninstall.dir/clean:
 .PHONY : CMakeFiles/spacenav_uninstall.dir/clean
 
 CMakeFiles/spacenav_uninstall.dir/depend:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/spacenav /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/spacenav /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/CMakeFiles/spacenav_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/spacenav && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/spacenav /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/spacenav /home/rhobtor/PHD/j8_control/J8_control/build/spacenav /home/rhobtor/PHD/j8_control/J8_control/build/spacenav /home/rhobtor/PHD/j8_control/J8_control/build/spacenav/CMakeFiles/spacenav_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/spacenav_uninstall.dir/depend
 

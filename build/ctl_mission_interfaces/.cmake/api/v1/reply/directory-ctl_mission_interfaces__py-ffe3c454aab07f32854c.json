@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ctl_mission_interfaces__py",
+		"source" : "/home/rhobtor/PHD/j8_control/J8_control/build/ctl_mission_interfaces/ctl_mission_interfaces__py"
+	}
+}

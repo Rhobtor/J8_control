@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/Fixposition_driver_pkg/fixposition_gnss_tf-main
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/Fixposition_driver_pkg/fixposition_gnss_tf-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/fixposition_gnss_tf
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf/CMakeFiles /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rhobtor/PHD/j8_control/J8_control/build/fixposition_gnss_tf/CMakeFiles /home/rhobtor/PHD/j8_control/J8_control/build/fixposition_gnss_tf//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rhobtor/PHD/j8_control/J8_control/build/fixposition_gnss_tf/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

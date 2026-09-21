@@ -1,9 +1,9 @@
 {
   "package_name": "car_interfaces",
-  "output_dir": "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car_interfaces/rosidl_typesupport_cpp/car_interfaces",
+  "output_dir": "/home/rhobtor/PHD/j8_control/J8_control/build/car_interfaces/rosidl_typesupport_cpp/car_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car_interfaces/rosidl_adapter/car_interfaces:msg/Graph.idl"
+    "/home/rhobtor/PHD/j8_control/J8_control/build/car_interfaces/rosidl_adapter/car_interfaces:msg/Graph.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
@@ -36,6 +36,7 @@
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Vector3.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl",
+    "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/VelocityWithCovarianceStamped.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Wrench.idl",
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl",
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -78,7 +79,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/car_interfaces/rosidl_adapter/car_interfaces/msg/Graph.idl",
+    "/home/rhobtor/PHD/j8_control/J8_control/build/car_interfaces/rosidl_adapter/car_interfaces/msg/Graph.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl",
@@ -109,6 +110,7 @@
     "/opt/ros/humble/share/geometry_msgs/msg/Vector3.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl",
+    "/opt/ros/humble/share/geometry_msgs/msg/VelocityWithCovarianceStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Wrench.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",

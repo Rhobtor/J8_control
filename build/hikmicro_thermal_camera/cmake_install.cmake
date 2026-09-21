@@ -1,8 +1,8 @@
-# Install script for directory: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera
+# Install script for directory: /home/rhobtor/PHD/j8_control/J8_control/src/hikmicro_thermal_camera
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/hikmicro_thermal_camera")
+  set(CMAKE_INSTALL_PREFIX "/home/rhobtor/PHD/j8_control/J8_control/install/hikmicro_thermal_camera")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hikmicro_thermal_camera/termical_camera"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hikmicro_thermal_camera" TYPE EXECUTABLE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/termical_camera")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hikmicro_thermal_camera" TYPE EXECUTABLE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/termical_camera")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hikmicro_thermal_camera/termical_camera" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hikmicro_thermal_camera/termical_camera")
     file(RPATH_CHANGE
@@ -69,7 +69,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hikmicro_thermal_camera/termical_camera_ffmpeg_pipe"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hikmicro_thermal_camera" TYPE EXECUTABLE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/termical_camera_ffmpeg_pipe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hikmicro_thermal_camera" TYPE EXECUTABLE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/termical_camera_ffmpeg_pipe")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hikmicro_thermal_camera/termical_camera_ffmpeg_pipe" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hikmicro_thermal_camera/termical_camera_ffmpeg_pipe")
     file(RPATH_CHANGE
@@ -84,17 +84,17 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera" TYPE DIRECTORY FILES
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera/launch"
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera/config"
+    "/home/rhobtor/PHD/j8_control/J8_control/src/hikmicro_thermal_camera/launch"
+    "/home/rhobtor/PHD/j8_control/J8_control/src/hikmicro_thermal_camera/config"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/hikmicro_thermal_camera")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/hikmicro_thermal_camera")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/hikmicro_thermal_camera")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/hikmicro_thermal_camera")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -102,7 +102,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera/environment" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera/environment" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -110,42 +110,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera/environment" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera/environment" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/ament_cmake_index/share/ament_index/resource_index/packages/hikmicro_thermal_camera")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/ament_cmake_index/share/ament_index/resource_index/packages/hikmicro_thermal_camera")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera/cmake" TYPE FILE FILES
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/ament_cmake_core/hikmicro_thermal_cameraConfig.cmake"
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/ament_cmake_core/hikmicro_thermal_cameraConfig-version.cmake"
+    "/home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/ament_cmake_core/hikmicro_thermal_cameraConfig.cmake"
+    "/home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/ament_cmake_core/hikmicro_thermal_cameraConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hikmicro_thermal_camera" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/src/hikmicro_thermal_camera/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -156,5 +156,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

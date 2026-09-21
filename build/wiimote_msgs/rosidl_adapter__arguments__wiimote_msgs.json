@@ -1,8 +1,8 @@
 {
   "package_name": "wiimote_msgs",
   "non_idl_tuples": [
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/wiimote_msgs:msg/IrSourceInfo.msg",
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/wiimote_msgs:msg/State.msg",
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/wiimote_msgs:msg/TimedSwitch.msg"
+    "/home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/wiimote_msgs:msg/IrSourceInfo.msg",
+    "/home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/wiimote_msgs:msg/State.msg",
+    "/home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/wiimote_msgs:msg/TimedSwitch.msg"
   ]
 }

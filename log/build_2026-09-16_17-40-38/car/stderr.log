@@ -1,2 +1,0 @@
-/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/car_python/setup.py:4: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
-  from distutils.cmd import Command

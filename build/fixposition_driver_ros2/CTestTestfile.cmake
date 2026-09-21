@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/Fixposition_driver_pkg/fixposition_driver-main/fixposition_driver_ros2
-# Build directory: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_driver_ros2
+# Source directory: /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/Fixposition_driver_pkg/fixposition_driver-main/fixposition_driver_ros2
+# Build directory: /home/rhobtor/PHD/j8_control/J8_control/build/fixposition_driver_ros2
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

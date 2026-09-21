@@ -1,5 +1,5 @@
 CMakeFiles/joy.dir/src/joy.cpp.o: \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy/src/joy.cpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/joy/src/joy.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/algorithm \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -754,7 +754,7 @@ CMakeFiles/joy.dir/src/joy.cpp.o: \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy/include/joy/joy.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/joy/include/joy/joy.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \

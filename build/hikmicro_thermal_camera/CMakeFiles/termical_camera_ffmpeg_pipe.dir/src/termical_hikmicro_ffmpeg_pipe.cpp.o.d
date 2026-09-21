@@ -1,5 +1,5 @@
 CMakeFiles/termical_camera_ffmpeg_pipe.dir/src/termical_hikmicro_ffmpeg_pipe.cpp.o: \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera/src/termical_hikmicro_ffmpeg_pipe.cpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/hikmicro_thermal_camera/src/termical_hikmicro_ffmpeg_pipe.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/algorithm \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

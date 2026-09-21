@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/path_manager/path_manager_interfaces
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/path_manager/path_manager_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/path_manager_interfaces
 
 # Utility rule file for path_manager_interfaces.
 
@@ -66,28 +66,28 @@ include CMakeFiles/path_manager_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/path_manager_interfaces.dir/progress.make
 
-CMakeFiles/path_manager_interfaces: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/path_manager/path_manager_interfaces/srv/WritePathToFile.srv
+CMakeFiles/path_manager_interfaces: /home/rhobtor/PHD/j8_control/J8_control/src/path_manager/path_manager_interfaces/srv/WritePathToFile.srv
 CMakeFiles/path_manager_interfaces: rosidl_cmake/srv/WritePathToFile_Request.msg
 CMakeFiles/path_manager_interfaces: rosidl_cmake/srv/WritePathToFile_Response.msg
-CMakeFiles/path_manager_interfaces: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/path_manager/path_manager_interfaces/srv/ReadPathFromFile.srv
+CMakeFiles/path_manager_interfaces: /home/rhobtor/PHD/j8_control/J8_control/src/path_manager/path_manager_interfaces/srv/ReadPathFromFile.srv
 CMakeFiles/path_manager_interfaces: rosidl_cmake/srv/ReadPathFromFile_Request.msg
 CMakeFiles/path_manager_interfaces: rosidl_cmake/srv/ReadPathFromFile_Response.msg
-CMakeFiles/path_manager_interfaces: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/path_manager/path_manager_interfaces/srv/ReturnRobotPath.srv
+CMakeFiles/path_manager_interfaces: /home/rhobtor/PHD/j8_control/J8_control/src/path_manager/path_manager_interfaces/srv/ReturnRobotPath.srv
 CMakeFiles/path_manager_interfaces: rosidl_cmake/srv/ReturnRobotPath_Request.msg
 CMakeFiles/path_manager_interfaces: rosidl_cmake/srv/ReturnRobotPath_Response.msg
-CMakeFiles/path_manager_interfaces: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/path_manager/path_manager_interfaces/srv/RobotPath.srv
+CMakeFiles/path_manager_interfaces: /home/rhobtor/PHD/j8_control/J8_control/src/path_manager/path_manager_interfaces/srv/RobotPath.srv
 CMakeFiles/path_manager_interfaces: rosidl_cmake/srv/RobotPath_Request.msg
 CMakeFiles/path_manager_interfaces: rosidl_cmake/srv/RobotPath_Response.msg
-CMakeFiles/path_manager_interfaces: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/path_manager/path_manager_interfaces/srv/GetFixFramePath.srv
+CMakeFiles/path_manager_interfaces: /home/rhobtor/PHD/j8_control/J8_control/src/path_manager/path_manager_interfaces/srv/GetFixFramePath.srv
 CMakeFiles/path_manager_interfaces: rosidl_cmake/srv/GetFixFramePath_Request.msg
 CMakeFiles/path_manager_interfaces: rosidl_cmake/srv/GetFixFramePath_Response.msg
-CMakeFiles/path_manager_interfaces: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/path_manager/path_manager_interfaces/srv/GetLLPath.srv
+CMakeFiles/path_manager_interfaces: /home/rhobtor/PHD/j8_control/J8_control/src/path_manager/path_manager_interfaces/srv/GetLLPath.srv
 CMakeFiles/path_manager_interfaces: rosidl_cmake/srv/GetLLPath_Request.msg
 CMakeFiles/path_manager_interfaces: rosidl_cmake/srv/GetLLPath_Response.msg
-CMakeFiles/path_manager_interfaces: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/path_manager/path_manager_interfaces/srv/PlanPath.srv
+CMakeFiles/path_manager_interfaces: /home/rhobtor/PHD/j8_control/J8_control/src/path_manager/path_manager_interfaces/srv/PlanPath.srv
 CMakeFiles/path_manager_interfaces: rosidl_cmake/srv/PlanPath_Request.msg
 CMakeFiles/path_manager_interfaces: rosidl_cmake/srv/PlanPath_Response.msg
-CMakeFiles/path_manager_interfaces: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/path_manager/path_manager_interfaces/srv/AssistEmergency.srv
+CMakeFiles/path_manager_interfaces: /home/rhobtor/PHD/j8_control/J8_control/src/path_manager/path_manager_interfaces/srv/AssistEmergency.srv
 CMakeFiles/path_manager_interfaces: rosidl_cmake/srv/AssistEmergency_Request.msg
 CMakeFiles/path_manager_interfaces: rosidl_cmake/srv/AssistEmergency_Response.msg
 CMakeFiles/path_manager_interfaces: /opt/ros/humble/share/std_msgs/msg/Bool.idl
@@ -160,6 +160,7 @@ CMakeFiles/path_manager_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Twis
 CMakeFiles/path_manager_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
 CMakeFiles/path_manager_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
 CMakeFiles/path_manager_interfaces: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
+CMakeFiles/path_manager_interfaces: /opt/ros/humble/share/geometry_msgs/msg/VelocityWithCovarianceStamped.idl
 CMakeFiles/path_manager_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 CMakeFiles/path_manager_interfaces: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 
@@ -176,6 +177,6 @@ CMakeFiles/path_manager_interfaces.dir/clean:
 .PHONY : CMakeFiles/path_manager_interfaces.dir/clean
 
 CMakeFiles/path_manager_interfaces.dir/depend:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/path_manager/path_manager_interfaces /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/path_manager/path_manager_interfaces /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/path_manager_interfaces/CMakeFiles/path_manager_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/path_manager_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhobtor/PHD/j8_control/J8_control/src/path_manager/path_manager_interfaces /home/rhobtor/PHD/j8_control/J8_control/src/path_manager/path_manager_interfaces /home/rhobtor/PHD/j8_control/J8_control/build/path_manager_interfaces /home/rhobtor/PHD/j8_control/J8_control/build/path_manager_interfaces /home/rhobtor/PHD/j8_control/J8_control/build/path_manager_interfaces/CMakeFiles/path_manager_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/path_manager_interfaces.dir/depend
 

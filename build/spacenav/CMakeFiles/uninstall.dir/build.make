@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/spacenav
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/spacenav
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/spacenav
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/spacenav /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/spacenav /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/spacenav && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/spacenav /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/spacenav /home/rhobtor/PHD/j8_control/J8_control/build/spacenav /home/rhobtor/PHD/j8_control/J8_control/build/spacenav /home/rhobtor/PHD/j8_control/J8_control/build/spacenav/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

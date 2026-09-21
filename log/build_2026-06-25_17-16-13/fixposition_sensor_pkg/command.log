@@ -1,2 +1,0 @@
-Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_sensor_pkg': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/gazebo_sim_pkgs/fix_position_pkg -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/fixposition_sensor_pkg
-Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_sensor_pkg' returned '1': /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/gazebo_sim_pkgs/fix_position_pkg -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/fixposition_sensor_pkg

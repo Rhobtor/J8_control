@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy_linux
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/joy_linux
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/joy_linux
 
 # Utility rule file for joy_linux_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/joy_linux_uninstall.dir/compiler_depend.make
 include CMakeFiles/joy_linux_uninstall.dir/progress.make
 
 CMakeFiles/joy_linux_uninstall:
-	/usr/bin/cmake -P /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/rhobtor/PHD/j8_control/J8_control/build/joy_linux/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 joy_linux_uninstall: CMakeFiles/joy_linux_uninstall
 joy_linux_uninstall: CMakeFiles/joy_linux_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/joy_linux_uninstall.dir/clean:
 .PHONY : CMakeFiles/joy_linux_uninstall.dir/clean
 
 CMakeFiles/joy_linux_uninstall.dir/depend:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy_linux /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/joy_linux /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/joy_linux/CMakeFiles/joy_linux_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/joy_linux && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/joy_linux /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/joy_linux /home/rhobtor/PHD/j8_control/J8_control/build/joy_linux /home/rhobtor/PHD/j8_control/J8_control/build/joy_linux /home/rhobtor/PHD/j8_control/J8_control/build/joy_linux/CMakeFiles/joy_linux_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/joy_linux_uninstall.dir/depend
 

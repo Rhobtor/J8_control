@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROSIDL_GENERATOR_C_BUILDING_DLL_argj801_ctl_platform_interfaces -DROS_PACKAGE_NAME=\"argj801_ctl_platform_interfaces\"
 
-C_INCLUDES = -I/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_ctl_platform_interfaces/rosidl_generator_c -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
+C_INCLUDES = -I/home/rhobtor/PHD/j8_control/J8_control/build/argj801_ctl_platform_interfaces/rosidl_generator_c -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
 
 C_FLAGS = -fPIC -Wall -std=gnu11
 

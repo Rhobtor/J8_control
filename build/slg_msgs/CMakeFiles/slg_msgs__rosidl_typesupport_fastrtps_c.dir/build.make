@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs
 
 # Include any dependencies generated for this target.
 include CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/depend.make
@@ -141,10 +141,11 @@ rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__rosidl_typesupport_fa
 rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
 rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
 rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
+rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/VelocityWithCovarianceStamped.idl
 rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
-	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/rosidl_typesupport_fastrtps_c__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
+	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/rosidl_typesupport_fastrtps_c__arguments.json
 
 rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp: rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp
@@ -158,30 +159,30 @@ rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.
 CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.o: CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp
 CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.o: CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.o -MF CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.o.d -o CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.o -MF CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.o.d -o CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp
 
 CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp > CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp > CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.i
 
 CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp -o CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp -o CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp.s
 
 CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.o: CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp
 CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.o: CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.o -MF CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.o.d -o CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.o -MF CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.o.d -o CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp
 
 CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp > CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp > CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.i
 
 CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp -o CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp -o CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp.s
 
 # Object files for target slg_msgs__rosidl_typesupport_fastrtps_c
 slg_msgs__rosidl_typesupport_fastrtps_c_OBJECTS = \
@@ -208,7 +209,7 @@ libslg_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/libbuiltin_in
 libslg_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libslg_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librcutils.so
 libslg_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libslg_msgs__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libslg_msgs__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -223,6 +224,6 @@ CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesuppor
 CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment__type_support_c.cpp
 CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/slg_msgs/msg/detail/segment_array__type_support_c.cpp
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/lidar_process_pkgs/slg_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/slg_msgs/CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs /home/rhobtor/PHD/j8_control/J8_control/src/lidar_process_pkgs/slg_msgs /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs /home/rhobtor/PHD/j8_control/J8_control/build/slg_msgs/CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/slg_msgs__rosidl_typesupport_fastrtps_c.dir/depend
 

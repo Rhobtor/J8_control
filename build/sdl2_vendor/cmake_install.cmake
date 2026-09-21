@@ -1,8 +1,8 @@
-# Install script for directory: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/sdl2_vendor
+# Install script for directory: /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/sdl2_vendor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor")
+  set(CMAKE_INSTALL_PREFIX "/home/rhobtor/PHD/j8_control/J8_control/install/sdl2_vendor")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,15 +43,15 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor" TYPE DIRECTORY FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/sdl2_vendor/cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor" TYPE DIRECTORY FILES "/home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/sdl2_vendor/cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/sdl2_vendor/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/sdl2_vendor")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/sdl2_vendor/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/sdl2_vendor")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/sdl2_vendor/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/sdl2_vendor")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/sdl2_vendor/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/sdl2_vendor")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor/environment" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/sdl2_vendor/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor/environment" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/sdl2_vendor/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -67,46 +67,46 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor/environment" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/sdl2_vendor/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor/environment" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/sdl2_vendor/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/sdl2_vendor/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/sdl2_vendor/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/sdl2_vendor/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/sdl2_vendor/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/sdl2_vendor/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/sdl2_vendor/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/sdl2_vendor/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/sdl2_vendor/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/sdl2_vendor/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/sdl2_vendor/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/sdl2_vendor/ament_cmake_index/share/ament_index/resource_index/packages/sdl2_vendor")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/sdl2_vendor/ament_cmake_index/share/ament_index/resource_index/packages/sdl2_vendor")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor/cmake" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/sdl2_vendor/sdl2_vendor-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor/cmake" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/sdl2_vendor/sdl2_vendor-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor/cmake" TYPE FILE FILES
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/sdl2_vendor/ament_cmake_core/sdl2_vendorConfig.cmake"
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/sdl2_vendor/ament_cmake_core/sdl2_vendorConfig-version.cmake"
+    "/home/rhobtor/PHD/j8_control/J8_control/build/sdl2_vendor/ament_cmake_core/sdl2_vendorConfig.cmake"
+    "/home/rhobtor/PHD/j8_control/J8_control/build/sdl2_vendor/ament_cmake_core/sdl2_vendorConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/sdl2_vendor/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sdl2_vendor" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/sdl2_vendor/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -117,5 +117,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/sdl2_vendor/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rhobtor/PHD/j8_control/J8_control/build/sdl2_vendor/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -228,8 +228,10 @@
           var key = cell[0] + ':' + cell[1];
           if (visible[key]) return;
           var value = globalValues[key] || defaultValue;
-          var latitude = south + (cell[0] + 0.5) * (north - south) / grid.height;
-          var longitude = west + (cell[1] + 0.5) * (east - west) / grid.width;
+          var latitude = cell.length >= 5 ? cell[3] :
+            south + (cell[0] + 0.5) * (north - south) / grid.height;
+          var longitude = cell.length >= 5 ? cell[4] :
+            west + (cell[1] + 0.5) * (east - west) / grid.width;
           var isGlobal = value >= 100;
           var isLocalPersistent = value >= 50;
           if (isGlobal) counts.global++;

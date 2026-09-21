@@ -1,2 +1,2 @@
 # generated from colcon_core/shell/template/command_prefix.sh.em
-. "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/sdl2_vendor/share/sdl2_vendor/package.sh"
+. "/home/rhobtor/PHD/j8_control/J8_control/install/sdl2_vendor/share/sdl2_vendor/package.sh"

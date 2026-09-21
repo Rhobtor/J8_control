@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"security_check_interfaces\" -Dsecurity_check_interfaces__rosidl_generator_py_EXPORTS
 
-C_INCLUDES = -I/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/security_check_interfaces/rosidl_generator_c -I/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/security_check_interfaces/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
+C_INCLUDES = -I/home/rhobtor/PHD/j8_control/J8_control/build/security_check_interfaces/rosidl_generator_c -I/home/rhobtor/PHD/j8_control/J8_control/build/security_check_interfaces/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
 
 C_FLAGS = -fPIC -Wall -Wextra
 

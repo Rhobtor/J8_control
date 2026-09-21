@@ -1,8 +1,8 @@
-# Install script for directory: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/spacenav
+# Install script for directory: /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/spacenav
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/spacenav")
+  set(CMAKE_INSTALL_PREFIX "/home/rhobtor/PHD/j8_control/J8_control/install/spacenav")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libspacenav.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/libspacenav.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/libspacenav.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libspacenav.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libspacenav.so")
     file(RPATH_CHANGE
@@ -72,7 +72,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/spacenav/spacenav_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/spacenav" TYPE EXECUTABLE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/spacenav_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/spacenav" TYPE EXECUTABLE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/spacenav_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/spacenav/spacenav_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/spacenav/spacenav_node")
     file(RPATH_CHANGE
@@ -86,11 +86,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/spacenav" TYPE DIRECTORY FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/spacenav/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/spacenav" TYPE DIRECTORY FILES "/home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/spacenav/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav/" TYPE DIRECTORY FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/spacenav/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav/" TYPE DIRECTORY FILES "/home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/spacenav/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -100,7 +100,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libspacenav.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/libspacenav.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/libspacenav.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libspacenav.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libspacenav.so")
     file(RPATH_CHANGE
@@ -117,11 +117,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/spacenav")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/spacenav")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/spacenav")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/spacenav")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -129,7 +129,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav/environment" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav/environment" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -137,42 +137,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav/environment" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav/environment" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/ament_cmake_index/share/ament_index/resource_index/packages/spacenav")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/ament_cmake_index/share/ament_index/resource_index/packages/spacenav")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rclcpp_components" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/spacenav")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rclcpp_components" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/spacenav")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/spacenav/cmake/export_spacenavExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/spacenav/cmake/export_spacenavExport.cmake"
-         "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/CMakeFiles/Export/share/spacenav/cmake/export_spacenavExport.cmake")
+         "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/CMakeFiles/Export/share/spacenav/cmake/export_spacenavExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/spacenav/cmake/export_spacenavExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -181,29 +181,29 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav/cmake" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/CMakeFiles/Export/share/spacenav/cmake/export_spacenavExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav/cmake" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/CMakeFiles/Export/share/spacenav/cmake/export_spacenavExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav/cmake" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/CMakeFiles/Export/share/spacenav/cmake/export_spacenavExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav/cmake" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/CMakeFiles/Export/share/spacenav/cmake/export_spacenavExport-noconfig.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav/cmake" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav/cmake" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav/cmake" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav/cmake" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav/cmake" TYPE FILE FILES
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/ament_cmake_core/spacenavConfig.cmake"
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/ament_cmake_core/spacenavConfig-version.cmake"
+    "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/ament_cmake_core/spacenavConfig.cmake"
+    "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/ament_cmake_core/spacenavConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav" TYPE FILE FILES "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/spacenav/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/spacenav" TYPE FILE FILES "/home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/spacenav/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -214,5 +214,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/spacenav/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rhobtor/PHD/j8_control/J8_control/build/spacenav/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

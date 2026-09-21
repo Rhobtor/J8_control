@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-45f497f8692627a391b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "path_manager_interfaces__py",
+					"jsonFile" : "directory-path_manager_interfaces__py-dc50f1f2e45fc6c87ace.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rhobtor/PHD/j8_control/J8_control/build/path_manager_interfaces/path_manager_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "path_manager_interfaces__rs",
+					"jsonFile" : "directory-path_manager_interfaces__rs-6acab5be88b8412f0526.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rhobtor/PHD/j8_control/J8_control/build/path_manager_interfaces/path_manager_interfaces__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "path_manager_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_path_manager_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_path_manager_interfaces_egg-dd49421c25e4b3415eed.json",
+					"name" : "ament_cmake_python_build_path_manager_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_path_manager_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_path_manager_interfaces-5dafa20145104b44652e.json",
+					"name" : "ament_cmake_python_copy_path_manager_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_manager_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_manager_interfaces-e7ea0a76823c4c200f55.json",
+					"name" : "path_manager_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_manager_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_manager_interfaces__cpp-29d37594caf6f2cc945a.json",
+					"name" : "path_manager_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "path_manager_interfaces__py::@08156e4451cf28d14c57",
+					"jsonFile" : "target-path_manager_interfaces__py-d196599ce8979279fb70.json",
+					"name" : "path_manager_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_manager_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_manager_interfaces__rosidl_generator_c-ae61d2c3fc224bef0b10.json",
+					"name" : "path_manager_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_manager_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_manager_interfaces__rosidl_generator_py-78effd766112702d30dc.json",
+					"name" : "path_manager_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_manager_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_manager_interfaces__rosidl_typesupport_c-ee412d1b1b28ad4b1c7b.json",
+					"name" : "path_manager_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_manager_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_manager_interfaces__rosidl_typesupport_c__pyext-f40afd152e793f2ef56b.json",
+					"name" : "path_manager_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_manager_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_manager_interfaces__rosidl_typesupport_cpp-33ca40fe6647d5102543.json",
+					"name" : "path_manager_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_manager_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_manager_interfaces__rosidl_typesupport_fastrtps_c-5c62bb0c082dfbc7eead.json",
+					"name" : "path_manager_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_manager_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_manager_interfaces__rosidl_typesupport_fastrtps_c__pyext-c60e121b209e26bac26a.json",
+					"name" : "path_manager_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_manager_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_manager_interfaces__rosidl_typesupport_fastrtps_cpp-30962e0ff2a79466945a.json",
+					"name" : "path_manager_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_manager_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_manager_interfaces__rosidl_typesupport_introspection_c-ca535b0386e1abcc5455.json",
+					"name" : "path_manager_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_manager_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_manager_interfaces__rosidl_typesupport_introspection_c__pyext-2107c45f58bc90eb4c39.json",
+					"name" : "path_manager_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_manager_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_manager_interfaces__rosidl_typesupport_introspection_cpp-35dbf996a0af9f512eed.json",
+					"name" : "path_manager_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "path_manager_interfaces__rs::@a998283e03af0a1ed5e0",
+					"jsonFile" : "target-path_manager_interfaces__rs-09b8c0ee8dfa8ed429b5.json",
+					"name" : "path_manager_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_manager_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_manager_interfaces_uninstall-75555d09162ffdfd2109.json",
+					"name" : "path_manager_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e8d51406dd99f26dc9ac.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rhobtor/PHD/j8_control/J8_control/build/path_manager_interfaces",
+		"source" : "/home/rhobtor/PHD/j8_control/J8_control/src/path_manager/path_manager_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/security_check/security_check_interfaces
-# Build directory: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/security_check_interfaces
+# Source directory: /home/rhobtor/PHD/j8_control/J8_control/src/security_check/security_check_interfaces
+# Build directory: /home/rhobtor/PHD/j8_control/J8_control/build/security_check_interfaces
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

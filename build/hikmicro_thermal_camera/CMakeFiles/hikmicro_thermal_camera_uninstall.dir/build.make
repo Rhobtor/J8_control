@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/hikmicro_thermal_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera
 
 # Utility rule file for hikmicro_thermal_camera_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/hikmicro_thermal_camera_uninstall.dir/compiler_depend.make
 include CMakeFiles/hikmicro_thermal_camera_uninstall.dir/progress.make
 
 CMakeFiles/hikmicro_thermal_camera_uninstall:
-	/usr/bin/cmake -P /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 hikmicro_thermal_camera_uninstall: CMakeFiles/hikmicro_thermal_camera_uninstall
 hikmicro_thermal_camera_uninstall: CMakeFiles/hikmicro_thermal_camera_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/hikmicro_thermal_camera_uninstall.dir/clean:
 .PHONY : CMakeFiles/hikmicro_thermal_camera_uninstall.dir/clean
 
 CMakeFiles/hikmicro_thermal_camera_uninstall.dir/depend:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/hikmicro_thermal_camera /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/hikmicro_thermal_camera/CMakeFiles/hikmicro_thermal_camera_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhobtor/PHD/j8_control/J8_control/src/hikmicro_thermal_camera /home/rhobtor/PHD/j8_control/J8_control/src/hikmicro_thermal_camera /home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera /home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera /home/rhobtor/PHD/j8_control/J8_control/build/hikmicro_thermal_camera/CMakeFiles/hikmicro_thermal_camera_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hikmicro_thermal_camera_uninstall.dir/depend
 

@@ -1,3 +1,0 @@
-Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/wiimote_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/wiimote_msgs -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/wiimote_msgs
-Invoked command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/wiimote_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/wiimote_msgs -DCMAKE_INSTALL_PREFIX=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/wiimote_msgs
-Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/wiimote_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/wiimote_msgs -- -j24 -l24

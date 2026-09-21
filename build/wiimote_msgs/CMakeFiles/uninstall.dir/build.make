@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/wiimote_msgs
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/wiimote_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/wiimote_msgs
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/wiimote_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/wiimote_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/j8_joystick/wiimote_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/wiimote_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/wiimote_msgs /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/wiimote_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/wiimote_msgs /home/rhobtor/PHD/j8_control/J8_control/src/j8_joystick/wiimote_msgs /home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs /home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs /home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.o: \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/visitor/SensorDataVisitor.cpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/visitor/SensorDataVisitor.cpp \
  /usr/include/stdc-predef.h \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/visitor/SensorDataVisitor.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/visitor/SensorDataVisitor.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -117,9 +117,9 @@ CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/visitor/Visitor.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/LidarData.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/Lidar.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/visitor/Visitor.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/LidarData.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/Lidar.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
@@ -409,21 +409,21 @@ CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/MotorTelemetry.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/DriveLine.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/motor_telemetry.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__struct.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__builder.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__traits.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__type_support.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/OdometerData.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/odometer.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/odometer__struct.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/odometer__builder.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/odometer__traits.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/odometer__type_support.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/Twist.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/MotorTelemetry.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/DriveLine.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/motor_telemetry.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__struct.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__builder.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__traits.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/motor_telemetry__type_support.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/OdometerData.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/odometer.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/odometer__struct.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/odometer__builder.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/odometer__traits.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/include/argj801_sensors_msgs/argj801_sensors_msgs/msg/detail/odometer__type_support.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/Twist.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
@@ -434,8 +434,8 @@ CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_stamped__type_support.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/CompressedImage.hpp \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/ImageData.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/CompressedImage.hpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/include/data/ImageData.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp \

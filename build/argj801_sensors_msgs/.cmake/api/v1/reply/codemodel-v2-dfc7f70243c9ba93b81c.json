@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6489b49480a5718a6490.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "argj801_sensors_msgs__py",
+					"jsonFile" : "directory-argj801_sensors_msgs__py-906e9ddcee7ae8376a07.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors_msgs/argj801_sensors_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "argj801_sensors_msgs__rs",
+					"jsonFile" : "directory-argj801_sensors_msgs__rs-bd2faa063463f8665bee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors_msgs/argj801_sensors_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "argj801_sensors_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_argj801_sensors_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_argj801_sensors_msgs_egg-52b133ce53faeee28963.json",
+					"name" : "ament_cmake_python_build_argj801_sensors_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_argj801_sensors_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_argj801_sensors_msgs-c46637c2c7d175d3f7d4.json",
+					"name" : "ament_cmake_python_copy_argj801_sensors_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "argj801_sensors_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-argj801_sensors_msgs-fb5217d3708dd52cb7b2.json",
+					"name" : "argj801_sensors_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "argj801_sensors_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-argj801_sensors_msgs__cpp-64f7af324a184674a08f.json",
+					"name" : "argj801_sensors_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "argj801_sensors_msgs__py::@c97bb54a3f048ee8f9a4",
+					"jsonFile" : "target-argj801_sensors_msgs__py-ac35c22e1ad372e2608e.json",
+					"name" : "argj801_sensors_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "argj801_sensors_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-argj801_sensors_msgs__rosidl_generator_c-d3fd2352b620bd6cfabd.json",
+					"name" : "argj801_sensors_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "argj801_sensors_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-argj801_sensors_msgs__rosidl_generator_py-d8c3024c3e7a1f6be04f.json",
+					"name" : "argj801_sensors_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "argj801_sensors_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-argj801_sensors_msgs__rosidl_typesupport_c-eb1901d1295b277b3956.json",
+					"name" : "argj801_sensors_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "argj801_sensors_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-argj801_sensors_msgs__rosidl_typesupport_c__pyext-e82a56bc94c9dd1921bd.json",
+					"name" : "argj801_sensors_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "argj801_sensors_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-argj801_sensors_msgs__rosidl_typesupport_cpp-cd6a7cf798302a576c3e.json",
+					"name" : "argj801_sensors_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "argj801_sensors_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-argj801_sensors_msgs__rosidl_typesupport_fastrtps_c-aefba79cb6857d8221e8.json",
+					"name" : "argj801_sensors_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "argj801_sensors_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-argj801_sensors_msgs__rosidl_typesupport_fastrtps_c__pyext-4f4d3fee39171758015f.json",
+					"name" : "argj801_sensors_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "argj801_sensors_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-argj801_sensors_msgs__rosidl_typesupport_fastrtps_cpp-d57de6550f015144c8e6.json",
+					"name" : "argj801_sensors_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "argj801_sensors_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-argj801_sensors_msgs__rosidl_typesupport_introspection_c-28050c2024b724e4a89b.json",
+					"name" : "argj801_sensors_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "argj801_sensors_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-argj801_sensors_msgs__rosidl_typesupport_introspection_c__pyext-a066a3d005a0cc9e0daf.json",
+					"name" : "argj801_sensors_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "argj801_sensors_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-argj801_sensors_msgs__rosidl_typesupport_introspection_cpp-002bb8c0f05217d77fdd.json",
+					"name" : "argj801_sensors_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "argj801_sensors_msgs__rs::@cf98c6bd286aae6ed9ce",
+					"jsonFile" : "target-argj801_sensors_msgs__rs-982bcabe75bb0a37c7e4.json",
+					"name" : "argj801_sensors_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "argj801_sensors_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-argj801_sensors_msgs_uninstall-8236ba050ebb75c45d4a.json",
+					"name" : "argj801_sensors_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8c48f134907e79df79b9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors_msgs",
+		"source" : "/home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

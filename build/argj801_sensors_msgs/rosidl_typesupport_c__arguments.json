@@ -1,10 +1,10 @@
 {
   "package_name": "argj801_sensors_msgs",
-  "output_dir": "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors_msgs/rosidl_typesupport_c/argj801_sensors_msgs",
+  "output_dir": "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors_msgs/rosidl_typesupport_c/argj801_sensors_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
   "idl_tuples": [
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors_msgs/rosidl_adapter/argj801_sensors_msgs:msg/MotorTelemetry.idl",
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors_msgs/rosidl_adapter/argj801_sensors_msgs:msg/Odometer.idl"
+    "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors_msgs/rosidl_adapter/argj801_sensors_msgs:msg/MotorTelemetry.idl",
+    "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors_msgs/rosidl_adapter/argj801_sensors_msgs:msg/Odometer.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -47,8 +47,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors_msgs/rosidl_adapter/argj801_sensors_msgs/msg/MotorTelemetry.idl",
-    "/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors_msgs/rosidl_adapter/argj801_sensors_msgs/msg/Odometer.idl",
+    "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors_msgs/rosidl_adapter/argj801_sensors_msgs/msg/MotorTelemetry.idl",
+    "/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors_msgs/rosidl_adapter/argj801_sensors_msgs/msg/Odometer.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

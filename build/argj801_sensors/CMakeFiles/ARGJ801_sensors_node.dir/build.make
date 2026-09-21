@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors
+CMAKE_SOURCE_DIR = /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors
+CMAKE_BINARY_DIR = /home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ARGJ801_sensors_node.dir/depend.make
@@ -70,186 +70,186 @@ include CMakeFiles/ARGJ801_sensors_node.dir/progress.make
 include CMakeFiles/ARGJ801_sensors_node.dir/flags.make
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/flags.make
-CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.o: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/main.cpp
+CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.o: /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/main.cpp
 CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/main.cpp
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/main.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/main.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.i
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/main.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/main.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/main.cpp.s
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/flags.make
-CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.o: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensors_node.cpp
+CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.o: /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensors_node.cpp
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensors_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensors_node.cpp
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensors_node.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensors_node.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.i
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensors_node.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensors_node.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensors_node.cpp.s
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/flags.make
-CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.o: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_lcm_sensors_builder.cpp
+CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.o: /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_lcm_sensors_builder.cpp
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_lcm_sensors_builder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_lcm_sensors_builder.cpp
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_lcm_sensors_builder.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_lcm_sensors_builder.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.i
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_lcm_sensors_builder.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_lcm_sensors_builder.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_lcm_sensors_builder.cpp.s
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/flags.make
-CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.o: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_camera_builder.cpp
+CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.o: /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_camera_builder.cpp
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_camera_builder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_camera_builder.cpp
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_camera_builder.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_camera_builder.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.i
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_camera_builder.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_camera_builder.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_builder.cpp.s
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/flags.make
-CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.o: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensor_interface.cpp
+CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.o: /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensor_interface.cpp
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensor_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensor_interface.cpp
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensor_interface.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensor_interface.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.i
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensor_interface.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_sensor_interface.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_sensor_interface.cpp.s
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/flags.make
-CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.o: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_camera_interface.cpp
+CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.o: /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_camera_interface.cpp
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_camera_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_camera_interface.cpp
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_camera_interface.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_camera_interface.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.i
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_camera_interface.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/argj801_sensors/argj801_camera_interface.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/argj801_sensors/argj801_camera_interface.cpp.s
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/flags.make
-CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.o: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/LidarData.cpp
+CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.o: /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/LidarData.cpp
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/LidarData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/LidarData.cpp
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/LidarData.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/LidarData.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.i
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/LidarData.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/LidarData.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/LidarData.cpp.s
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/flags.make
-CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.o: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/Composite.cpp
+CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.o: /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/Composite.cpp
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/Composite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/Composite.cpp
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/Composite.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/Composite.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.i
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/Composite.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/Composite.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/Composite.cpp.s
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/flags.make
-CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.o: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/MotorTelemetry.cpp
+CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.o: /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/MotorTelemetry.cpp
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/MotorTelemetry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/MotorTelemetry.cpp
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/MotorTelemetry.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/MotorTelemetry.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.i
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/MotorTelemetry.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/MotorTelemetry.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/MotorTelemetry.cpp.s
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/flags.make
-CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.o: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/OdometerData.cpp
+CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.o: /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/OdometerData.cpp
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/OdometerData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/OdometerData.cpp
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/OdometerData.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/OdometerData.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.i
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/OdometerData.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/OdometerData.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/OdometerData.cpp.s
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/flags.make
-CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.o: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/Twist.cpp
+CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.o: /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/Twist.cpp
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/Twist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/Twist.cpp
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/Twist.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/Twist.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.i
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/Twist.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/Twist.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/Twist.cpp.s
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/flags.make
-CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.o: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/CompressedImage.cpp
+CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.o: /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/CompressedImage.cpp
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/CompressedImage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/CompressedImage.cpp
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/CompressedImage.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/CompressedImage.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.i
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/CompressedImage.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/data/CompressedImage.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedImage.cpp.s
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/flags.make
-CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.o: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/visitor/SensorDataVisitor.cpp
+CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.o: /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/visitor/SensorDataVisitor.cpp
 CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.o: CMakeFiles/ARGJ801_sensors_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.o -c /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/visitor/SensorDataVisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.o -MF CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.o.d -o CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.o -c /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/visitor/SensorDataVisitor.cpp
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/visitor/SensorDataVisitor.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/visitor/SensorDataVisitor.cpp > CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.i
 
 CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/visitor/SensorDataVisitor.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors/src/visitor/SensorDataVisitor.cpp -o CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.s
 
 # Object files for target ARGJ801_sensors_node
 ARGJ801_sensors_node_OBJECTS = \
@@ -285,12 +285,13 @@ ARGJ801_sensors_node: CMakeFiles/ARGJ801_sensors_node.dir/src/data/CompressedIma
 ARGJ801_sensors_node: CMakeFiles/ARGJ801_sensors_node.dir/src/visitor/SensorDataVisitor.cpp.o
 ARGJ801_sensors_node: CMakeFiles/ARGJ801_sensors_node.dir/build.make
 ARGJ801_sensors_node: /opt/ros/humble/lib/librclcpp_lifecycle.so
-ARGJ801_sensors_node: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/lib/libargj801_sensors_msgs__rosidl_typesupport_fastrtps_c.so
-ARGJ801_sensors_node: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/lib/libargj801_sensors_msgs__rosidl_typesupport_introspection_c.so
-ARGJ801_sensors_node: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/lib/libargj801_sensors_msgs__rosidl_typesupport_fastrtps_cpp.so
-ARGJ801_sensors_node: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/lib/libargj801_sensors_msgs__rosidl_typesupport_introspection_cpp.so
-ARGJ801_sensors_node: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/lib/libargj801_sensors_msgs__rosidl_typesupport_cpp.so
-ARGJ801_sensors_node: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/lib/libargj801_sensors_msgs__rosidl_generator_py.so
+ARGJ801_sensors_node: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/lib/libargj801_sensors_msgs__rosidl_typesupport_fastrtps_c.so
+ARGJ801_sensors_node: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/lib/libargj801_sensors_msgs__rosidl_typesupport_introspection_c.so
+ARGJ801_sensors_node: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/lib/libargj801_sensors_msgs__rosidl_typesupport_fastrtps_cpp.so
+ARGJ801_sensors_node: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/lib/libargj801_sensors_msgs__rosidl_typesupport_introspection_cpp.so
+ARGJ801_sensors_node: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/lib/libargj801_sensors_msgs__rosidl_typesupport_cpp.so
+ARGJ801_sensors_node: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/lib/libargj801_sensors_msgs__rosidl_generator_py.so
+ARGJ801_sensors_node: /opt/ros/humble/lib/libdiagnostic_updater.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/libcv_bridge.so
 ARGJ801_sensors_node: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
 ARGJ801_sensors_node: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d
@@ -337,8 +338,8 @@ ARGJ801_sensors_node: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_
 ARGJ801_sensors_node: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so
-ARGJ801_sensors_node: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/lib/libargj801_sensors_msgs__rosidl_typesupport_c.so
-ARGJ801_sensors_node: /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/install/argj801_sensors_msgs/lib/libargj801_sensors_msgs__rosidl_generator_c.so
+ARGJ801_sensors_node: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/lib/libargj801_sensors_msgs__rosidl_typesupport_c.so
+ARGJ801_sensors_node: /home/rhobtor/PHD/j8_control/J8_control/install/argj801_sensors_msgs/lib/libargj801_sensors_msgs__rosidl_generator_c.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/librclcpp.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/liblibstatistics_collector.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/librcl.so
@@ -346,24 +347,24 @@ ARGJ801_sensors_node: /opt/ros/humble/lib/librmw_implementation.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/libament_index_cpp.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_logging_spdlog.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_logging_interface.so
-ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
-ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
-ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
-ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
-ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
-ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
-ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
-ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_yaml_param_parser.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/libyaml.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
+ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
+ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
+ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
+ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so
+ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so
+ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so
+ARGJ801_sensors_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
 ARGJ801_sensors_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
@@ -444,10 +445,10 @@ ARGJ801_sensors_node: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.5.4d
 ARGJ801_sensors_node: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.5.4d
 ARGJ801_sensors_node: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
 ARGJ801_sensors_node: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
-ARGJ801_sensors_node: /usr/local/lib/liblcm.so.1.5.0
+ARGJ801_sensors_node: /usr/local/lib/liblcm.so.1.5.1
 ARGJ801_sensors_node: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 ARGJ801_sensors_node: CMakeFiles/ARGJ801_sensors_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable ARGJ801_sensors_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable ARGJ801_sensors_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ARGJ801_sensors_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -459,6 +460,6 @@ CMakeFiles/ARGJ801_sensors_node.dir/clean:
 .PHONY : CMakeFiles/ARGJ801_sensors_node.dir/clean
 
 CMakeFiles/ARGJ801_sensors_node.dir/depend:
-	cd /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/argj801_sensors/CMakeFiles/ARGJ801_sensors_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors /home/rhobtor/PHD/j8_control/J8_control/src/argo_drivers_pkgs/argj801_sensors/argj801_sensors /home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors /home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors /home/rhobtor/PHD/j8_control/J8_control/build/argj801_sensors/CMakeFiles/ARGJ801_sensors_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ARGJ801_sensors_node.dir/depend
 

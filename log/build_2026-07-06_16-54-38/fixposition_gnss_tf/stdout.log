@@ -1,3 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/fixposition_gnss_tf.dir/src/gnss_tf.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library libfixposition_gnss_tf.so[0m
-[100%] Built target fixposition_gnss_tf

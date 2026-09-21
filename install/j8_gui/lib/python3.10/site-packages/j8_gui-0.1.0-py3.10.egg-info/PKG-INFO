@@ -1,12 +1,13 @@
-Metadata-Version: 2.1
-Name: j8-gui
+Metadata-Version: 2.4
+Name: j8_gui
 Version: 0.1.0
 Summary: GUI ROS2 con Leaflet + FollowZED
-Home-page: UNKNOWN
 Maintainer: you
 Maintainer-email: you@example.com
 License: MIT
-Platform: UNKNOWN
-
-UNKNOWN
-
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

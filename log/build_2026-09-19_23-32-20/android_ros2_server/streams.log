@@ -1,0 +1,35 @@
+[2.072s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/src/android_ros2_server': PYTHONPATH=/home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/android_ros2_server build --build-base /home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/build install --record /home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/install.log --install-scripts $base/lib/android_ros2_server --single-version-externally-managed install_data
+[2.766s] /home/rhobtor/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[2.767s]   warnings.warn(msg)
+[2.767s] running egg_info
+[2.767s] creating ../../build/android_ros2_server/android_ros2_server.egg-info
+[2.767s] writing ../../build/android_ros2_server/android_ros2_server.egg-info/PKG-INFO
+[2.769s] writing dependency_links to ../../build/android_ros2_server/android_ros2_server.egg-info/dependency_links.txt
+[2.769s] writing entry points to ../../build/android_ros2_server/android_ros2_server.egg-info/entry_points.txt
+[2.769s] writing requirements to ../../build/android_ros2_server/android_ros2_server.egg-info/requires.txt
+[2.769s] writing top-level names to ../../build/android_ros2_server/android_ros2_server.egg-info/top_level.txt
+[2.769s] writing manifest file '../../build/android_ros2_server/android_ros2_server.egg-info/SOURCES.txt'
+[2.769s] reading manifest file '../../build/android_ros2_server/android_ros2_server.egg-info/SOURCES.txt'
+[2.769s] writing manifest file '../../build/android_ros2_server/android_ros2_server.egg-info/SOURCES.txt'
+[2.769s] running build
+[2.769s] running build_py
+[2.769s] creating /home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/build/lib/android_ros2_server
+[2.769s] copying android_ros2_server/server.py -> /home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/build/lib/android_ros2_server
+[2.770s] copying android_ros2_server/__init__.py -> /home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/build/lib/android_ros2_server
+[2.770s] running install
+[2.770s] running install_lib
+[2.770s] creating /home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/lib/python3.10/site-packages/android_ros2_server
+[2.770s] copying /home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/build/lib/android_ros2_server/server.py -> /home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/lib/python3.10/site-packages/android_ros2_server
+[2.770s] copying /home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/build/lib/android_ros2_server/__init__.py -> /home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/lib/python3.10/site-packages/android_ros2_server
+[2.770s] byte-compiling /home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/lib/python3.10/site-packages/android_ros2_server/server.py to server.cpython-310.pyc
+[2.770s] byte-compiling /home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/lib/python3.10/site-packages/android_ros2_server/__init__.py to __init__.cpython-310.pyc
+[2.770s] running install_data
+[2.770s] creating /home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/share/ament_index/resource_index/packages
+[2.770s] copying resource/android_ros2_server -> /home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/share/ament_index/resource_index/packages
+[2.770s] copying package.xml -> /home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/share/android_ros2_server
+[2.770s] running install_egg_info
+[2.770s] Copying ../../build/android_ros2_server/android_ros2_server.egg-info to /home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/lib/python3.10/site-packages/android_ros2_server-0.0.0-py3.10.egg-info
+[2.770s] running install_scripts
+[2.770s] Installing tcp_server_node script to /home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/lib/android_ros2_server
+[2.770s] writing list of installed files to '/home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/install.log'
+[2.785s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/src/android_ros2_server' returned '0': PYTHONPATH=/home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/android_ros2_server build --build-base /home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/build install --record /home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/install.log --install-scripts $base/lib/android_ros2_server --single-version-externally-managed install_data

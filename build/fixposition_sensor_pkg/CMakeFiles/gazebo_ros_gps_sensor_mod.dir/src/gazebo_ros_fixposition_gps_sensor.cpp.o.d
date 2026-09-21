@@ -1,5 +1,5 @@
 CMakeFiles/gazebo_ros_gps_sensor_mod.dir/src/gazebo_ros_fixposition_gps_sensor.cpp.o: \
- /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/src/gazebo_sim_pkgs/fix_position_pkg/src/gazebo_ros_fixposition_gps_sensor.cpp \
+ /home/rhobtor/PHD/j8_control/J8_control/src/gazebo_sim_pkgs/fix_position_pkg/src/gazebo_ros_fixposition_gps_sensor.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
@@ -236,8 +236,9 @@ CMakeFiles/gazebo_ros_gps_sensor_mod.dir/src/gazebo_ros_fixposition_gps_sensor.c
  /usr/include/c++/11/bits/list.tcc /usr/include/sdformat-9.7/sdf/sdf.hh \
  /usr/include/sdformat-9.7/sdf/Actor.hh \
  /usr/include/ignition/math6/ignition/math/Pose3.hh \
- /usr/include/ignition/math6/ignition/math/Quaternion.hh \
- /usr/include/ignition/math6/ignition/math/Helpers.hh \
+ /usr/include/ignition/math6/gz/math/Pose3.hh \
+ /usr/include/ignition/math6/gz/math/Quaternion.hh \
+ /usr/include/ignition/math6/gz/math/Helpers.hh \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/limits /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
@@ -281,77 +282,89 @@ CMakeFiles/gazebo_ros_gps_sensor_mod.dir/src/gazebo_ros_fixposition_gps_sensor.c
  /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
  /usr/include/c++/11/bits/regex_executor.h \
  /usr/include/c++/11/bits/regex_executor.tcc \
- /usr/include/ignition/math6/ignition/math/config.hh \
- /usr/include/ignition/math6/ignition/math/Export.hh \
- /usr/include/ignition/math6/ignition/math/detail/Export.hh \
- /usr/include/ignition/math6/ignition/math/Angle.hh \
- /usr/include/ignition/math6/ignition/math/Vector3.hh \
+ /usr/include/ignition/math6/gz/math/config.hh \
+ /usr/include/ignition/math6/gz/math/Export.hh \
+ /usr/include/ignition/math6/gz/math/detail/Export.hh \
+ /usr/include/ignition/math6/gz/math/Angle.hh \
+ /usr/include/ignition/math6/gz/math/Vector3.hh \
  /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /usr/include/ignition/math6/ignition/math/Matrix3.hh \
+ /usr/include/ignition/math6/gz/math/Matrix3.hh \
+ /usr/include/ignition/math6/ignition/math/config.hh \
  /usr/include/sdformat-9.7/sdf/Element.hh /usr/include/c++/11/any \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
  /usr/include/sdformat-9.7/sdf/Param.hh /usr/include/c++/11/variant \
  /usr/include/ignition/math6/ignition/math.hh \
- /usr/include/ignition/math6/ignition/math/graph/Edge.hh \
- /usr/include/ignition/math6/ignition/math/graph/Vertex.hh \
- /usr/include/ignition/math6/ignition/math/graph/Graph.hh \
+ /usr/include/ignition/math6/gz/math.hh \
+ /usr/include/ignition/math6/gz/math/graph/Edge.hh \
+ /usr/include/ignition/math6/gz/math/graph/Vertex.hh \
+ /usr/include/ignition/math6/gz/math/graph/Graph.hh \
  /usr/include/c++/11/cassert /usr/include/assert.h \
- /usr/include/ignition/math6/ignition/math/graph/GraphAlgorithms.hh \
+ /usr/include/ignition/math6/gz/math/graph/GraphAlgorithms.hh \
  /usr/include/c++/11/queue /usr/include/c++/11/bits/stl_queue.h \
- /usr/include/ignition/math6/ignition/math/AxisAlignedBox.hh \
- /usr/include/ignition/math6/ignition/math/Line3.hh \
- /usr/include/ignition/math6/ignition/math/MassMatrix3.hh \
- /usr/include/ignition/math6/ignition/math/Material.hh \
- /usr/include/ignition/math6/ignition/math/MaterialType.hh \
- /usr/include/ignition/math6/ignition/math/Vector2.hh \
- /usr/include/ignition/math6/ignition/math/Box.hh \
- /usr/include/ignition/math6/ignition/math/Plane.hh \
- /usr/include/ignition/math6/ignition/math/Line2.hh \
+ /usr/include/c++/11/unordered_set \
+ /usr/include/c++/11/bits/unordered_set.h \
+ /usr/include/ignition/math6/gz/math/AdditivelySeparableScalarField3.hh \
+ /usr/include/ignition/math6/gz/math/Region3.hh \
+ /usr/include/ignition/math6/gz/math/Interval.hh \
+ /usr/include/ignition/math6/gz/math/AxisAlignedBox.hh \
+ /usr/include/ignition/math6/gz/math/Line3.hh \
+ /usr/include/ignition/math6/gz/math/MassMatrix3.hh \
+ /usr/include/ignition/math6/gz/math/Material.hh \
+ /usr/include/ignition/math6/gz/math/MaterialType.hh \
+ /usr/include/ignition/math6/gz/math/Vector2.hh \
+ /usr/include/ignition/math6/gz/math/Box.hh \
+ /usr/include/ignition/math6/gz/math/Plane.hh \
+ /usr/include/ignition/math6/gz/math/Line2.hh \
  /usr/include/c++/11/optional \
- /usr/include/ignition/math6/ignition/math/detail/WellOrderedVector.hh \
- /usr/include/ignition/math6/ignition/math/detail/Box.hh \
- /usr/include/ignition/math6/ignition/math/Triangle3.hh \
- /usr/include/ignition/math6/ignition/math/Capsule.hh \
- /usr/include/ignition/math6/ignition/math/detail/Capsule.hh \
- /usr/include/ignition/math6/ignition/math/Inertial.hh \
- /usr/include/ignition/math6/ignition/math/Color.hh \
- /usr/include/ignition/math6/ignition/math/Cylinder.hh \
- /usr/include/ignition/math6/ignition/math/detail/Cylinder.hh \
- /usr/include/ignition/math6/ignition/math/DiffDriveOdometry.hh \
- /usr/include/ignition/math6/ignition/math/Ellipsoid.hh \
- /usr/include/ignition/math6/ignition/math/detail/Ellipsoid.hh \
- /usr/include/ignition/math6/ignition/math/Filter.hh \
- /usr/include/ignition/math6/ignition/math/Frustum.hh \
- /usr/include/ignition/math6/ignition/math/GaussMarkovProcess.hh \
- /usr/include/ignition/math6/ignition/math/Kmeans.hh \
- /usr/include/ignition/math6/ignition/math/Matrix4.hh \
- /usr/include/ignition/math6/ignition/math/MovingWindowFilter.hh \
- /usr/include/ignition/math6/ignition/math/OrientedBox.hh \
- /usr/include/ignition/math6/ignition/math/PID.hh \
- /usr/include/ignition/math6/ignition/math/Rand.hh \
- /usr/include/c++/11/random /usr/include/c++/11/bits/random.h \
+ /usr/include/ignition/math6/gz/math/detail/WellOrderedVector.hh \
+ /usr/include/ignition/math6/gz/math/detail/Box.hh \
+ /usr/include/ignition/math6/gz/math/Triangle3.hh \
+ /usr/include/ignition/math6/gz/math/Capsule.hh \
+ /usr/include/ignition/math6/gz/math/detail/Capsule.hh \
+ /usr/include/ignition/math6/gz/math/Cylinder.hh \
+ /usr/include/ignition/math6/gz/math/detail/Cylinder.hh \
+ /usr/include/ignition/math6/gz/math/detail/WetVolume.hh \
+ /usr/include/ignition/math6/gz/math/Inertial.hh \
+ /usr/include/ignition/math6/gz/math/Sphere.hh \
+ /usr/include/ignition/math6/gz/math/detail/Sphere.hh \
+ /usr/include/ignition/math6/gz/math/Color.hh \
+ /usr/include/ignition/math6/gz/math/DiffDriveOdometry.hh \
+ /usr/include/ignition/math6/gz/math/Ellipsoid.hh \
+ /usr/include/ignition/math6/gz/math/detail/Ellipsoid.hh \
+ /usr/include/ignition/math6/gz/math/Filter.hh \
+ /usr/include/ignition/math6/gz/math/Frustum.hh \
+ /usr/include/ignition/math6/gz/math/GaussMarkovProcess.hh \
+ /usr/include/ignition/math6/gz/math/Kmeans.hh \
+ /usr/include/ignition/math6/gz/math/Matrix4.hh \
+ /usr/include/ignition/math6/gz/math/Matrix6.hh \
+ /usr/include/ignition/math6/gz/math/MecanumDriveOdometry.hh \
+ /usr/include/ignition/math6/gz/math/MovingWindowFilter.hh \
+ /usr/include/ignition/math6/gz/math/OrientedBox.hh \
+ /usr/include/ignition/math6/gz/math/PID.hh \
+ /usr/include/ignition/math6/gz/math/PiecewiseScalarField3.hh \
+ /usr/include/ignition/math6/gz/math/Polynomial3.hh \
+ /usr/include/ignition/math6/gz/math/Vector4.hh \
+ /usr/include/ignition/math6/gz/math/Rand.hh /usr/include/c++/11/random \
+ /usr/include/c++/11/bits/random.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /usr/include/ignition/math6/ignition/math/RollingMean.hh \
- /usr/include/ignition/math6/ignition/math/RotationSpline.hh \
- /usr/include/ignition/math6/ignition/math/SemanticVersion.hh \
- /usr/include/ignition/math6/ignition/math/SignalStats.hh \
- /usr/include/ignition/math6/ignition/math/SpeedLimiter.hh \
- /usr/include/ignition/math6/ignition/math/Sphere.hh \
- /usr/include/ignition/math6/ignition/math/detail/Sphere.hh \
- /usr/include/ignition/math6/ignition/math/SphericalCoordinates.hh \
- /usr/include/ignition/math6/ignition/math/Spline.hh \
- /usr/include/ignition/math6/ignition/math/Stopwatch.hh \
- /usr/include/ignition/math6/ignition/math/Temperature.hh \
- /usr/include/ignition/math6/ignition/math/Triangle.hh \
- /usr/include/ignition/math6/ignition/math/Vector3Stats.hh \
- /usr/include/ignition/math6/ignition/math/Vector4.hh \
+ /usr/include/ignition/math6/gz/math/RollingMean.hh \
+ /usr/include/ignition/math6/gz/math/RotationSpline.hh \
+ /usr/include/ignition/math6/gz/math/SemanticVersion.hh \
+ /usr/include/ignition/math6/gz/math/SignalStats.hh \
+ /usr/include/ignition/math6/gz/math/SpeedLimiter.hh \
+ /usr/include/ignition/math6/gz/math/SphericalCoordinates.hh \
+ /usr/include/ignition/math6/gz/math/Spline.hh \
+ /usr/include/ignition/math6/gz/math/Stopwatch.hh \
+ /usr/include/ignition/math6/gz/math/Temperature.hh \
+ /usr/include/ignition/math6/gz/math/Triangle.hh \
+ /usr/include/ignition/math6/gz/math/Vector3Stats.hh \
  /usr/include/sdformat-9.7/sdf/Console.hh \
  /usr/include/sdformat-9.7/sdf/sdf_config.h \
  /usr/include/sdformat-9.7/sdf/system_util.hh \
@@ -366,10 +379,14 @@ CMakeFiles/gazebo_ros_gps_sensor_mod.dir/src/gazebo_ros_fixposition_gps_sensor.c
  /usr/include/sdformat-9.7/sdf/Assert.hh \
  /usr/include/sdformat-9.7/sdf/Exception.hh \
  /usr/include/sdformat-9.7/sdf/Atmosphere.hh \
+ /usr/include/ignition/math6/ignition/math/Temperature.hh \
  /usr/include/sdformat-9.7/sdf/Box.hh \
+ /usr/include/ignition/math6/ignition/math/Box.hh \
+ /usr/include/ignition/math6/ignition/math/Vector3.hh \
  /usr/include/sdformat-9.7/sdf/Camera.hh \
  /usr/include/sdformat-9.7/sdf/Collision.hh \
  /usr/include/sdformat-9.7/sdf/Cylinder.hh \
+ /usr/include/ignition/math6/ignition/math/Cylinder.hh \
  /usr/include/sdformat-9.7/sdf/Filesystem.hh \
  /usr/include/sdformat-9.7/sdf/ForceTorque.hh \
  /usr/include/sdformat-9.7/sdf/Frame.hh \
@@ -379,6 +396,7 @@ CMakeFiles/gazebo_ros_gps_sensor_mod.dir/src/gazebo_ros_fixposition_gps_sensor.c
  /usr/include/sdformat-9.7/sdf/Imu.hh \
  /usr/include/sdformat-9.7/sdf/JointAxis.hh \
  /usr/include/sdformat-9.7/sdf/Lidar.hh \
+ /usr/include/ignition/math6/ignition/math/Angle.hh \
  /usr/include/sdformat-9.7/sdf/Light.hh \
  /usr/include/sdformat-9.7/sdf/Magnetometer.hh \
  /usr/include/sdformat-9.7/sdf/Material.hh \
@@ -390,11 +408,15 @@ CMakeFiles/gazebo_ros_gps_sensor_mod.dir/src/gazebo_ros_fixposition_gps_sensor.c
  /usr/include/sdformat-9.7/sdf/Pbr.hh \
  /usr/include/sdformat-9.7/sdf/Physics.hh \
  /usr/include/sdformat-9.7/sdf/Plane.hh \
+ /usr/include/ignition/math6/ignition/math/Plane.hh \
+ /usr/include/ignition/math6/ignition/math/Vector2.hh \
  /usr/include/sdformat-9.7/sdf/Root.hh \
  /usr/include/sdformat-9.7/sdf/Scene.hh \
+ /usr/include/ignition/math6/ignition/math/Color.hh \
  /usr/include/sdformat-9.7/sdf/Sky.hh \
  /usr/include/sdformat-9.7/sdf/Sensor.hh \
  /usr/include/sdformat-9.7/sdf/Sphere.hh \
+ /usr/include/ignition/math6/ignition/math/Sphere.hh \
  /usr/include/sdformat-9.7/sdf/Surface.hh \
  /usr/include/sdformat-9.7/sdf/Visual.hh \
  /usr/include/sdformat-9.7/sdf/World.hh /usr/include/boost/filesystem.hpp \
@@ -1286,8 +1308,6 @@ CMakeFiles/gazebo_ros_gps_sensor_mod.dir/src/gazebo_ros_fixposition_gps_sensor.c
  /usr/include/google/protobuf/stubs/strutil.h \
  /usr/include/google/protobuf/stubs/stringpiece.h \
  /usr/include/google/protobuf/stubs/hash.h \
- /usr/include/c++/11/unordered_set \
- /usr/include/c++/11/bits/unordered_set.h \
  /usr/include/google/protobuf/port.h /usr/include/google/protobuf/arena.h \
  /usr/include/google/protobuf/arena_impl.h \
  /usr/include/google/protobuf/arenastring.h \
@@ -1342,6 +1362,8 @@ CMakeFiles/gazebo_ros_gps_sensor_mod.dir/src/gazebo_ros_fixposition_gps_sensor.c
  /usr/include/ignition/msgs5/ignition/msgs/Filesystem.hh \
  /usr/include/ignition/msgs5/ignition/msgs/SuppressWarning.hh \
  /usr/include/ignition/msgs5/ignition/msgs/Utility.hh \
+ /usr/include/ignition/math6/ignition/math/AxisAlignedBox.hh \
+ /usr/include/ignition/math6/ignition/math/Inertial.hh \
  /usr/include/ignition/msgs5/ignition/msgs/MessageTypes.hh \
  /usr/include/ignition/msgs5/ignition/msgs/actor.pb.h \
  /usr/include/ignition/msgs5/ignition/msgs/entity.pb.h \
@@ -1545,6 +1567,8 @@ CMakeFiles/gazebo_ros_gps_sensor_mod.dir/src/gazebo_ros_fixposition_gps_sensor.c
  /usr/include/ignition/transport8/ignition/transport/TopicUtils.hh \
  /usr/include/ignition/transport8/ignition/transport/detail/Node.hh \
  /usr/include/gazebo-11/gazebo/msgs/msgs.hh \
+ /usr/include/ignition/math6/ignition/math/MassMatrix3.hh \
+ /usr/include/ignition/math6/ignition/math/Quaternion.hh \
  /usr/include/gazebo-11/gazebo/msgs/MessageTypes.hh \
  /usr/include/gazebo-11/gazebo/msgs/altimeter.pb.h \
  /usr/include/gazebo-11/gazebo/msgs/any.pb.h \

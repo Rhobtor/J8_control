@@ -1,4 +1,0 @@
-[0.060s] Invoking command in '/home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf': /usr/bin/cmake --build /home/roverj8/LUIS/ARGJ08/ARGOSJ8_IA_/build/fixposition_gnss_tf -- -j24 -l24
-[1.170s] [ 50%] [32mBuilding CXX object CMakeFiles/fixposition_gnss_tf.dir/src/gnss_tf.cpp.o[0m
-[1.878s] [100%] [32m[1mLinking CXX shared library libfixposition_gnss_tf.so[0m
-[1.933s] [100%] Built target fixposition_gnss_tf
