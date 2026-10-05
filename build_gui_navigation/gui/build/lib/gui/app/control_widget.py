@@ -1,0 +1,434 @@
+# cuadriga_gui/app/control_widget.py
+# -*- coding: utf-8 -*-
+"""cuadriga_gui/app/control_widget.py
+
+Pestaña Control desacoplada.
+- Muestra parámetros de control (vel/acc) y modo follow.
+- Aplica la configuración vía RosSide.send_cfg(cfg_dict) (API real cuadriga, aún por mapear a servicios).
+- Puede usar el RosSide existente (set_ros) o crear su propio nodo (attach_ros) si se le pasa un topic.
+
+Ejemplo (integrado con RosSide, recomendado):
+    self.control_tab = ControlWidget(self._ros)
+    self.tabs.addTab(self.control_tab, 'Control')
+    ...
+    # cuando arranque ROS:
+    self.control_tab.set_ros(self._ros)
+
+Ejemplo (modo autónomo, opcional):
+    self.control_tab = ControlWidget()  # sin RosSide
+    self.tabs.addTab(self.control_tab, 'Control')
+    ...
+    # cuando arranque ROS:
+    # Para publicar a un topic debes pasar explícitamente uno (no se usan /gui/* por defecto)
+    self.control_tab.attach_ros(self._exec, topic='/some/topic')
+
+Comprobación (si usas modo autónomo y publicas a un topic):
+    ros2 topic echo /some/topic
+"""
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+from typing import Optional
+
+from PySide6.QtCore import Qt, Signal
+from PySide6.QtWidgets import (
+    QWidget, QVBoxLayout, QFormLayout, QLabel,
+    QLineEdit, QComboBox, QPushButton, QHBoxLayout, QCheckBox
+)
+
+
+@dataclass(frozen=True)
+class ControlConfig:
+        """UI -> ROS config payload.
+
+        Notes:
+            - `controller_type` is sent via `ctl_mission_interfaces/srv/ChangeController`.
+            - The rest is sent via the corresponding `Config*` service.
+            - `*_max`/`acc_*` are currently UI-only (we don't have a known cuadriga API for them yet).
+        """
+
+        controller_type: str
+        v_forward: float
+        l_ahead_dist: float
+        k_error_lineal: float | None = None
+        k_error_angular: float | None = None
+        look_ahead_dis: float | None = None
+        r_min: float | None = None
+        # UI-only for now
+        lin_max: float | None = None
+        ang_max: float | None = None
+        acc_lin: float | None = None
+        acc_ang: float | None = None
+
+
+class ControlWidget(QWidget):
+    pathControlModeChanged = Signal(str)
+    demPurePursuitStatusChanged = Signal(str, bool)
+    demYawInvertedChanged = Signal(bool)
+
+    """
+    UI:
+      - Vel. lineal máx [m/s]
+      - Vel. angular máx [rad/s]
+      - Acel. lineal [m/s²]
+      - Acel. angular [rad/s²]
+      - Modo Follow (combo)
+      - Botón 'Aplicar configuración'
+
+        Publicación:
+            - Si se llama set_ros(ros_side): usa ros_side.send_cfg(cfg_dict)
+                (en nuestra app, RosSide traduce esto a servicios reales del cuadriga)
+            - El modo autónomo por topic (JSON) era prototipo y se mantiene solo como fallback
+                para no romper usos existentes, pero no se usa por defecto.
+    """
+
+    def __init__(self, ros: Optional[object] = None, topic: str = ''):
+        super().__init__()
+        self._ros = ros                 # RosSide con .send_cfg(dict) o None
+        self._topic = topic             # Topic para modo autónomo
+        self._node = None               # Nodo propio (si attach_ros)
+        self._pub = None                # Publisher propio (si attach_ros)
+        self._path_control_mode = 'internal'
+
+        # ===== UI =====
+        root = QVBoxLayout(self)
+
+        mode_row = QHBoxLayout()
+        mode_row.addWidget(QLabel('Control de path:'))
+        self.btn_internal_control = QPushButton('Control interno')
+        self.btn_internal_control.setCheckable(True)
+        self.btn_internal_control.clicked.connect(lambda: self._set_path_control_mode('internal'))
+        self.btn_external_control = QPushButton('Control externo')
+        self.btn_external_control.setCheckable(True)
+        self.btn_external_control.clicked.connect(lambda: self._set_path_control_mode('external'))
+        mode_row.addWidget(self.btn_internal_control)
+        mode_row.addWidget(self.btn_external_control)
+        mode_row.addStretch(1)
+        root.addLayout(mode_row)
+
+        # --- Selección de controlador ---
+        root.addWidget(QLabel('Controlador de seguimiento:'))
+        self.cmb_controller = QComboBox()
+        # nombres reales en CtrlNode::available_controller_types_
+        self.cmb_controller.addItems([
+            'pure_pursuit',
+            'regulated_pure_pursuit',
+            'dynamic_pure_pursuit',
+            'dynamic_la_pure_pursuit',
+            'follow_the_carrot',
+            'stanley',
+        ])
+        self.cmb_controller.currentTextChanged.connect(self._update_controller_fields_visibility)
+        root.addWidget(self.cmb_controller)
+
+        frm = QFormLayout()
+        # No ponemos QDoubleValidator para no pelear con locales (coma/punto), validamos al aplicar.
+        self.ed_vlin = QLineEdit('1.0'); self.ed_vlin.setPlaceholderText('m/s')
+        self.ed_vang = QLineEdit('0.6'); self.ed_vang.setPlaceholderText('rad/s')
+        self.ed_alin = QLineEdit('0.5'); self.ed_alin.setPlaceholderText('m/s²')
+        self.ed_aang = QLineEdit('0.8'); self.ed_aang.setPlaceholderText('rad/s²')
+
+        frm.addRow('Vel. lineal máx [m/s]:', self.ed_vlin)
+        frm.addRow('Vel. angular máx [rad/s]:', self.ed_vang)
+        frm.addRow('Acel. lineal [m/s²]:', self.ed_alin)
+        frm.addRow('Acel. angular [rad/s²]:', self.ed_aang)
+
+        root.addLayout(frm)
+
+        # --- Parámetros de controller (real) ---
+        ctrl_frm = QFormLayout()
+
+        self.ed_v_forward = QLineEdit('0.8'); self.ed_v_forward.setPlaceholderText('m/s')
+        self.ed_l_ahead = QLineEdit('2.0'); self.ed_l_ahead.setPlaceholderText('m')
+        ctrl_frm.addRow('v_forward [m/s]:', self.ed_v_forward)
+        ctrl_frm.addRow('look_ahead_dist [m]:', self.ed_l_ahead)
+
+        # Stanley-only
+        self.ed_k_lineal = QLineEdit('0.2'); self.ed_k_lineal.setPlaceholderText('')
+        self.ed_k_angular = QLineEdit('1.0'); self.ed_k_angular.setPlaceholderText('')
+        ctrl_frm.addRow('Stanley k_error_lineal:', self.ed_k_lineal)
+        ctrl_frm.addRow('Stanley k_error_angular:', self.ed_k_angular)
+
+        # Regulated-only
+        self.ed_rpp_r_min = QLineEdit('0.8'); self.ed_rpp_r_min.setPlaceholderText('m')
+        self.ed_rpp_look_ahead = QLineEdit('2.0'); self.ed_rpp_look_ahead.setPlaceholderText('m')
+        ctrl_frm.addRow('Regulated r_min [m]:', self.ed_rpp_r_min)
+        ctrl_frm.addRow('Regulated look_ahead_dis [m]:', self.ed_rpp_look_ahead)
+
+        root.addWidget(QLabel('Parámetros del controlador:'))
+        root.addLayout(ctrl_frm)
+
+        btn_row = QHBoxLayout()
+        self.b_apply = QPushButton('Aplicar configuración')
+        self.b_apply.clicked.connect(self._on_apply_cfg)
+
+        self.b_reset = QPushButton('Valores por defecto')
+        self.b_reset.clicked.connect(self._on_reset_defaults)
+
+        btn_row.addWidget(self.b_apply)
+        btn_row.addWidget(self.b_reset)
+        root.addLayout(btn_row)
+
+        root.addWidget(QLabel('Pure Pursuit DEM (simulación):'))
+        self.chk_invert_dem_yaw = QCheckBox('Convertir ejes Unity → ROS (simulación)')
+        self.chk_invert_dem_yaw.setChecked(False)
+        self.chk_invert_dem_yaw.toggled.connect(self.demYawInvertedChanged.emit)
+        root.addWidget(self.chk_invert_dem_yaw)
+        dem_row = QHBoxLayout()
+        self.b_start_dem = QPushButton('Iniciar DEM')
+        self.b_start_dem.clicked.connect(self._on_start_dem)
+        self.b_stop_dem = QPushButton('Parar DEM')
+        self.b_stop_dem.clicked.connect(self._on_stop_dem)
+        self.b_start_dem.setEnabled(False)
+        self.b_stop_dem.setEnabled(False)
+        dem_row.addWidget(self.b_start_dem)
+        dem_row.addWidget(self.b_stop_dem)
+        dem_row.addStretch(1)
+        root.addLayout(dem_row)
+        self.lbl_dem_control_status = QLabel('ROS no conectado')
+        root.addWidget(self.lbl_dem_control_status)
+        self.demPurePursuitStatusChanged.connect(self._apply_dem_control_status)
+
+        root.addStretch(1)
+
+        # Enter en cualquier campo = aplicar
+        self.ed_vlin.returnPressed.connect(self.b_apply.click)
+        self.ed_vang.returnPressed.connect(self.b_apply.click)
+        self.ed_alin.returnPressed.connect(self.b_apply.click)
+        self.ed_aang.returnPressed.connect(self.b_apply.click)
+
+        self.ed_v_forward.returnPressed.connect(self.b_apply.click)
+        self.ed_l_ahead.returnPressed.connect(self.b_apply.click)
+        self.ed_k_lineal.returnPressed.connect(self.b_apply.click)
+        self.ed_k_angular.returnPressed.connect(self.b_apply.click)
+        self.ed_rpp_r_min.returnPressed.connect(self.b_apply.click)
+        self.ed_rpp_look_ahead.returnPressed.connect(self.b_apply.click)
+
+        self._update_controller_fields_visibility(self.cmb_controller.currentText())
+        self._apply_path_control_mode_buttons()
+
+    # ---------- API pública ----------
+    def set_ros(self, ros_side: object):
+        """
+        Inyecta el RosSide existente.
+        Debe exponer: send_cfg(self, cfg: dict)
+        """
+        old_ros = self._ros
+        if old_ros is not None and old_ros is not ros_side:
+            if hasattr(old_ros, 'stop_dem_pure_pursuit'):
+                old_ros.stop_dem_pure_pursuit('Detenido al cambiar de robot')
+            if hasattr(old_ros, 'dem_control_status_callback'):
+                old_ros.dem_control_status_callback = None
+
+        self._ros = ros_side
+        if self._ros is not None and hasattr(self._ros, 'set_path_control_mode'):
+            self._ros.set_path_control_mode(self._path_control_mode)
+        if self._ros is not None and hasattr(self._ros, 'dem_control_status_callback'):
+            self._ros.dem_control_status_callback = self._on_dem_control_status_from_ros
+        if self._ros is not None and hasattr(self._ros, 'set_dem_yaw_inverted'):
+            self._ros.set_dem_yaw_inverted(self.chk_invert_dem_yaw.isChecked())
+        self.b_start_dem.setEnabled(self._ros is not None)
+        self.b_stop_dem.setEnabled(self._ros is not None)
+        self._apply_dem_control_status('Listo; calcula una ruta DEM', False)
+
+    def path_control_mode(self) -> str:
+        return self._path_control_mode
+
+    def attach_ros(self, executor, topic: Optional[str] = None):
+        """
+        Crea un nodo propio y un publisher a `topic` (por defecto self._topic).
+        Lo añade al executor que ya está spinnando en MainWindow.
+        """
+        if topic:
+            self._topic = topic
+
+        if self._node is not None and self._pub is not None:
+            # ya adjunto
+            return
+
+        # Mantener fallback del prototipo (publisher JSON) para no romper, pero no recomendado.
+        # Import local para no forzar dependencias si no se usa modo autónomo
+        from rclpy.node import Node
+        from std_msgs.msg import String
+
+        class _CtrlNode(Node):
+            def __init__(self, t: str):
+                super().__init__('control_widget_node')
+                self.pub = self.create_publisher(String, t, 10)
+
+        self._node = _CtrlNode(self._topic)
+        self._pub = self._node.pub
+        executor.add_node(self._node)
+        print(f'[ControlWidget] [LEGACY] Nodo propio adjuntado, publicando JSON en {self._topic}')
+
+    # ---------- Lógica ----------
+    def _on_apply_cfg(self):
+        cfg = self._read_cfg_from_fields()
+        if cfg is None:
+            print('[ControlWidget] Valores inválidos; no se envía configuración.')
+            return
+
+        # Prioridad: RosSide (servicios reales) > fallback publisher JSON
+        if self._ros is not None and hasattr(self._ros, 'send_cfg'):
+            # Convertimos a dict simple para RosSide
+            self._ros.send_cfg(self._cfg_to_dict(cfg))
+            print('[ControlWidget] CFG enviado (RosSide/services) ->', cfg)
+            return
+
+        # Fallback heredado (no recomendado)
+        if self._pub is not None:
+            import json
+            from std_msgs.msg import String
+
+            msg = String()
+            msg.data = json.dumps(self._cfg_to_dict(cfg))
+            self._pub.publish(msg)
+            print('[ControlWidget] [LEGACY] CFG enviado (publisher JSON) ->', cfg)
+        else:
+            print('[ControlWidget] No hay ROS inicializado (ni RosSide ni attach_ros).')
+
+    def _on_reset_defaults(self):
+        self.ed_vlin.setText('1.0')
+        self.ed_vang.setText('0.6')
+        self.ed_alin.setText('0.5')
+        self.ed_aang.setText('0.8')
+    # No cambiamos el controller
+        print('[ControlWidget] Restablecidos valores por defecto.')
+
+    def _on_start_dem(self):
+        cfg = self._read_cfg_from_fields()
+        if cfg is None:
+            self._apply_dem_control_status('Valores de control inválidos', False)
+            return
+        if self._ros is None or not hasattr(self._ros, 'start_dem_pure_pursuit'):
+            self._apply_dem_control_status('ROS no conectado', False)
+            return
+        self._ros.start_dem_pure_pursuit(self._cfg_to_dict(cfg))
+
+    def _on_stop_dem(self):
+        if self._ros is not None and hasattr(self._ros, 'stop_dem_pure_pursuit'):
+            self._ros.stop_dem_pure_pursuit()
+
+    def _on_dem_control_status_from_ros(self, status: str, active: bool):
+        self.demPurePursuitStatusChanged.emit(str(status), bool(active))
+
+    def _apply_dem_control_status(self, status: str, active: bool):
+        self.lbl_dem_control_status.setText(status)
+        self.lbl_dem_control_status.setStyleSheet(
+            'color: #15803d; font-weight: 600;' if active else 'color: #9a3412;'
+        )
+        self.b_start_dem.setEnabled(self._ros is not None and not active)
+        self.b_stop_dem.setEnabled(self._ros is not None and active)
+
+    def _apply_path_control_mode_buttons(self):
+        is_external = self._path_control_mode == 'external'
+        self.btn_internal_control.setChecked(not is_external)
+        self.btn_external_control.setChecked(is_external)
+
+    def _set_path_control_mode(self, mode: str):
+        normalized = 'external' if str(mode or '').strip().lower() == 'external' else 'internal'
+        if normalized == self._path_control_mode:
+            self._apply_path_control_mode_buttons()
+            return
+
+        self._path_control_mode = normalized
+        self._apply_path_control_mode_buttons()
+        if self._ros is not None and hasattr(self._ros, 'set_path_control_mode'):
+            self._ros.set_path_control_mode(normalized)
+        self.pathControlModeChanged.emit(normalized)
+        print(f'[ControlWidget] Path control mode -> {normalized}')
+
+    # ---------- Utilidades ----------
+    def _read_cfg_from_fields(self) -> Optional[ControlConfig]:
+        """Lee UI y devuelve `ControlConfig` o None si hay error."""
+        try:
+            lin_max = self._to_float(self.ed_vlin.text())
+            ang_max = self._to_float(self.ed_vang.text())
+            acc_lin = self._to_float(self.ed_alin.text())
+            acc_ang = self._to_float(self.ed_aang.text())
+
+            v_forward = self._to_float(self.ed_v_forward.text())
+            l_ahead_dist = self._to_float(self.ed_l_ahead.text())
+        except Exception:
+            return None
+
+        ctrl_type = self.cmb_controller.currentText().strip()
+
+        # Controller-specific
+        k_lineal = k_angular = None
+        r_min = look_ahead_dis = None
+
+        if ctrl_type == 'stanley':
+            try:
+                k_lineal = self._to_float(self.ed_k_lineal.text())
+                k_angular = self._to_float(self.ed_k_angular.text())
+            except Exception:
+                return None
+
+        if ctrl_type == 'regulated_pure_pursuit':
+            try:
+                r_min = self._to_float(self.ed_rpp_r_min.text())
+                look_ahead_dis = self._to_float(self.ed_rpp_look_ahead.text())
+            except Exception:
+                return None
+
+        return ControlConfig(
+            controller_type=ctrl_type,
+            v_forward=v_forward,
+            l_ahead_dist=l_ahead_dist,
+            k_error_lineal=k_lineal,
+            k_error_angular=k_angular,
+            look_ahead_dis=look_ahead_dis,
+            r_min=r_min,
+            lin_max=lin_max,
+            ang_max=ang_max,
+            acc_lin=acc_lin,
+            acc_ang=acc_ang,
+        )
+
+    @staticmethod
+    def _cfg_to_dict(cfg: ControlConfig) -> dict:
+        d = {
+            'controller_type': cfg.controller_type,
+            'v_forward': cfg.v_forward,
+            'l_ahead_dist': cfg.l_ahead_dist,
+            # UI-only still included in case we map later
+            'lin_max': cfg.lin_max,
+            'ang_max': cfg.ang_max,
+            'acc_lin': cfg.acc_lin,
+            'acc_ang': cfg.acc_ang,
+        }
+
+        if cfg.k_error_lineal is not None:
+            d['k_error_lineal'] = cfg.k_error_lineal
+        if cfg.k_error_angular is not None:
+            d['k_error_angular'] = cfg.k_error_angular
+        if cfg.look_ahead_dis is not None:
+            d['look_ahead_dis'] = cfg.look_ahead_dis
+        if cfg.r_min is not None:
+            d['r_min'] = cfg.r_min
+        return d
+
+    def _update_controller_fields_visibility(self, controller_type: str):
+        controller_type = (controller_type or '').strip()
+
+        is_stanley = controller_type == 'stanley'
+        is_regulated = controller_type == 'regulated_pure_pursuit'
+
+        self.ed_k_lineal.setEnabled(is_stanley)
+        self.ed_k_angular.setEnabled(is_stanley)
+
+        self.ed_rpp_r_min.setEnabled(is_regulated)
+        self.ed_rpp_look_ahead.setEnabled(is_regulated)
+
+    @staticmethod
+    def _to_float(s: str) -> float:
+        """
+        Convierte string a float aceptando ',' o '.' como separador decimal.
+        Lanza excepción si no es convertible.
+        """
+        if s is None:
+            raise ValueError('empty')
+        s = s.strip().replace(',', '.')
+        return float(s)

@@ -1,0 +1,87 @@
+[0.846s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', '--log-base', 'log_gui_navigation', 'build', '--base-paths', 'src/gui', '--packages-select', 'gui', '--build-base', 'build_gui_navigation', '--install-base', 'install', '--symlink-install']
+[0.846s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base='log_gui_navigation', log_level=None, verb_name='build', build_base='/home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation', install_base='/home/rhobtor/PHD/j8_control/J8_control/install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['src/gui'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['gui'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78001bea21d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78001bf87a30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78001bf87a30>>, mixin_verb=('build',))
+[1.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.709s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rhobtor/PHD/j8_control/J8_control/src/gui'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extensions ['ignore', 'ignore_ament_install']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'ignore'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'ignore_ament_install'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extensions ['colcon_pkg']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'colcon_pkg'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extensions ['colcon_meta']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'colcon_meta'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extensions ['ros']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui) by extension 'ros'
+[1.858s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gui' with type 'ros.ament_python' and name 'gui'
+[1.858s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.988s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 325 installed packages in /opt/ros/humble
+[1.989s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.057s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_args' from command line to 'None'
+[2.057s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_target' from command line to 'None'
+[2.057s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.058s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_clean_cache' from command line to 'False'
+[2.058s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_clean_first' from command line to 'False'
+[2.058s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'cmake_force_configure' from command line to 'False'
+[2.058s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'ament_cmake_args' from command line to 'None'
+[2.058s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'catkin_cmake_args' from command line to 'None'
+[2.058s] Level 5:colcon.colcon_core.verb:set package 'gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.058s] DEBUG:colcon.colcon_core.verb:Building package 'gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rhobtor/PHD/j8_control/J8_control/install/gui', 'merge_install': False, 'path': '/home/rhobtor/PHD/j8_control/J8_control/src/gui', 'symlink_install': True, 'test_result_base': None}
+[2.058s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.058s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.059s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rhobtor/PHD/j8_control/J8_control/src/gui' with build type 'ament_python'
+[2.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui', 'ament_prefix_path')
+[2.102s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/hook/ament_prefix_path.ps1'
+[2.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/hook/ament_prefix_path.dsv'
+[2.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/hook/ament_prefix_path.sh'
+[2.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.505s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rhobtor/PHD/j8_control/J8_control/src/gui'
+[2.505s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.505s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.777s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: update_catalog, build_ext, extract_messages, setopt, bdist_egg, install_scripts, develop, bdist_rpm, build_clib, egg_info, install_egg_info, sdist, symlink_data, compile_catalog, install_headers, dist_info, easy_install, bdist, rotate, check, install_lib, bdist_dumb, build_py, editable_wheel, clean, saveopts, bdist_wheel, build, init_catalog, install, alias, build_scripts, install_data
+[6.931s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --verbose, --prefix, --index-url, --user, --quiet, --help, --no-deps, --no-user-cfg, --install-dir
+[6.931s] INFO:colcon.colcon_core.task.python.build:No '--editable' capability in setuptools, falling back to full install
+[6.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/src/gui': PYTHONPATH=/home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build_gui_navigation/gui build --build-base /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build install --record /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/install.log --install-scripts $base/lib/gui --single-version-externally-managed install_data
+[8.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/src/gui' returned '0': PYTHONPATH=/home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build_gui_navigation/gui build --build-base /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build install --record /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/install.log --install-scripts $base/lib/gui --single-version-externally-managed install_data
+[8.681s] Level 1:colcon.colcon_core.environment:checking '/home/rhobtor/PHD/j8_control/J8_control/install/gui' for CMake module files
+[8.681s] Level 1:colcon.colcon_core.environment:checking '/home/rhobtor/PHD/j8_control/J8_control/install/gui' for CMake config files
+[8.743s] Level 1:colcon.colcon_core.environment:checking '/home/rhobtor/PHD/j8_control/J8_control/install/gui/lib'
+[8.758s] Level 1:colcon.colcon_core.environment:checking '/home/rhobtor/PHD/j8_control/J8_control/install/gui/bin'
+[8.758s] Level 1:colcon.colcon_core.environment:checking '/home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/pkgconfig/gui.pc'
+[8.758s] Level 1:colcon.colcon_core.environment:checking '/home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages'
+[8.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui', 'pythonpath')
+[8.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/hook/pythonpath.ps1'
+[8.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/hook/pythonpath.dsv'
+[8.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/hook/pythonpath.sh'
+[8.759s] Level 1:colcon.colcon_core.environment:checking '/home/rhobtor/PHD/j8_control/J8_control/install/gui/bin'
+[8.759s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gui)
+[8.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/package.ps1'
+[8.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/package.dsv'
+[8.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/package.sh'
+[8.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/package.bash'
+[8.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/package.zsh'
+[8.761s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rhobtor/PHD/j8_control/J8_control/install/gui/share/colcon-core/packages/gui)
+[8.762s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.762s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.762s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.762s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.765s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.765s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.765s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.802s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.802s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rhobtor/PHD/j8_control/J8_control/install/local_setup.ps1'
+[8.875s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rhobtor/PHD/j8_control/J8_control/install/_local_setup_util_ps1.py'
+[8.876s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rhobtor/PHD/j8_control/J8_control/install/setup.ps1'
+[8.877s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rhobtor/PHD/j8_control/J8_control/install/local_setup.sh'
+[8.877s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rhobtor/PHD/j8_control/J8_control/install/_local_setup_util_sh.py'
+[8.878s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rhobtor/PHD/j8_control/J8_control/install/setup.sh'
+[8.878s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rhobtor/PHD/j8_control/J8_control/install/local_setup.bash'
+[8.879s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rhobtor/PHD/j8_control/J8_control/install/setup.bash'
+[8.879s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rhobtor/PHD/j8_control/J8_control/install/local_setup.zsh'
+[8.879s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rhobtor/PHD/j8_control/J8_control/install/setup.zsh'
