@@ -1,0 +1,206 @@
+[0.664s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/j8_control/J8_control/install/car:/home/rhobtor/PHD/j8_control/J8_control/install/ntrip_client:/home/rhobtor/PHD/j8_control/J8_control/install/j8_gui:/home/rhobtor/PHD/j8_control/J8_control/install/gui:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server:/home/rhobtor/PHD/j8_control/J8_control/install/GUI_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs -- -j20 -l20
+[1.751s] [  2%] Built target wiimote_msgs__rs
+[2.008s] [  4%] Built target wiimote_msgs__cpp
+[2.260s] [35m[1mConsolidate compiler generated dependencies of target wiimote_msgs__rosidl_generator_c[0m
+[2.270s] [ 14%] Built target wiimote_msgs__rosidl_generator_c
+[2.353s] [35m[1mConsolidate compiler generated dependencies of target wiimote_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.353s] [35m[1mConsolidate compiler generated dependencies of target wiimote_msgs__rosidl_typesupport_c[0m
+[2.355s] [35m[1mConsolidate compiler generated dependencies of target wiimote_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.363s] [ 25%] Built target wiimote_msgs__rosidl_typesupport_c
+[2.365s] [ 35%] Built target wiimote_msgs__rosidl_typesupport_fastrtps_cpp
+[2.367s] [ 45%] Built target wiimote_msgs__rosidl_typesupport_fastrtps_c
+[2.383s] [35m[1mConsolidate compiler generated dependencies of target wiimote_msgs__rosidl_typesupport_introspection_c[0m
+[2.396s] [ 56%] Built target wiimote_msgs__rosidl_typesupport_introspection_c
+[2.400s] [35m[1mConsolidate compiler generated dependencies of target wiimote_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.414s] [ 66%] Built target wiimote_msgs__rosidl_typesupport_introspection_cpp
+[2.439s] [35m[1mConsolidate compiler generated dependencies of target wiimote_msgs__rosidl_typesupport_cpp[0m
+[2.454s] [ 77%] Built target wiimote_msgs__rosidl_typesupport_cpp
+[2.483s] [ 77%] Built target wiimote_msgs
+[2.526s] [ 79%] Built target wiimote_msgs__py
+[3.756s] [35m[1mConsolidate compiler generated dependencies of target wiimote_msgs__rosidl_generator_py[0m
+[3.765s] [ 79%] Built target ament_cmake_python_copy_wiimote_msgs
+[3.806s] [ 87%] Built target wiimote_msgs__rosidl_generator_py
+[4.091s] [35m[1mConsolidate compiler generated dependencies of target wiimote_msgs__rosidl_typesupport_c__pyext[0m
+[4.091s] [35m[1mConsolidate compiler generated dependencies of target wiimote_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.091s] [35m[1mConsolidate compiler generated dependencies of target wiimote_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[4.103s] [ 91%] Built target wiimote_msgs__rosidl_typesupport_c__pyext
+[4.104s] [ 95%] Built target wiimote_msgs__rosidl_typesupport_introspection_c__pyext
+[4.104s] [100%] Built target wiimote_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.238s] running egg_info
+[4.249s] writing wiimote_msgs.egg-info/PKG-INFO
+[4.250s] writing dependency_links to wiimote_msgs.egg-info/dependency_links.txt
+[4.250s] writing top-level names to wiimote_msgs.egg-info/top_level.txt
+[4.289s] reading manifest file 'wiimote_msgs.egg-info/SOURCES.txt'
+[4.687s] writing manifest file 'wiimote_msgs.egg-info/SOURCES.txt'
+[4.714s] [100%] Built target ament_cmake_python_build_wiimote_msgs_egg
+[4.725s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/j8_control/J8_control/install/car:/home/rhobtor/PHD/j8_control/J8_control/install/ntrip_client:/home/rhobtor/PHD/j8_control/J8_control/install/j8_gui:/home/rhobtor/PHD/j8_control/J8_control/install/gui:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server:/home/rhobtor/PHD/j8_control/J8_control/install/GUI_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs -- -j20 -l20
+[4.889s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/j8_control/J8_control/install/car:/home/rhobtor/PHD/j8_control/J8_control/install/ntrip_client:/home/rhobtor/PHD/j8_control/J8_control/install/j8_gui:/home/rhobtor/PHD/j8_control/J8_control/install/gui:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server:/home/rhobtor/PHD/j8_control/J8_control/install/GUI_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs
+[4.952s] -- Install configuration: ""
+[4.952s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/ament_index/resource_index/rosidl_interfaces/wiimote_msgs
+[4.952s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs
+[4.952s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg
+[4.952s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/ir_source_info.h
+[4.952s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/state.h
+[4.952s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.952s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail
+[4.952s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__functions.c
+[4.952s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__type_support.h
+[4.952s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__functions.h
+[4.952s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__struct.h
+[4.952s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__type_support.h
+[4.953s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__functions.c
+[4.953s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__struct.h
+[4.953s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__struct.h
+[4.953s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__type_support.h
+[4.953s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__functions.c
+[4.953s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__functions.h
+[4.953s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__functions.h
+[4.953s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/timed_switch.h
+[4.953s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/environment/library_path.sh
+[4.953s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/environment/library_path.dsv
+[5.380s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_generator_c.so
+[5.381s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs
+[5.381s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg
+[5.381s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.381s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail
+[5.381s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__rosidl_typesupport_fastrtps_c.h
+[5.381s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__rosidl_typesupport_fastrtps_c.h
+[5.381s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+[5.383s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_fastrtps_c.so
+[5.383s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs
+[5.383s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg
+[5.383s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/timed_switch.hpp
+[5.383s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail
+[5.383s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__traits.hpp
+[5.383s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__traits.hpp
+[5.383s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__builder.hpp
+[5.383s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__builder.hpp
+[5.383s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__type_support.hpp
+[5.383s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__struct.hpp
+[5.383s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__struct.hpp
+[5.383s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__struct.hpp
+[5.383s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__traits.hpp
+[5.384s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__type_support.hpp
+[5.384s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__builder.hpp
+[5.384s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__type_support.hpp
+[5.384s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.384s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/state.hpp
+[5.384s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/ir_source_info.hpp
+[5.385s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs
+[5.385s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg
+[5.385s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.385s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail
+[5.385s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__rosidl_typesupport_fastrtps_cpp.hpp
+[5.385s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.385s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__rosidl_typesupport_fastrtps_cpp.hpp
+[5.385s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/dds_fastrtps
+[5.428s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.428s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs
+[5.428s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg
+[5.428s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.428s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail
+[5.428s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__type_support.c
+[5.428s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__rosidl_typesupport_introspection_c.h
+[5.428s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__rosidl_typesupport_introspection_c.h
+[5.428s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__type_support.c
+[5.428s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__type_support.c
+[5.428s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__rosidl_typesupport_introspection_c.h
+[5.437s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_introspection_c.so
+[5.438s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_c.so
+[5.438s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs
+[5.438s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg
+[5.438s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail
+[5.438s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__rosidl_typesupport_introspection_cpp.hpp
+[5.438s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__type_support.cpp
+[5.438s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__type_support.cpp
+[5.438s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+[5.438s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/timed_switch__rosidl_typesupport_introspection_cpp.hpp
+[5.438s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/include/wiimote_msgs/wiimote_msgs/msg/detail/ir_source_info__type_support.cpp
+[5.641s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_introspection_cpp.so
+[5.665s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_typesupport_cpp.so
+[5.665s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/environment/pythonpath.sh
+[5.665s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/environment/pythonpath.dsv
+[5.665s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs-3.1.0-py3.10.egg-info
+[5.665s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs-3.1.0-py3.10.egg-info/dependency_links.txt
+[5.665s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs-3.1.0-py3.10.egg-info/top_level.txt
+[5.665s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs-3.1.0-py3.10.egg-info/PKG-INFO
+[5.665s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs-3.1.0-py3.10.egg-info/SOURCES.txt
+[5.666s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs
+[5.666s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/__init__.py
+[5.666s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.666s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.666s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/_wiimote_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.666s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/libwiimote_msgs__rosidl_generator_py.so
+[5.666s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/_wiimote_msgs_s.ep.rosidl_typesupport_c.c
+[5.666s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg
+[5.666s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/_state.py
+[5.666s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/__init__.py
+[5.666s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/_timed_switch.py
+[5.666s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/_timed_switch_s.c
+[5.666s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/_ir_source_info_s.c
+[5.666s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/_ir_source_info.py
+[5.666s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg/_state_s.c
+[5.666s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.666s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/_wiimote_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.924s] Listing '/home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs'...
+[5.924s] Listing '/home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/msg'...
+[5.956s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.956s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.956s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/local/lib/python3.10/dist-packages/wiimote_msgs/wiimote_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/lib/libwiimote_msgs__rosidl_generator_py.so
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/ament_index/resource_index/rust_packages/wiimote_msgs
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/rust
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/rust/build.rs
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/rust/src
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/rust/src/msg.rs
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/rust/src/msg
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/rust/src/msg/rmw.rs
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/rust/src/lib.rs
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/rust/Cargo.toml
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/msg/IrSourceInfo.idl
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/msg/State.idl
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/msg/TimedSwitch.idl
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/msg/IrSourceInfo.msg
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/msg/State.msg
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/msg/TimedSwitch.msg
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/ament_index/resource_index/package_run_dependencies/wiimote_msgs
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/ament_index/resource_index/parent_prefix_path/wiimote_msgs
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/environment/ament_prefix_path.sh
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/environment/ament_prefix_path.dsv
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/environment/path.sh
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/environment/path.dsv
+[5.957s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/local_setup.bash
+[5.958s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/local_setup.sh
+[5.958s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/local_setup.zsh
+[5.958s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/local_setup.dsv
+[5.958s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/package.dsv
+[6.358s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/ament_index/resource_index/packages/wiimote_msgs
+[6.606s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_generator_cExport.cmake
+[6.606s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.606s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.606s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.606s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_generator_cppExport.cmake
+[6.606s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.606s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.609s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.609s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.615s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgs__rosidl_typesupport_cExport.cmake
+[6.615s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.616s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.616s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.616s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgs__rosidl_typesupport_cppExport.cmake
+[6.616s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.624s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_generator_pyExport.cmake
+[6.624s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/export_wiimote_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.624s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/rosidl_cmake-extras.cmake
+[6.624s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.624s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.624s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.624s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.624s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.624s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.624s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[6.624s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgsConfig.cmake
+[6.624s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/cmake/wiimote_msgsConfig-version.cmake
+[6.624s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/wiimote_msgs/share/wiimote_msgs/package.xml
+[7.006s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/j8_control/J8_control/install/car:/home/rhobtor/PHD/j8_control/J8_control/install/ntrip_client:/home/rhobtor/PHD/j8_control/J8_control/install/j8_gui:/home/rhobtor/PHD/j8_control/J8_control/install/gui:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server:/home/rhobtor/PHD/j8_control/J8_control/install/GUI_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rhobtor/PHD/j8_control/J8_control/build/wiimote_msgs

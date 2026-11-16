@@ -33,5 +33,7 @@ resource/gui
 test/test_copyright.py
 test/test_dem_main_window.py
 test/test_dem_planning_display.py
+test/test_dem_startup.py
+test/test_dem_temporal_layers.py
 test/test_flake8.py
 test/test_pep257.py

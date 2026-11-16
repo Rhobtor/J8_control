@@ -1,0 +1,51 @@
+[1.289s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/build/fixposition_sensor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/j8_control/J8_control/install/car:/home/rhobtor/PHD/j8_control/J8_control/install/ntrip_client:/home/rhobtor/PHD/j8_control/J8_control/install/j8_gui:/home/rhobtor/PHD/j8_control/J8_control/install/gui:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server:/home/rhobtor/PHD/j8_control/J8_control/install/GUI_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rhobtor/PHD/j8_control/J8_control/build/fixposition_sensor_pkg -- -j20 -l20
+[4.259s] [35m[1mConsolidate compiler generated dependencies of target gazebo_ros_imu_sensor_mod[0m
+[4.420s] [35m[1mConsolidate compiler generated dependencies of target gazebo_ros_gps_sensor_mod[0m
+[4.706s] [35m[1mConsolidate compiler generated dependencies of target gazebo_ros_fixposition_plugin[0m
+[13.159s] [ 33%] Built target gazebo_ros_gps_sensor_mod
+[13.377s] [ 66%] Built target gazebo_ros_fixposition_plugin
+[13.399s] [100%] Built target gazebo_ros_imu_sensor_mod
+[13.419s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/build/fixposition_sensor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/j8_control/J8_control/install/car:/home/rhobtor/PHD/j8_control/J8_control/install/ntrip_client:/home/rhobtor/PHD/j8_control/J8_control/install/j8_gui:/home/rhobtor/PHD/j8_control/J8_control/install/gui:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server:/home/rhobtor/PHD/j8_control/J8_control/install/GUI_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rhobtor/PHD/j8_control/J8_control/build/fixposition_sensor_pkg -- -j20 -l20
+[13.505s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/build/fixposition_sensor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/j8_control/J8_control/install/car:/home/rhobtor/PHD/j8_control/J8_control/install/ntrip_client:/home/rhobtor/PHD/j8_control/J8_control/install/j8_gui:/home/rhobtor/PHD/j8_control/J8_control/install/gui:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server:/home/rhobtor/PHD/j8_control/J8_control/install/GUI_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rhobtor/PHD/j8_control/J8_control/build/fixposition_sensor_pkg
+[13.827s] -- Install configuration: ""
+[13.827s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg/environment/library_path.sh
+[13.827s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg/environment/library_path.dsv
+[13.827s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/lib/libgazebo_ros_fixposition_plugin.so
+[13.909s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/lib/libgazebo_ros_imu_sensor_mod.so
+[14.371s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/lib/libgazebo_ros_gps_sensor_mod.so
+[14.371s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//urdf
+[14.371s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//urdf/fixposition_holder.xacro
+[14.371s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//urdf/fixposition_main.xacro
+[14.371s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//urdf/fixposition_sensor.xacro
+[14.371s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//meshes
+[14.371s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//meshes/Left_fixposition_holder.STL
+[14.371s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//meshes/Fixposion_base.STL
+[14.371s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//meshes/Left_fixposition_feet.STL
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//meshes/Fixposition_lower_case.STL
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//meshes/Fix_position_left_antenna.STL
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//meshes/Fixposition_right_antenna.STL
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//meshes/Fixposition_camera.STL
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//meshes/Fix_position_metal_frame.STL
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//meshes/Front_camera.STL
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//meshes/Right_fixposition_holder.STL
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//meshes/Central_fixposition_feet.STL
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//meshes/Central_fixposition_holder.STL
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//meshes/Right_fixposition_feet.STL
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg//meshes/Fixposition_upper_case.STL
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/ament_index/resource_index/package_run_dependencies/fixposition_sensor_pkg
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/ament_index/resource_index/parent_prefix_path/fixposition_sensor_pkg
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg/environment/ament_prefix_path.sh
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg/environment/ament_prefix_path.dsv
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg/environment/path.sh
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg/environment/path.dsv
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg/local_setup.bash
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg/local_setup.sh
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg/local_setup.zsh
+[14.372s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg/local_setup.dsv
+[14.373s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg/package.dsv
+[14.554s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/ament_index/resource_index/packages/fixposition_sensor_pkg
+[14.554s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[14.554s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg/cmake/fixposition_sensor_pkgConfig.cmake
+[14.554s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg/cmake/fixposition_sensor_pkgConfig-version.cmake
+[14.554s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/fixposition_sensor_pkg/share/fixposition_sensor_pkg/package.xml
+[14.556s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/build/fixposition_sensor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/j8_control/J8_control/install/car:/home/rhobtor/PHD/j8_control/J8_control/install/ntrip_client:/home/rhobtor/PHD/j8_control/J8_control/install/j8_gui:/home/rhobtor/PHD/j8_control/J8_control/install/gui:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server:/home/rhobtor/PHD/j8_control/J8_control/install/GUI_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rhobtor/PHD/j8_control/J8_control/build/fixposition_sensor_pkg

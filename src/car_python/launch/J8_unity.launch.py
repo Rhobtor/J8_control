@@ -9,6 +9,24 @@ from launch_ros.actions import Node
 from launch.substitutions import LaunchConfiguration
 import os
 import xacro
+import xml.etree.ElementTree as ET
+
+
+def unity_owned_sensor_description(robot_urdf):
+    root = ET.fromstring(robot_urdf)
+    joints = [joint for joint in root.findall("joint")
+              if joint.find("child") is not None
+              and joint.find("child").get("link") == "Velodyne_link"]
+    links = [link for link in root.findall("link") if link.get("name") == "Velodyne_link"]
+    if len(joints) != 1 or len(links) != 1:
+        raise RuntimeError("Expected exactly one URDF Velodyne link and joint")
+    if any(joint.find("parent") is not None
+           and joint.find("parent").get("link") == "Velodyne_link"
+           for joint in root.findall("joint")):
+        raise RuntimeError("Cannot remove Velodyne_link with dependent URDF joints")
+    root.remove(joints[0])
+    root.remove(links[0])
+    return ET.tostring(root, encoding="unicode")
 
 def generate_launch_description():
     # Unity uses the simulation model, whose sensor axes match the Unity scene.
@@ -22,7 +40,7 @@ def generate_launch_description():
 
     # Procesar el xacro → robot_description (XML)
     robot_description_config = xacro.process_file(xacro_path)
-    robot_urdf = robot_description_config.toxml()
+    robot_urdf = unity_owned_sensor_description(robot_description_config.toxml())
 
     # ======= Parámetro opcional para el alias Velodyne_link -> lidar_link =======
     use_lidar_alias_arg = DeclareLaunchArgument(
@@ -39,14 +57,6 @@ def generate_launch_description():
         description='Publicar TF estático identidad mmap -> map para conectar ambos árboles'
     )
     publish_mmap_alias = LaunchConfiguration('publish_mmap_alias')
-
-    # ======= TF odom -> base_link (solo si NO tienes odometría publicándolo ya) =======
-    publish_static_odom_to_base_arg = DeclareLaunchArgument(
-        'publish_static_odom_to_base',
-        default_value='false',
-        description='Publicar TF estático identidad odom -> base_link (desactívalo si ya existe odom->base_link dinámico)'
-    )
-    publish_static_odom_to_base = LaunchConfiguration('publish_static_odom_to_base')
 
     # ========== NODOS ==========
     # Robot State Publisher (publica TF del URDF)
@@ -85,22 +95,7 @@ def generate_launch_description():
     )
 
 
-    # odom -> base_link (identidad provisional hasta tener odometría)
-    odom_base_tf = Node(
-        package='tf2_ros',
-        executable='static_transform_publisher',
-        name='static_odom_to_base',
-        arguments=[
-            '--frame-id', 'odom',
-            '--child-frame-id', 'base_link',
-            '--x', '0', '--y', '0', '--z', '0',
-            '--roll', '0', '--pitch', '0', '--yaw', '0',
-        ],
-        output='screen',
-        condition=IfCondition(publish_static_odom_to_base)
-    )
-
-    # base_link -> camera_link (posición tomada del URDF que me pasaste; RPY=0 para mapeo "frame base")
+    # Physical Unity front_camera mount, including J8_top scale and vertical offset.
     base_camera_tf = Node(
         package='tf2_ros',
         executable='static_transform_publisher',
@@ -108,7 +103,7 @@ def generate_launch_description():
         arguments=[
             '--frame-id', 'base_link',
             '--child-frame-id', 'camera_link',
-            '--x', '0.9206628', '--y', '0.0075201', '--z', '0.75542',
+            '--x', '0.90528685', '--y', '0.00281843', '--z', '1.01813796',
             '--roll', '0', '--pitch', '0', '--yaw', '0',
         ],
         output='screen'
@@ -132,11 +127,9 @@ def generate_launch_description():
     return LaunchDescription([
         use_lidar_alias_arg,
         publish_mmap_alias_arg,
-        publish_static_odom_to_base_arg,
         robot_state_publisher_node,
         joint_state_publisher_node,
         map_odom_tf,
-        odom_base_tf,
         base_camera_tf,
         velodyne_to_lidar_alias,
     ])

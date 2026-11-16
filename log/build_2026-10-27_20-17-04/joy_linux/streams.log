@@ -1,0 +1,23 @@
+[2.367s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/j8_control/J8_control/install/car:/home/rhobtor/PHD/j8_control/J8_control/install/ntrip_client:/home/rhobtor/PHD/j8_control/J8_control/install/j8_gui:/home/rhobtor/PHD/j8_control/J8_control/install/gui:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server:/home/rhobtor/PHD/j8_control/J8_control/install/GUI_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rhobtor/PHD/j8_control/J8_control/build/joy_linux -- -j20 -l20
+[3.381s] [35m[1mConsolidate compiler generated dependencies of target joy_linux_node[0m
+[4.202s] [100%] Built target joy_linux_node
+[5.838s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/build/joy_linux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/j8_control/J8_control/install/car:/home/rhobtor/PHD/j8_control/J8_control/install/ntrip_client:/home/rhobtor/PHD/j8_control/J8_control/install/j8_gui:/home/rhobtor/PHD/j8_control/J8_control/install/gui:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server:/home/rhobtor/PHD/j8_control/J8_control/install/GUI_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rhobtor/PHD/j8_control/J8_control/build/joy_linux -- -j20 -l20
+[5.849s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/j8_control/J8_control/install/car:/home/rhobtor/PHD/j8_control/J8_control/install/ntrip_client:/home/rhobtor/PHD/j8_control/J8_control/install/j8_gui:/home/rhobtor/PHD/j8_control/J8_control/install/gui:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server:/home/rhobtor/PHD/j8_control/J8_control/install/GUI_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rhobtor/PHD/j8_control/J8_control/build/joy_linux
+[6.041s] -- Install configuration: ""
+[6.171s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/joy_linux/lib/joy_linux/joy_linux_node
+[6.171s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/joy_linux/share/ament_index/resource_index/package_run_dependencies/joy_linux
+[6.171s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/joy_linux/share/ament_index/resource_index/parent_prefix_path/joy_linux
+[6.171s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/joy_linux/share/joy_linux/environment/ament_prefix_path.sh
+[6.171s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/joy_linux/share/joy_linux/environment/ament_prefix_path.dsv
+[6.171s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/joy_linux/share/joy_linux/environment/path.sh
+[6.171s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/joy_linux/share/joy_linux/environment/path.dsv
+[6.171s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/joy_linux/share/joy_linux/local_setup.bash
+[6.171s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/joy_linux/share/joy_linux/local_setup.sh
+[6.171s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/joy_linux/share/joy_linux/local_setup.zsh
+[6.171s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/joy_linux/share/joy_linux/local_setup.dsv
+[6.171s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/joy_linux/share/joy_linux/package.dsv
+[6.171s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/joy_linux/share/ament_index/resource_index/packages/joy_linux
+[6.171s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig.cmake
+[6.171s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig-version.cmake
+[6.171s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/joy_linux/share/joy_linux/package.xml
+[6.461s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/build/joy_linux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/j8_control/J8_control/install/car:/home/rhobtor/PHD/j8_control/J8_control/install/ntrip_client:/home/rhobtor/PHD/j8_control/J8_control/install/j8_gui:/home/rhobtor/PHD/j8_control/J8_control/install/gui:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server:/home/rhobtor/PHD/j8_control/J8_control/install/GUI_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rhobtor/PHD/j8_control/J8_control/build/joy_linux

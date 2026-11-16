@@ -126,7 +126,7 @@
     var demTemporalOverlay = null;
     var demTemporalBoundary = null;
     var demTemporalChanges = L.layerGroup().addTo(demTemporal);
-    var demTemporalGrids = { candidates: null, global: null };
+    var demTemporalGrids = { candidates: null, global: null, local: null };
     var demTemporalLegend = L.control({ position: 'bottomright' });
     demTemporalLegend.onAdd = function () {
       var panel = L.DomUtil.create('div');
@@ -221,8 +221,8 @@
         });
       }
       var visible = {};
-      var counts = { candidates: 0, local: 0, global: 0 };
-      function draw(grid, defaultValue) {
+      var counts = { candidates: 0, local: 0, global: 0, observed: 0 };
+      function draw(grid, defaultValue, transient) {
         if (!grid || !grid.cells || !grid.width || !grid.height) return;
         grid.cells.forEach(function (cell) {
           var key = cell[0] + ':' + cell[1];
@@ -233,12 +233,14 @@
           var longitude = cell.length >= 5 ? cell[4] :
             west + (cell[1] + 0.5) * (east - west) / grid.width;
           var isGlobal = value >= 100;
+          var isObserved = transient && !isGlobal;
           var isLocalPersistent = value >= 50;
           if (isGlobal) counts.global++;
+          else if (isObserved) counts.observed++;
           else if (isLocalPersistent) counts.local++;
           else counts.candidates++;
-          var color = isGlobal ? '#e31a1c' : (isLocalPersistent ? '#ff8c1a' : '#ffd21f');
-          var label = isGlobal ? 'Cambio global' : (isLocalPersistent ? 'Persistente local' : 'Candidato');
+          var color = isGlobal ? '#e31a1c' : (isObserved ? '#2475df' : (isLocalPersistent ? '#ff8c1a' : '#ffd21f'));
+          var label = isGlobal ? 'Cambio global' : (isObserved ? 'Bloqueo local temporal usado por el planner' : (isLocalPersistent ? 'Persistente local' : 'Candidato'));
           L.circleMarker([latitude, longitude], {
             radius: isGlobal ? 7 : 5,
             color: '#1f2937',
@@ -251,17 +253,19 @@
         });
       }
       draw(globalGrid, 50);
+      draw(demTemporalGrids.local, 50, true);
       draw(candidates, 1);
       var legend = document.getElementById('dem-temporal-legend');
       if (legend) {
         legend.innerHTML = '<b>DEM temporal</b><br>' +
           '<span style="color:#ffd21f">●</span> candidatos: ' + counts.candidates + '<br>' +
           '<span style="color:#ff8c1a">●</span> persistentes locales: ' + counts.local + '<br>' +
+          '<span style="color:#2475df">●</span> bloqueos locales temporales: ' + counts.observed + '<br>' +
           '<span style="color:#e31a1c">●</span> cambios globales: ' + counts.global;
       }
     }
     window.setDemTemporalGrid = function (layerName, payload) {
-      if (layerName !== 'candidates' && layerName !== 'global') return;
+      if (layerName !== 'candidates' && layerName !== 'global' && layerName !== 'local') return;
       demTemporalGrids[layerName] = payload || null;
       redrawDemTemporal();
     };

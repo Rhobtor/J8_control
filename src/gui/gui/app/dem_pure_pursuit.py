@@ -10,7 +10,7 @@ def compute_command(
     lookahead_distance: float,
     forward_speed: float,
     max_angular_speed: float,
-    goal_tolerance: float = 0.8,
+    goal_tolerance: float = 1.0,
 ) -> tuple[float, float, bool]:
     if not path:
         return 0.0, 0.0, False

@@ -1,0 +1,195 @@
+[0.633s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/build/security_check_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/j8_control/J8_control/install/car:/home/rhobtor/PHD/j8_control/J8_control/install/ntrip_client:/home/rhobtor/PHD/j8_control/J8_control/install/j8_gui:/home/rhobtor/PHD/j8_control/J8_control/install/gui:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server:/home/rhobtor/PHD/j8_control/J8_control/install/GUI_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rhobtor/PHD/j8_control/J8_control/build/security_check_interfaces -- -j20 -l20
+[2.520s] [  2%] Built target security_check_interfaces__cpp
+[2.521s] [35m[1mConsolidate compiler generated dependencies of target security_check_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.521s] [ 12%] Built target security_check_interfaces__rosidl_typesupport_introspection_cpp
+[2.522s] [35m[1mConsolidate compiler generated dependencies of target security_check_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.522s] [35m[1mConsolidate compiler generated dependencies of target security_check_interfaces__rosidl_generator_c[0m
+[2.522s] [ 12%] Built target ament_cmake_python_copy_security_check_interfaces
+[2.522s] [ 22%] Built target security_check_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.522s] [ 32%] Built target security_check_interfaces__rosidl_generator_c
+[2.536s] [35m[1mConsolidate compiler generated dependencies of target security_check_interfaces__rosidl_typesupport_cpp[0m
+[2.551s] [ 42%] Built target security_check_interfaces__rosidl_typesupport_cpp
+[2.561s] [35m[1mConsolidate compiler generated dependencies of target security_check_interfaces__rosidl_typesupport_introspection_c[0m
+[2.561s] [35m[1mConsolidate compiler generated dependencies of target security_check_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.575s] [ 52%] Built target security_check_interfaces__rosidl_typesupport_introspection_c
+[2.580s] [35m[1mConsolidate compiler generated dependencies of target security_check_interfaces__rosidl_typesupport_c[0m
+[2.588s] [ 62%] Built target security_check_interfaces__rosidl_typesupport_fastrtps_c
+[2.591s] [ 72%] Built target security_check_interfaces__rosidl_typesupport_c
+[2.729s] [ 75%] Built target security_check_interfaces__rs
+[2.765s] [ 75%] Built target security_check_interfaces
+[3.210s] [ 77%] Built target security_check_interfaces__py
+[3.303s] [35m[1mConsolidate compiler generated dependencies of target security_check_interfaces__rosidl_generator_py[0m
+[3.403s] [ 85%] Built target security_check_interfaces__rosidl_generator_py
+[3.429s] running egg_info
+[3.432s] [35m[1mConsolidate compiler generated dependencies of target security_check_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[3.432s] [35m[1mConsolidate compiler generated dependencies of target security_check_interfaces__rosidl_typesupport_c__pyext[0m
+[3.443s] writing security_check_interfaces.egg-info/PKG-INFO
+[3.446s] [ 90%] Built target security_check_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.448s] writing dependency_links to security_check_interfaces.egg-info/dependency_links.txt
+[3.452s] [ 95%] Built target security_check_interfaces__rosidl_typesupport_c__pyext
+[3.452s] writing top-level names to security_check_interfaces.egg-info/top_level.txt
+[3.518s] reading manifest file 'security_check_interfaces.egg-info/SOURCES.txt'
+[3.663s] writing manifest file 'security_check_interfaces.egg-info/SOURCES.txt'
+[3.669s] [35m[1mConsolidate compiler generated dependencies of target security_check_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.683s] [100%] Built target security_check_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.718s] [100%] Built target ament_cmake_python_build_security_check_interfaces_egg
+[5.849s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/build/security_check_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/j8_control/J8_control/install/car:/home/rhobtor/PHD/j8_control/J8_control/install/ntrip_client:/home/rhobtor/PHD/j8_control/J8_control/install/j8_gui:/home/rhobtor/PHD/j8_control/J8_control/install/gui:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server:/home/rhobtor/PHD/j8_control/J8_control/install/GUI_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rhobtor/PHD/j8_control/J8_control/build/security_check_interfaces -- -j20 -l20
+[5.878s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/build/security_check_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/j8_control/J8_control/install/car:/home/rhobtor/PHD/j8_control/J8_control/install/ntrip_client:/home/rhobtor/PHD/j8_control/J8_control/install/j8_gui:/home/rhobtor/PHD/j8_control/J8_control/install/gui:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server:/home/rhobtor/PHD/j8_control/J8_control/install/GUI_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rhobtor/PHD/j8_control/J8_control/build/security_check_interfaces
+[6.262s] -- Install configuration: ""
+[6.262s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/ament_index/resource_index/rosidl_interfaces/security_check_interfaces
+[6.263s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces
+[6.263s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv
+[6.263s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/get_security_check_status.h
+[6.263s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/password_check.h
+[6.263s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail
+[6.263s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/get_security_check_status__functions.c
+[6.263s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/password_check__struct.h
+[6.263s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/password_check__functions.c
+[6.263s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/get_security_check_status__type_support.h
+[6.263s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/get_security_check_status__struct.h
+[6.263s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/password_check__type_support.h
+[6.263s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/password_check__functions.h
+[6.263s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/get_security_check_status__functions.h
+[6.264s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/msg
+[6.264s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.264s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/environment/library_path.sh
+[6.264s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/environment/library_path.dsv
+[6.484s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/lib/libsecurity_check_interfaces__rosidl_generator_c.so
+[6.484s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces
+[6.484s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv
+[6.484s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail
+[6.485s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/password_check__rosidl_typesupport_fastrtps_c.h
+[6.485s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/get_security_check_status__rosidl_typesupport_fastrtps_c.h
+[6.485s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/msg
+[6.485s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.548s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/lib/libsecurity_check_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.548s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces
+[6.548s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv
+[6.548s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail
+[6.548s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/password_check__type_support.c
+[6.548s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/password_check__rosidl_typesupport_introspection_c.h
+[6.548s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/get_security_check_status__type_support.c
+[6.548s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/get_security_check_status__rosidl_typesupport_introspection_c.h
+[6.548s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/msg
+[6.548s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.562s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/lib/libsecurity_check_interfaces__rosidl_typesupport_introspection_c.so
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/lib/libsecurity_check_interfaces__rosidl_typesupport_c.so
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/password_check.hpp
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/get_security_check_status__type_support.hpp
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/get_security_check_status__struct.hpp
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/get_security_check_status__builder.hpp
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/password_check__type_support.hpp
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/get_security_check_status__traits.hpp
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/password_check__builder.hpp
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/password_check__struct.hpp
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/password_check__traits.hpp
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/get_security_check_status.hpp
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/msg
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail
+[6.563s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/get_security_check_status__rosidl_typesupport_fastrtps_cpp.hpp
+[6.564s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/password_check__rosidl_typesupport_fastrtps_cpp.hpp
+[6.564s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/dds_fastrtps
+[6.564s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/msg
+[6.564s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.564s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/lib/libsecurity_check_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.564s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces
+[6.564s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv
+[6.564s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail
+[6.564s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/password_check__type_support.cpp
+[6.564s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/get_security_check_status__type_support.cpp
+[6.564s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/get_security_check_status__rosidl_typesupport_introspection_cpp.hpp
+[6.564s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/include/security_check_interfaces/security_check_interfaces/srv/detail/password_check__rosidl_typesupport_introspection_cpp.hpp
+[6.564s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/lib/libsecurity_check_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.564s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/lib/libsecurity_check_interfaces__rosidl_typesupport_cpp.so
+[6.564s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/environment/pythonpath.sh
+[6.564s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/environment/pythonpath.dsv
+[6.564s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces-0.0.0-py3.10.egg-info
+[6.564s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.564s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[6.565s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[6.565s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.565s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces
+[6.565s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/__init__.py
+[6.565s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/security_check_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.565s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/_security_check_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.565s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/srv
+[6.565s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/srv/__init__.py
+[6.565s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/srv/_password_check.py
+[6.565s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/srv/_get_security_check_status.py
+[6.565s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/srv/_password_check_s.c
+[6.565s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/srv/_get_security_check_status_s.c
+[6.565s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/_security_check_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.565s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/libsecurity_check_interfaces__rosidl_generator_py.so
+[6.565s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/_security_check_interfaces_s.ep.rosidl_typesupport_c.c
+[6.565s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/security_check_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.565s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/security_check_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.696s] Listing '/home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces'...
+[6.696s] Listing '/home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/srv'...
+[6.703s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/security_check_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.707s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/security_check_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.734s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/local/lib/python3.10/dist-packages/security_check_interfaces/security_check_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.734s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/lib/libsecurity_check_interfaces__rosidl_generator_py.so
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/ament_index/resource_index/rust_packages/security_check_interfaces
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/rust
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/rust/build.rs
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/rust/src
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/rust/src/srv.rs
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/rust/src/srv
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/rust/src/srv/rmw.rs
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/rust/src/lib.rs
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/rust/Cargo.toml
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/srv/PasswordCheck.idl
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/srv/GetSecurityCheckStatus.idl
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/srv/PasswordCheck.srv
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/srv/PasswordCheck_Request.msg
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/srv/PasswordCheck_Response.msg
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/srv/GetSecurityCheckStatus.srv
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/srv/GetSecurityCheckStatus_Request.msg
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/srv/GetSecurityCheckStatus_Response.msg
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/ament_index/resource_index/package_run_dependencies/security_check_interfaces
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/ament_index/resource_index/parent_prefix_path/security_check_interfaces
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/environment/ament_prefix_path.sh
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/environment/ament_prefix_path.dsv
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/environment/path.sh
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/environment/path.dsv
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/local_setup.bash
+[6.735s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/local_setup.sh
+[6.736s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/local_setup.zsh
+[6.736s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/local_setup.dsv
+[6.736s] -- Installing: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/package.dsv
+[6.742s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/ament_index/resource_index/packages/security_check_interfaces
+[6.815s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/export_security_check_interfaces__rosidl_generator_cExport.cmake
+[6.815s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/export_security_check_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.937s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/export_security_check_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.937s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/export_security_check_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.948s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/security_check_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.948s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/security_check_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.048s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/security_check_interfaces__rosidl_typesupport_cExport.cmake
+[7.048s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/security_check_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.051s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/export_security_check_interfaces__rosidl_generator_cppExport.cmake
+[7.108s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/export_security_check_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.108s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/export_security_check_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.137s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/security_check_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.138s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/security_check_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.141s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/security_check_interfaces__rosidl_typesupport_cppExport.cmake
+[7.141s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/security_check_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.144s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/export_security_check_interfaces__rosidl_generator_pyExport.cmake
+[7.144s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/export_security_check_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.144s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.144s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.144s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.144s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.144s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.144s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.144s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.144s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[7.144s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/security_check_interfacesConfig.cmake
+[7.144s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/cmake/security_check_interfacesConfig-version.cmake
+[7.144s] -- Up-to-date: /home/rhobtor/PHD/j8_control/J8_control/install/security_check_interfaces/share/security_check_interfaces/package.xml
+[7.153s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/build/security_check_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rhobtor/PHD/j8_control/J8_control/install/car:/home/rhobtor/PHD/j8_control/J8_control/install/ntrip_client:/home/rhobtor/PHD/j8_control/J8_control/install/j8_gui:/home/rhobtor/PHD/j8_control/J8_control/install/gui:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server:/home/rhobtor/PHD/j8_control/J8_control/install/GUI_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rhobtor/PHD/j8_control/J8_control/build/security_check_interfaces

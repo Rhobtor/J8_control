@@ -3,6 +3,7 @@
 /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/ros_api.py
 /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app/followzed_widget.py
 /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app/__init__.py
+/home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app/dem_planning_display.py
 /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app/control_widget.py
 /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app/video_tab.py
 /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app/dem_pure_pursuit.py
@@ -17,6 +18,7 @@
 /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/__pycache__/ros_api.cpython-310.pyc
 /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app/__pycache__/followzed_widget.cpython-310.pyc
 /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app/__pycache__/__init__.cpython-310.pyc
+/home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app/__pycache__/dem_planning_display.cpython-310.pyc
 /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app/__pycache__/control_widget.cpython-310.pyc
 /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app/__pycache__/video_tab.cpython-310.pyc
 /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app/__pycache__/dem_pure_pursuit.cpython-310.pyc

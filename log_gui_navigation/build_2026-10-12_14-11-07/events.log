@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000154] (gui) JobQueued: {'identifier': 'gui', 'dependencies': OrderedDict()}
+[0.000425] (gui) JobStarted: {'identifier': 'gui'}
+[0.099857] (-) TimerEvent: {}
+[0.200198] (-) TimerEvent: {}
+[0.300374] (-) TimerEvent: {}
+[0.400583] (-) TimerEvent: {}
+[0.500799] (-) TimerEvent: {}
+[0.600993] (-) TimerEvent: {}
+[0.701184] (-) TimerEvent: {}
+[0.801366] (-) TimerEvent: {}
+[0.901565] (-) TimerEvent: {}
+[1.001744] (-) TimerEvent: {}
+[1.101938] (-) TimerEvent: {}
+[1.202126] (-) TimerEvent: {}
+[1.302316] (-) TimerEvent: {}
+[1.402497] (-) TimerEvent: {}
+[1.502674] (-) TimerEvent: {}
+[1.602862] (-) TimerEvent: {}
+[1.703045] (-) TimerEvent: {}
+[1.803227] (-) TimerEvent: {}
+[1.903428] (-) TimerEvent: {}
+[2.003615] (-) TimerEvent: {}
+[2.103845] (-) TimerEvent: {}
+[2.204008] (-) TimerEvent: {}
+[2.304151] (-) TimerEvent: {}
+[2.404329] (-) TimerEvent: {}
+[2.504509] (-) TimerEvent: {}
+[2.604683] (-) TimerEvent: {}
+[2.712280] (-) TimerEvent: {}
+[2.812434] (-) TimerEvent: {}
+[2.912596] (-) TimerEvent: {}
+[3.029882] (-) TimerEvent: {}
+[3.130022] (-) TimerEvent: {}
+[3.230176] (-) TimerEvent: {}
+[3.330424] (-) TimerEvent: {}
+[3.430589] (-) TimerEvent: {}
+[3.530750] (-) TimerEvent: {}
+[3.630914] (-) TimerEvent: {}
+[3.731045] (-) TimerEvent: {}
+[3.831201] (-) TimerEvent: {}
+[3.931359] (-) TimerEvent: {}
+[4.031515] (-) TimerEvent: {}
+[4.131674] (-) TimerEvent: {}
+[4.231837] (-) TimerEvent: {}
+[4.331983] (-) TimerEvent: {}
+[4.432140] (-) TimerEvent: {}
+[4.532309] (-) TimerEvent: {}
+[4.632493] (-) TimerEvent: {}
+[4.732750] (-) TimerEvent: {}
+[4.832924] (-) TimerEvent: {}
+[4.933099] (-) TimerEvent: {}
+[5.033274] (-) TimerEvent: {}
+[5.133445] (-) TimerEvent: {}
+[5.233604] (-) TimerEvent: {}
+[5.333835] (-) TimerEvent: {}
+[5.433989] (-) TimerEvent: {}
+[5.534135] (-) TimerEvent: {}
+[5.634316] (-) TimerEvent: {}
+[5.734482] (-) TimerEvent: {}
+[5.834665] (-) TimerEvent: {}
+[5.934899] (-) TimerEvent: {}
+[6.035043] (-) TimerEvent: {}
+[6.135211] (-) TimerEvent: {}
+[6.235348] (-) TimerEvent: {}
+[6.335489] (-) TimerEvent: {}
+[6.435662] (-) TimerEvent: {}
+[6.535822] (-) TimerEvent: {}
+[6.635952] (-) TimerEvent: {}
+[6.736087] (-) TimerEvent: {}
+[6.836221] (-) TimerEvent: {}
+[6.936380] (-) TimerEvent: {}
+[7.036537] (-) TimerEvent: {}
+[7.136702] (-) TimerEvent: {}
+[7.236874] (-) TimerEvent: {}
+[7.337013] (-) TimerEvent: {}
+[7.437171] (-) TimerEvent: {}
+[7.503905] (gui) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build_gui_navigation/gui', 'build', '--build-base', '/home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build', 'install', '--record', '/home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/install.log', '--install-scripts', '$base/lib/gui', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rhobtor/PHD/j8_control/J8_control/src/gui', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('RUBBER_DUCK_AGENT', 'true'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('USER', 'rhobtor'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rhobtor'), ('CHROME_DESKTOP', 'com.microsoft.VSCode.desktop'), ('GIT_CONFIG_COUNT', '3'), ('OLDPWD', '/home/rhobtor/PHD'), ('DESKTOP_SESSION', 'ubuntu'), ('COPILOT_CLI_RUN_AS_NODE', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('COPILOT_CLI', '1'), ('SYSTEMD_EXEC_PID', '2434'), ('SSH_ASKPASS', ''), ('ANTHROPIC_ADVISOR', 'false'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('USE_BUILTIN_RIPGREP', 'false'), ('COPILOT_HOME', '/home/rhobtor/.copilot'), ('GIT_OPTIONAL_LOCKS', '0'), ('GCM_INTERACTIVE', 'Never'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rhobtor'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('SKILL_CHAR_BUDGET', '30000'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rhobtor'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('GIT_CONFIG_VALUE_0', 'explicit'), ('PATH', '/opt/ros/humble/bin:/home/rhobtor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/share/code/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/linux-x64'), ('SESSION_MANAGER', 'local/rhobtor:@/tmp/.ICE-unix/2411,unix/rhobtor:/tmp/.ICE-unix/2411'), ('GIT_CONFIG_VALUE_1', 'never'), ('CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP', '1'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/667f5e20_5fb6_44e1_85e0_ec1caddc1917'), ('GIT_CONFIG_VALUE_2', ''), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('COPILOT_AGENT_SESSION_ID', 'f8598d18-9aea-4740-8c33-5df6b0b39afd'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('COPILOT_RUNTIME_PROCESS_FILE_LOGGING', '1'), ('GIT_TERMINAL_PROMPT', '0'), ('MXC_BIN_DIR', '/usr/share/code/resources/app/node_modules.asar.unpacked/@microsoft/mxc-sdk/bin'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GIT_CONFIG_KEY_0', 'safe.bareRepository'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GIT_CONFIG_KEY_1', 'credential.interactive'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GIT_CONFIG_KEY_2', 'core.fsmonitor'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('COPILOT_MCP_APPS', 'true'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui'), ('AUTO_APPROVAL', 'true'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COPILOT_ENABLE_BUILTIN_GITHUB_MCP', 'true'), ('PYTHONPATH', '/home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('COPILOT_CLI_ENABLED_FEATURE_FLAGS', 'SHELL_SPAWN_BACKEND'), ('VTE_VERSION', '6800')]), 'shell': False}
+[7.537274] (-) TimerEvent: {}
+[7.595161] (gui) StderrLine: {'line': b"/home/rhobtor/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[7.595288] (gui) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[7.637380] (-) TimerEvent: {}
+[7.652472] (gui) StdoutLine: {'line': b'running egg_info\n'}
+[7.661589] (gui) StdoutLine: {'line': b'writing ../../build_gui_navigation/gui/gui.egg-info/PKG-INFO\n'}
+[7.685589] (gui) StdoutLine: {'line': b'writing dependency_links to ../../build_gui_navigation/gui/gui.egg-info/dependency_links.txt\n'}
+[7.685712] (gui) StdoutLine: {'line': b'writing entry points to ../../build_gui_navigation/gui/gui.egg-info/entry_points.txt\n'}
+[7.685769] (gui) StdoutLine: {'line': b'writing requirements to ../../build_gui_navigation/gui/gui.egg-info/requires.txt\n'}
+[7.685826] (gui) StdoutLine: {'line': b'writing top-level names to ../../build_gui_navigation/gui/gui.egg-info/top_level.txt\n'}
+[7.705963] (gui) StdoutLine: {'line': b"reading manifest file '../../build_gui_navigation/gui/gui.egg-info/SOURCES.txt'\n"}
+[7.732875] (gui) StdoutLine: {'line': b"writing manifest file '../../build_gui_navigation/gui/gui.egg-info/SOURCES.txt'\n"}
+[7.732998] (gui) StdoutLine: {'line': b'running build\n'}
+[7.733026] (gui) StdoutLine: {'line': b'running build_py\n'}
+[7.737493] (-) TimerEvent: {}
+[7.772491] (gui) StdoutLine: {'line': b'copying gui/__init__.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui\n'}
+[7.772625] (gui) StdoutLine: {'line': b'copying gui/gui_node.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui\n'}
+[7.797595] (gui) StdoutLine: {'line': b'copying gui/ros_api.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui\n'}
+[7.831443] (gui) StdoutLine: {'line': b'copying gui/app/followzed_widget.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app\n'}
+[7.831618] (gui) StdoutLine: {'line': b'copying gui/app/__init__.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app\n'}
+[7.831686] (gui) StdoutLine: {'line': b'copying gui/app/dem_planning_display.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app\n'}
+[7.831754] (gui) StdoutLine: {'line': b'copying gui/app/control_widget.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app\n'}
+[7.831833] (gui) StdoutLine: {'line': b'copying gui/app/video_tab.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app\n'}
+[7.831900] (gui) StdoutLine: {'line': b'copying gui/app/dem_pure_pursuit.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app\n'}
+[7.831958] (gui) StdoutLine: {'line': b'copying gui/app/map_bridge.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app\n'}
+[7.832017] (gui) StdoutLine: {'line': b'copying gui/app/person_manager_widget.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app\n'}
+[7.832077] (gui) StdoutLine: {'line': b'copying gui/app/fsm_debug_widget.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app\n'}
+[7.832138] (gui) StdoutLine: {'line': b'copying gui/app/state_widget.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app\n'}
+[7.837582] (-) TimerEvent: {}
+[7.859899] (gui) StdoutLine: {'line': b'copying gui/app/geo_local.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app\n'}
+[7.860003] (gui) StdoutLine: {'line': b'copying gui/app/main_window.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app\n'}
+[7.860352] (gui) StdoutLine: {'line': b'running install\n'}
+[7.862866] (gui) StdoutLine: {'line': b'running install_lib\n'}
+[7.937743] (-) TimerEvent: {}
+[7.962568] (gui) StdoutLine: {'line': b'copying /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app/main_window.py -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app\n'}
+[8.037893] (-) TimerEvent: {}
+[8.118067] (gui) StdoutLine: {'line': b'byte-compiling /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app/main_window.py to main_window.cpython-310.pyc\n'}
+[8.137975] (-) TimerEvent: {}
+[8.196854] (gui) StdoutLine: {'line': b'running install_data\n'}
+[8.238085] (-) TimerEvent: {}
+[8.306920] (gui) StdoutLine: {'line': b'copying resource/gui -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/ament_index/resource_index/packages\n'}
+[8.353097] (-) TimerEvent: {}
+[8.353136] (gui) StdoutLine: {'line': b'copying package.xml -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui\n'}
+[8.362371] (gui) StdoutLine: {'line': b'copying gui/resources/map.html -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources\n'}
+[8.420002] (gui) StdoutLine: {'line': b'copying resource/gui -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/ament_index/resource_index/packages\n'}
+[8.420258] (gui) StdoutLine: {'line': b'copying package.xml -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui\n'}
+[8.420321] (gui) StdoutLine: {'line': b'copying gui/resources/map.html -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources\n'}
+[8.453224] (-) TimerEvent: {}
+[8.540213] (gui) StdoutLine: {'line': b'copying gui/resources/vendor/leaflet/leaflet.js -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources/vendor/leaflet\n'}
+[8.553373] (-) TimerEvent: {}
+[8.650906] (gui) StdoutLine: {'line': b'copying gui/resources/vendor/leaflet/leaflet.css -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources/vendor/leaflet\n'}
+[8.653453] (-) TimerEvent: {}
+[8.753631] (-) TimerEvent: {}
+[8.753841] (gui) StdoutLine: {'line': b'copying gui/resources/vendor/leaflet/images/marker-icon.png -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources/vendor/leaflet/images\n'}
+[8.799078] (gui) StdoutLine: {'line': b'copying gui/resources/vendor/leaflet/images/marker-icon-2x.png -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources/vendor/leaflet/images\n'}
+[8.843630] (gui) StdoutLine: {'line': b'copying gui/resources/vendor/leaflet/images/marker-shadow.png -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources/vendor/leaflet/images\n'}
+[8.853710] (-) TimerEvent: {}
+[8.888037] (gui) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.898419] (gui) StdoutLine: {'line': b"removing '/home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[8.929997] (gui) StdoutLine: {'line': b'Copying ../../build_gui_navigation/gui/gui.egg-info to /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui-0.1.0-py3.10.egg-info\n'}
+[8.953863] (-) TimerEvent: {}
+[8.997080] (gui) StdoutLine: {'line': b'running install_scripts\n'}
+[9.017915] (gui) StdoutLine: {'line': b'Installing gui script to /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/gui\n'}
+[9.053970] (-) TimerEvent: {}
+[9.071696] (gui) StdoutLine: {'line': b"writing list of installed files to '/home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/install.log'\n"}
+[9.086984] (gui) CommandEnded: {'returncode': 0}
+[9.092572] (gui) JobEnded: {'identifier': 'gui', 'rc': 0}
+[9.131387] (-) EventReactorShutdown: {}

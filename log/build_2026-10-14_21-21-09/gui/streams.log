@@ -1,0 +1,56 @@
+[0.591s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/src/gui': PYTHONPATH=/home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build_gui_navigation/gui build --build-base /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build install --record /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/install.log --install-scripts $base/lib/gui --single-version-externally-managed install_data
+[0.707s] /home/rhobtor/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[0.707s]   warnings.warn(msg)
+[0.771s] running egg_info
+[0.784s] writing ../../build_gui_navigation/gui/gui.egg-info/PKG-INFO
+[0.799s] writing dependency_links to ../../build_gui_navigation/gui/gui.egg-info/dependency_links.txt
+[0.804s] writing entry points to ../../build_gui_navigation/gui/gui.egg-info/entry_points.txt
+[0.806s] writing requirements to ../../build_gui_navigation/gui/gui.egg-info/requires.txt
+[0.858s] writing top-level names to ../../build_gui_navigation/gui/gui.egg-info/top_level.txt
+[0.909s] reading manifest file '../../build_gui_navigation/gui/gui.egg-info/SOURCES.txt'
+[0.926s] writing manifest file '../../build_gui_navigation/gui/gui.egg-info/SOURCES.txt'
+[0.926s] running build
+[0.926s] running build_py
+[0.926s] copying gui/__init__.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui
+[0.926s] copying gui/gui_node.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui
+[0.926s] copying gui/ros_api.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui
+[0.927s] copying gui/app/followzed_widget.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app
+[0.927s] copying gui/app/__init__.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app
+[0.927s] copying gui/app/dem_planning_display.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app
+[0.927s] copying gui/app/control_widget.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app
+[0.927s] copying gui/app/video_tab.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app
+[0.927s] copying gui/app/dem_pure_pursuit.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app
+[0.927s] copying gui/app/map_bridge.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app
+[0.927s] copying gui/app/person_manager_widget.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app
+[0.927s] copying gui/app/fsm_debug_widget.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app
+[0.927s] copying gui/app/state_widget.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app
+[0.928s] copying gui/app/geo_local.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app
+[0.928s] copying gui/app/main_window.py -> /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app
+[0.928s] warning: build_py: byte-compiling is disabled, skipping.
+[0.928s] 
+[0.928s] running install
+[0.931s] running install_lib
+[0.942s] copying /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app/dem_planning_display.py -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app
+[0.942s] copying /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app/dem_pure_pursuit.py -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app
+[0.943s] copying /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build/lib/gui/app/main_window.py -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui/app
+[0.943s] warning: install_lib: byte-compiling is disabled, skipping.
+[0.943s] 
+[0.943s] running install_data
+[0.943s] copying resource/gui -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/ament_index/resource_index/packages
+[0.943s] copying package.xml -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui
+[0.943s] copying gui/resources/map.html -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources
+[1.020s] copying resource/gui -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/ament_index/resource_index/packages
+[1.020s] copying package.xml -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui
+[1.020s] copying gui/resources/map.html -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources
+[1.020s] copying gui/resources/vendor/leaflet/leaflet.js -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources/vendor/leaflet
+[1.095s] copying gui/resources/vendor/leaflet/leaflet.css -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources/vendor/leaflet
+[1.131s] copying gui/resources/vendor/leaflet/images/marker-icon.png -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources/vendor/leaflet/images
+[1.165s] copying gui/resources/vendor/leaflet/images/marker-icon-2x.png -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources/vendor/leaflet/images
+[1.183s] copying gui/resources/vendor/leaflet/images/marker-shadow.png -> /home/rhobtor/PHD/j8_control/J8_control/install/gui/share/gui/resources/vendor/leaflet/images
+[1.209s] running install_egg_info
+[1.221s] removing '/home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui-0.1.0-py3.10.egg-info' (and everything under it)
+[1.221s] Copying ../../build_gui_navigation/gui/gui.egg-info to /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages/gui-0.1.0-py3.10.egg-info
+[1.247s] running install_scripts
+[1.270s] Installing gui script to /home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/gui
+[1.270s] writing list of installed files to '/home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/install.log'
+[1.288s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/src/gui' returned '0': PYTHONPATH=/home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhobtor/PHD/j8_control/J8_control/install/gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build_gui_navigation/gui build --build-base /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/build install --record /home/rhobtor/PHD/j8_control/J8_control/build_gui_navigation/gui/install.log --install-scripts $base/lib/gui --single-version-externally-managed install_data

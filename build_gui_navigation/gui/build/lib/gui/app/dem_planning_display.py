@@ -20,8 +20,10 @@ class DemPlanningDisplay:
         self.point_count = point_count
 
     def status(self) -> tuple[str, str] | None:
-        if self.state == 'PLANNING':
+        if self.state in ('PLANNING', 'WAITING_FOR_POSE'):
             return 'DEM: calculando ruta…', '#8a5a00'
+        if self.state == 'REACHED':
+            return 'DEM: objetivo alcanzado (1 m)', '#187a37'
         if self.state == 'FAILED':
             return 'DEM: sin ruta segura', '#b42318'
         if self.state == 'READY' or self.point_count > 0:

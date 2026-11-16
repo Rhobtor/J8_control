@@ -1,4 +1,5 @@
 from gui.app.dem_planning_display import DemPlanningDisplay
+import pytest
 
 
 def test_empty_invalidation_does_not_replace_planning_status():
@@ -39,3 +40,20 @@ def test_new_goal_resets_route_count_and_error():
     assert display.error == ''
     display.receive_state('READY')
     assert display.status()[0] == 'DEM: ruta lista'
+
+
+@pytest.mark.parametrize(('error', 'label'), [
+    ('No terrain-feasible path: the goal has no admissible approach: support residual 0.1250 m > limit 0.1000 m',
+     'DEM: apoyo irregular (destino)'),
+    ('No terrain-feasible path: the goal has no admissible approach: support step 0.1700 m >= limit 0.1500 m',
+     'DEM: escalón excesivo (destino)'),
+    ('No terrain-feasible path: the goal has no admissible approach: goal cost reaches the hard blocking threshold 100',
+     'DEM: obstáculo (destino)'),
+    ('The goal lies on unknown terrain', 'DEM: terreno sin datos (destino)'),
+    ('No terrain-feasible path: the goal has no admissible approach', 'DEM: sin acceso admisible (destino)'),
+])
+def test_failure_identifies_the_constraint_without_losing_details(error, label):
+    display = DemPlanningDisplay()
+    display.receive_state('FAILED', error)
+    assert display.status() == (label, '#b42318')
+    assert display.error == error

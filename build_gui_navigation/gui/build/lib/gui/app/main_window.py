@@ -651,6 +651,12 @@ class RosSide(Node):
         self._dem_control_enabled = False
         self._dem_control_status = ''
         self._dem_local_path = []
+        self._dem_pending_goal = None
+        self._dem_request_id = ''
+        self._dem_planning_ready = False
+        self._dem_pending_control_config = None
+        self._dem_control_config = None
+        self._dem_last_goal_publish = 0.0
         self._dem_odom_pose = None
         self._dem_odom_monotonic = 0.0
         self._dem_forward_speed = 0.8
@@ -740,6 +746,7 @@ class RosSide(Node):
         self.pub_external_path_command = self.create_publisher(MsgString, topic_external_path_command, 10)
         self._msg_String = MsgString
         self.pub_dem_goal = self.create_publisher(PoseStamped, '/dem/goal_wgs84', 10)
+        self.dem_goal_retry_timer = self.create_timer(0.25, self._retry_dem_goal)
         dem_path_qos = QoSProfile(depth=1)
         dem_path_qos.reliability = ReliabilityPolicy.RELIABLE
         dem_path_qos.durability = DurabilityPolicy.TRANSIENT_LOCAL
@@ -762,6 +769,10 @@ class RosSide(Node):
         self.sub_dem_global_changes = self.create_subscription(
             OccupancyGrid, '/dem/global_changes',
             lambda message: self._on_dem_temporal_grid('global', message), dem_path_qos
+        )
+        self.sub_dem_local_observations = self.create_subscription(
+            OccupancyGrid, '/dem/local_observation_cost',
+            lambda message: self._on_dem_temporal_grid('local', message), dem_path_qos
         )
         self.pub_dem_cmd_vel = self.create_publisher(Twist, '/cmd_vel', 10)
         self.dem_control_timer = self.create_timer(0.1, self._run_dem_pure_pursuit)
@@ -806,8 +817,32 @@ class RosSide(Node):
         message.pose.position.x = float(longitude)
         message.pose.position.y = float(latitude)
         message.pose.orientation.w = 1.0
+        if self._dem_control_enabled:
+            config = self._dem_control_config
+            self.stop_dem_pure_pursuit('DEM: esperando la nueva ruta')
+            self._dem_pending_control_config = config
+        self._dem_local_path = []
+        self._dem_planning_ready = False
+        self._dem_pending_goal = message
+        self._dem_request_id = json.dumps([
+            '/dem/goal_wgs84', message.header.stamp.sec, message.header.stamp.nanosec,
+            message.pose.position.x, message.pose.position.y,
+        ])
+        self._dem_last_goal_publish = time.monotonic()
         self.pub_dem_goal.publish(message)
         self.get_logger().info(f"DEM goal -> lat={latitude:.7f} lon={longitude:.7f}")
+
+    def _retry_dem_goal(self):
+        if self._dem_pending_goal is not None and time.monotonic() - self._dem_last_goal_publish >= 1.0:
+            if self.pub_dem_goal.get_subscription_count() > 0:
+                self.pub_dem_goal.publish(self._dem_pending_goal)
+                self._dem_last_goal_publish = time.monotonic()
+        if (
+            self._dem_pending_control_config is not None and self._dem_local_path
+            and self._dem_planning_ready and self._dem_odom_pose is not None
+            and time.monotonic() - self._dem_odom_monotonic <= 1.0
+        ):
+            self.start_dem_pure_pursuit(self._dem_pending_control_config)
 
     def _on_dem_path(self, message: Path):
         points = [
@@ -827,6 +862,18 @@ class RosSide(Node):
         if not isinstance(payload, dict):
             self.get_logger().error('Invalid DEM planning status: expected an object')
             return
+        if self._dem_request_id and payload.get('request_id') != self._dem_request_id:
+            return
+        self._dem_pending_goal = None
+        state = payload.get('state')
+        self._dem_planning_ready = state == 'READY'
+        if state in ('PLANNING', 'WAITING_FOR_POSE', 'FAILED'):
+            config = self._dem_control_config if self._dem_control_enabled else self._dem_pending_control_config
+            if self._dem_control_enabled:
+                self.stop_dem_pure_pursuit('DEM: esperando una ruta segura')
+            self._dem_pending_control_config = config
+        elif state == 'REACHED':
+            self.stop_dem_pure_pursuit('Objetivo DEM alcanzado (1 m)')
         callback = self.dem_planning_status_callback
         if callback is not None:
             callback(payload)
@@ -850,7 +897,10 @@ class RosSide(Node):
             (float(pose.pose.position.x), float(pose.pose.position.y))
             for pose in message.poses
         ]
-        self._set_dem_control_status(f'Ruta DEM recibida: {len(self._dem_local_path)} puntos')
+        if self._dem_local_path:
+            self._set_dem_control_status(f'Ruta DEM recibida: {len(self._dem_local_path)} puntos')
+        else:
+            self._set_dem_control_status('DEM: calculando la ruta solicitada', False)
 
     def _on_dem_control_odom(self, message: Odometry):
         pose = message.pose.pose
@@ -878,11 +928,13 @@ class RosSide(Node):
         self._dem_odom_pose = None
 
     def start_dem_pure_pursuit(self, cfg: dict) -> bool:
-        if not self._dem_local_path:
-            self._set_dem_control_status('Sin ruta: pulsa Plan DEM', False)
+        if not self._dem_local_path or (self._dem_request_id and not self._dem_planning_ready):
+            self._dem_pending_control_config = dict(cfg)
+            self._set_dem_control_status('DEM: ejecución pendiente; esperando la ruta solicitada', False)
             return False
         if self._dem_odom_pose is None or time.monotonic() - self._dem_odom_monotonic > 1.0:
-            self._set_dem_control_status('Sin odometría /fixposition/odometry_enu', False)
+            self._dem_pending_control_config = dict(cfg)
+            self._set_dem_control_status('DEM: ejecución pendiente; esperando odometría', False)
             return False
 
         self._dem_forward_speed = max(
@@ -892,6 +944,8 @@ class RosSide(Node):
         self._dem_lookahead_distance = max(0.5, float(cfg.get('l_ahead_dist', 2.0)))
         self._dem_max_angular_speed = max(0.0, float(cfg.get('ang_max', 0.6)))
         self._dem_control_enabled = True
+        self._dem_control_config = dict(cfg)
+        self._dem_pending_control_config = None
         self._set_dem_control_status(
             f'Activo: v={self._dem_forward_speed:.2f}, L={self._dem_lookahead_distance:.1f}',
             True,
@@ -900,6 +954,7 @@ class RosSide(Node):
 
     def stop_dem_pure_pursuit(self, status: str = 'Detenido'):
         self._dem_control_enabled = False
+        self._dem_pending_control_config = None
         self.pub_dem_cmd_vel.publish(Twist())
         self._set_dem_control_status(status, False)
 
@@ -3066,7 +3121,10 @@ class MainWindow(QMainWindow):
         if js.startswith('window.setRobotMarkers('):
             return 'robots'
         if js.startswith('window.setDemTemporalGrid('):
-            return 'dem_temporal_' + ('global' if '"global"' in js else 'candidates')
+            for layer in ('global', 'local', 'candidates'):
+                if js.startswith(f'window.setDemTemporalGrid("{layer}",'):
+                    return 'dem_temporal_' + layer
+            return None
         if js.startswith('window.updateVehicle('):
             return 'vehicle'
         if js.startswith('window.panTo('):

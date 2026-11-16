@@ -13,6 +13,7 @@ gui/gui_node.py
 gui/ros_api.py
 gui/app/__init__.py
 gui/app/control_widget.py
+gui/app/dem_planning_display.py
 gui/app/dem_pure_pursuit.py
 gui/app/followzed_widget.py
 gui/app/fsm_debug_widget.py
@@ -30,5 +31,9 @@ gui/resources/vendor/leaflet/images/marker-icon.png
 gui/resources/vendor/leaflet/images/marker-shadow.png
 resource/gui
 test/test_copyright.py
+test/test_dem_main_window.py
+test/test_dem_planning_display.py
+test/test_dem_startup.py
+test/test_dem_temporal_layers.py
 test/test_flake8.py
 test/test_pep257.py

@@ -1,0 +1,27 @@
+[19.510s] Invoking command in '/home/rhobtor/PHD/j8_control/J8_control/src/android_ros2_server': PYTHONPATH=/home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/android_ros2_server build --build-base /home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/build install --record /home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/install.log --install-scripts $base/lib/android_ros2_server --single-version-externally-managed install_data
+[19.649s] /home/rhobtor/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[19.649s]   warnings.warn(msg)
+[19.736s] running egg_info
+[19.750s] writing ../../build/android_ros2_server/android_ros2_server.egg-info/PKG-INFO
+[19.751s] writing dependency_links to ../../build/android_ros2_server/android_ros2_server.egg-info/dependency_links.txt
+[19.751s] writing entry points to ../../build/android_ros2_server/android_ros2_server.egg-info/entry_points.txt
+[19.751s] writing requirements to ../../build/android_ros2_server/android_ros2_server.egg-info/requires.txt
+[19.751s] writing top-level names to ../../build/android_ros2_server/android_ros2_server.egg-info/top_level.txt
+[19.785s] reading manifest file '../../build/android_ros2_server/android_ros2_server.egg-info/SOURCES.txt'
+[19.952s] writing manifest file '../../build/android_ros2_server/android_ros2_server.egg-info/SOURCES.txt'
+[19.952s] running build
+[19.952s] running build_py
+[19.952s] copying android_ros2_server/server.py -> /home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/build/lib/android_ros2_server
+[19.952s] copying android_ros2_server/__init__.py -> /home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/build/lib/android_ros2_server
+[19.952s] running install
+[19.955s] running install_lib
+[19.966s] running install_data
+[19.966s] copying resource/android_ros2_server -> /home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/share/ament_index/resource_index/packages
+[19.966s] copying package.xml -> /home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/share/android_ros2_server
+[19.966s] running install_egg_info
+[19.980s] removing '/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/lib/python3.10/site-packages/android_ros2_server-0.0.0-py3.10.egg-info' (and everything under it)
+[19.980s] Copying ../../build/android_ros2_server/android_ros2_server.egg-info to /home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/lib/python3.10/site-packages/android_ros2_server-0.0.0-py3.10.egg-info
+[20.008s] running install_scripts
+[20.032s] Installing tcp_server_node script to /home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/lib/android_ros2_server
+[20.032s] writing list of installed files to '/home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/install.log'
+[20.052s] Invoked command in '/home/rhobtor/PHD/j8_control/J8_control/src/android_ros2_server' returned '0': PYTHONPATH=/home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rhobtor/PHD/j8_control/J8_control/install/android_ros2_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/android_ros2_server build --build-base /home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/build install --record /home/rhobtor/PHD/j8_control/J8_control/build/android_ros2_server/install.log --install-scripts $base/lib/android_ros2_server --single-version-externally-managed install_data
